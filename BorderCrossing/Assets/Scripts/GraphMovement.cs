@@ -1,71 +1,108 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
-[RequireComponent(typeof(LineRenderer))]
 public class GraphMovement : MonoBehaviour
 {
-    public float radius = 5f; // Radius of the circle
-    public float lineWidth = 0.2f; // Width of the line
-    public Color[] layersColors;
-    public int questions;
-    public bool[] visibility;
-    public List<LayerVisibility> layersVisibilities;
-    public int layers;
+    [Header("Graph specifications")]
+    [Tooltip("Radius of the middle point of the graph.")]
+    [SerializeField] private float startRadius = 0.2f;
+    [Tooltip("Width of the layer in graph.")]
+    [SerializeField] private float lineWidth = 1.6f;
+    [Tooltip("Colors of each layer in the graph. Starting from middle. This also defines how many layers are in the graph.")]
+    [SerializeField] private Color[] layersColors;
+    [Space(20)]
+    [Header("Necessary objects")]
+    [Tooltip("Slider to vote on the graph. Must have as many points as there are layers in the graph.")]
+    [SerializeField] private Slider slider;
+    [Tooltip("Data with the prompts")]
+    [SerializeField] private PromptData prompts;
+    [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
+    [SerializeField] private LineSpecs segmentPrefab;
+    
+    private readonly List<SegmentWithLayer> _segmentsWithLayers = new();
+    private float _stepAngle;
+    private int _activeQuestion;
+    private int _promptsCount;
 
-    public LineSpecs segmentPrefab;
-    private List<LineSpecs> _segments = new();
 
-    private List<SegmentWithLayer> _segmentsWithLayers = new();
-
-
-    void Start()
+    private void Start()
     {
-        if (questions == 0) return;
-        var angle = 360 / questions;
+        if (prompts.data.Count == 0) return;
+        _promptsCount = prompts.data.Count;
+        _stepAngle = 360f / _promptsCount;
+        slider.maxValue = _promptsCount - 1;
         
-        for (int j = 0; j < layers; j++)
+        CreateLayers();
+        SpawnLineSegments();
+        
+        //Rotate the graph to match the horizontal slider
+        transform.rotation = Quaternion.Euler(0,0,_stepAngle/2f - 90);
+    }
+
+    private void CreateLayers()
+    {
+        for (var i = 0; i < _promptsCount; i++)
         {
-            var layer = new GameObject($"Layer{j+1}");
-            layer.transform.parent = gameObject.transform;
+            var layer = new GameObject($"Layer{i+1}")
+            {
+                transform =
+                {
+                    parent = gameObject.transform
+                }
+            };
             _segmentsWithLayers.Add(new SegmentWithLayer());
-            _segmentsWithLayers[j].segments = new List<LineSpecs>();
-            
-            for (int i = 0; i < questions; i++)
-            {
-                var child = Instantiate(segmentPrefab, layer.transform);
-                child.SpawnLine(lineWidth, layersColors[j], radius + lineWidth * j, angle *(i+1), angle * i);
-                //_segments.Add(child);
-                _segmentsWithLayers[j].segments.Add(child);
-            }
+            _segmentsWithLayers[i].segments = new List<LineSpecs>();
+            _segmentsWithLayers[i].layerParent = layer;
         }
-        
-        
     }
 
-    public void Disappear()
+    private void SpawnLineSegments()
     {
-        for (int j = 0; j < layers; j++)
+        for (var j = 0; j < layersColors.Length; j++)
         {
-            for (int i = 0; i < questions; i++)
+            for (var i = 0; i < _promptsCount; i++)
             {
-                Debug.Log(layersVisibilities[j].visibility[i]);
-                if (layersVisibilities[j].visibility[i]) continue;
-                Destroy(_segmentsWithLayers[j].segments[i].gameObject);
+                var child = Instantiate(segmentPrefab, _segmentsWithLayers[i].layerParent.transform);
+                child.SpawnLine(lineWidth, layersColors[j], startRadius + lineWidth * j, _stepAngle *(i+1), _stepAngle * i, transform);
+                _segmentsWithLayers[i].segments.Add(child);
             }
         }
-        
     }
-}
 
-[Serializable]
-public class LayerVisibility
-{
-    public bool[] visibility;
+    public void Rotate()
+    {
+        var currentAngle = transform.eulerAngles.z;
+        currentAngle += _stepAngle;
+        transform.rotation = Quaternion.Euler(0,0,currentAngle);
+        RemoveUnusedSegments(_activeQuestion, (int)slider.value);
+        _activeQuestion++;
+    }
+
+    private void RemoveUnusedSegments(int chunk, int number)
+    {
+        List<LineSpecs> segmentsToRemove = new();
+        for (var j = 0; j < _segmentsWithLayers[chunk].segments.Count; j++)
+        {
+            if (j <= number) continue;
+            segmentsToRemove.Add(_segmentsWithLayers[chunk].segments[j]);
+            Destroy(_segmentsWithLayers[chunk].segments[j].gameObject);
+        }
+
+        foreach (var segmentToRemove in segmentsToRemove)
+        {
+            _segmentsWithLayers[chunk].segments.Remove(segmentToRemove);
+        }
+        
+        segmentsToRemove.Clear();
+    }
 }
 
 [Serializable]
 public class SegmentWithLayer
 {
+    public GameObject layerParent;
     public List<LineSpecs> segments;
 }

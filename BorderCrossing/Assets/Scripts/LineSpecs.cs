@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class LineSpecs : MonoBehaviour
@@ -8,32 +9,33 @@ public class LineSpecs : MonoBehaviour
     private float _startAngle;
     private LineRenderer _lineRenderer;
 
-    public void SpawnLine(float lineWidth, Color lineColor, float radius, float angle, float startAngle)
+    public void SpawnLine(float lineWidth, Color lineColor, float radius, float angle, float startAngle, Transform startingPosition)
     {
         _radius = radius;
         _angle = angle;
         _startAngle = startAngle;
         _lineRenderer = GetComponent<LineRenderer>();
         SetUpLine(lineWidth, lineColor);
-        DrawLine();
+        DrawLine(startingPosition);
     }
 
-    private void DrawLine()
+    private void DrawLine(Transform startingPosition)
     {
-        System.Collections.Generic.List<Vector3> positions = new System.Collections.Generic.List<Vector3>();
+        List<Vector3> positions = new();
         
-        float startAngle = _startAngle;
-        float endAngle = _angle;
+        var startAngle = _startAngle;
+        var endAngle = _angle;
         
-        int segmentPoints = 10;
+        var segmentPoints = 10;
         for (int j = 0; j <= segmentPoints; j++)
         {
-            float t = j / (float)segmentPoints;
-            float angle = Mathf.Lerp(startAngle, endAngle, t);
-            float rad = Mathf.Deg2Rad * angle;
-            float x = Mathf.Sin(rad) * _radius;
-            float y = Mathf.Cos(rad) * _radius;
-            positions.Add(new Vector3(x, y, 0));
+            var t = j / (float)segmentPoints;
+            var angle = Mathf.Lerp(startAngle, endAngle, t);
+            var rad = Mathf.Deg2Rad * angle;
+            var x = Mathf.Sin(rad) * _radius;
+            var y = Mathf.Cos(rad) * _radius;
+            var position = startingPosition.position;
+            positions.Add(new Vector3(position.x + x, position.y + y, position.z));
         }
         
         _lineRenderer.positionCount = positions.Count;
