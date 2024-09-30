@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class GraphMovement : MonoBehaviour
+public class GraphGenerator : MonoBehaviour
 {
     [Header("Graph specifications")]
     [Tooltip("Radius of the middle point of the graph.")]
@@ -33,7 +33,7 @@ public class GraphMovement : MonoBehaviour
         if (prompts.data.Count == 0) return;
         _promptsCount = prompts.data.Count;
         _stepAngle = 360f / _promptsCount;
-        slider.maxValue = _promptsCount - 1;
+        slider.maxValue = layersColors.Length - 1;
         
         CreateLayers();
         SpawnLineSegments();
