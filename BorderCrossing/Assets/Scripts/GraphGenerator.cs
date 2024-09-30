@@ -18,7 +18,7 @@ public class GraphGenerator : MonoBehaviour
     [Tooltip("Slider to vote on the graph. Must have as many points as there are layers in the graph.")]
     [SerializeField] private Slider slider;
     [Tooltip("Data with the prompts")]
-    [SerializeField] private PromptData prompts;
+    [SerializeField] private StringData prompts;
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
     [SerializeField] private LineSpecs segmentPrefab;
     
