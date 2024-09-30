@@ -133,9 +133,8 @@ GameObject:
   - component: {fileID: 149374857}
   - component: {fileID: 149374860}
   - component: {fileID: 149374859}
-  - component: {fileID: 149374858}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Slider Value Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -160,18 +159,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &149374858
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 149374856}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 56aa1d729352040c89b916b0bd2bd6a5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &149374859
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,7 +267,7 @@ GameObject:
   - component: {fileID: 172016460}
   - component: {fileID: 172016459}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Background
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1224,7 +1211,6 @@ RectTransform:
   - {fileID: 1309714951}
   - {fileID: 1859302810}
   - {fileID: 1507251371}
-  - {fileID: 2118816377}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1242,6 +1228,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1859302810}
   - component: {fileID: 1859302811}
+  - component: {fileID: 1859302812}
   m_Layer: 5
   m_Name: Slider
   m_TagString: Untagged
@@ -1264,6 +1251,7 @@ RectTransform:
   - {fileID: 1823498570}
   - {fileID: 1880509355}
   - {fileID: 2096091632}
+  - {fileID: 2118816377}
   m_Father: {fileID: 1851626598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1322,6 +1310,18 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 1859302812}
+        m_TargetAssemblyTypeName: DisplaySliderValue, Assembly-CSharp
+        m_MethodName: DisplayValue
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 149374859}
+          m_ObjectArgumentAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 2118816374}
         m_TargetAssemblyTypeName: ChangePrompt, Assembly-CSharp
         m_MethodName: PromptBasedOnSlider
@@ -1334,18 +1334,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 149374858}
-        m_TargetAssemblyTypeName: DisplaySliderValue, Assembly-CSharp
-        m_MethodName: DisplayValue
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1859302811}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+--- !u!114 &1859302812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1859302809}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56aa1d729352040c89b916b0bd2bd6a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1880509354
 GameObject:
   m_ObjectHideFlags: 0
@@ -1575,7 +1575,7 @@ GameObject:
   - component: {fileID: 2118816375}
   - component: {fileID: 2118816374}
   m_Layer: 5
-  m_Name: ExplanationSlider
+  m_Name: Slider Explanations Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1698,16 +1698,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2118816373}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1851626598}
+  m_Father: {fileID: 1859302810}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 144.93, y: -81.2044}
+  m_AnchoredPosition: {x: 415.76996, y: -81.70441}
   m_SizeDelta: {x: 489.85, y: 93.5912}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1747248639921505824
@@ -1763,9 +1763,41 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: cutOut
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 1859302811}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: greyOut
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: greyOutValue
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[5].a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[5].b
+      value: 0.6906123
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[5].g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[5].r
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

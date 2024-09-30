@@ -2,18 +2,18 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-[RequireComponent(typeof(TMP_Text))]
+[RequireComponent(typeof(Slider))]
 public class DisplaySliderValue : MonoBehaviour
 {
-    private TMP_Text _text;
+    private Slider _slider;
 
     private void Start()
     {
-        _text = GetComponent<TMP_Text>();
+        _slider = GetComponent<Slider>();
     }
     
-    public void DisplayValue(Slider slider)
+    public void DisplayValue(TMP_Text text)
     {
-        _text.text = slider.value.ToString();
+        text.text = _slider.value.ToString();
     }
 }

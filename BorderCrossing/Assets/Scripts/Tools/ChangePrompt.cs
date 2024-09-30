@@ -28,7 +28,7 @@ public class ChangePrompt : MonoBehaviour
     public void GoToTheNextPrompt()
     {
         _activePrompt++;
-        if (prompts.data[_activePrompt] == null || _activePrompt > prompts.data.Count-1)
+        if (_activePrompt > prompts.data.Count-1 || prompts.data[_activePrompt] == null )
         {
             _promptText.text = $"No data available";
         }
