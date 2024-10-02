@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6553cd5758e2843c49d21388949d2218, type: 3}
   m_Name: BoundarySave
   m_EditorClassIdentifier: 
-  data: 
+  data: 0300000002000000040000000100000002000000

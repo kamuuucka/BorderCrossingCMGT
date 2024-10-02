@@ -24,7 +24,7 @@ public class ChangePrompt : MonoBehaviour
             _promptText.text = prompts.data[0];
         }
     }
-    
+
     public void GoToTheNextPrompt()
     {
         _activePrompt++;
@@ -40,7 +40,6 @@ public class ChangePrompt : MonoBehaviour
 
     public void PromptBasedOnSlider(Slider slider)
     {
-        Debug.Log($"Slider value: {slider.value} and prompts {prompts.data.Count}");
         if (slider.value > prompts.data.Count-1 || prompts.data[(int)slider.value] == null)
         {
             _promptText.text = $"No data available";

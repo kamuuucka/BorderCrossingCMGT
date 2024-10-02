@@ -15,12 +15,14 @@ public class GraphGenerator : MonoBehaviour
     [SerializeField] private Color[] layersColors;
     
     [Space(20)] [Header("Necessary objects")]
-    [Tooltip("Slider to vote on the graph. Must have as many points as there are layers in the graph.")]
+    [Tooltip("Slider to vote on the graph.")]
     [SerializeField] private Slider slider;
     [Tooltip("Data with the prompts")]
     [SerializeField] private StringData prompts;
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
     [SerializeField] private LineSpecs segmentPrefab;
+    [Tooltip("Data to save the positions of answers to")]
+    [SerializeField] private BoundaryData boundaryData;
 
     [Space(20)] [Header("Testing")] 
     [SerializeField] private bool cutOut = true;
@@ -33,16 +35,17 @@ public class GraphGenerator : MonoBehaviour
     private int _promptsCount;
 
 
-    public void Start()
+    private void Start()
     {
         if (prompts.data.Count == 0) return;
         _promptsCount = prompts.data.Count;
         _stepAngle = 360f / _promptsCount;
         slider.maxValue = layersColors.Length - 1;
+        boundaryData.data.Clear();
         
         CreateLayers();
         SpawnLineSegments();
-        
+
         //Rotate the graph to match the horizontal slider
         transform.rotation = Quaternion.Euler(0,0,_stepAngle/2f - 90);
     }
@@ -84,6 +87,7 @@ public class GraphGenerator : MonoBehaviour
         transform.rotation = Quaternion.Euler(0,0,currentAngle);
         if (cutOut) RemoveUnusedSegments(_activeQuestion, (int)slider.value);
         if (greyOut) GreyOutUnusedSegments(_activeQuestion, (int)slider.value);
+        boundaryData.data.Add((int)slider.value);
         _activeQuestion++;
     }
 
