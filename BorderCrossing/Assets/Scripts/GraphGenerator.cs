@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class GraphMovement : MonoBehaviour
+public class GraphGenerator : MonoBehaviour
 {
     [Header("Graph specifications")]
     [Tooltip("Radius of the middle point of the graph.")]
@@ -13,14 +13,21 @@ public class GraphMovement : MonoBehaviour
     [SerializeField] private float lineWidth = 1.6f;
     [Tooltip("Colors of each layer in the graph. Starting from middle. This also defines how many layers are in the graph.")]
     [SerializeField] private Color[] layersColors;
-    [Space(20)]
-    [Header("Necessary objects")]
-    [Tooltip("Slider to vote on the graph. Must have as many points as there are layers in the graph.")]
+    
+    [Space(20)] [Header("Necessary objects")]
+    [Tooltip("Slider to vote on the graph.")]
     [SerializeField] private Slider slider;
     [Tooltip("Data with the prompts")]
-    [SerializeField] private PromptData prompts;
+    [SerializeField] private StringData prompts;
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
     [SerializeField] private LineSpecs segmentPrefab;
+    [Tooltip("Data to save the positions of answers to")]
+    [SerializeField] private BoundaryData boundaryData;
+
+    [Space(20)] [Header("Testing")] 
+    [SerializeField] private bool cutOut = true;
+    [SerializeField] private bool greyOut;
+    [SerializeField] private float greyOutValue = 0.5f;
     
     private readonly List<SegmentWithLayer> _segmentsWithLayers = new();
     private float _stepAngle;
@@ -33,11 +40,12 @@ public class GraphMovement : MonoBehaviour
         if (prompts.data.Count == 0) return;
         _promptsCount = prompts.data.Count;
         _stepAngle = 360f / _promptsCount;
-        slider.maxValue = _promptsCount - 1;
+        slider.maxValue = layersColors.Length - 1;
+        boundaryData.data.Clear();
         
         CreateLayers();
         SpawnLineSegments();
-        
+
         //Rotate the graph to match the horizontal slider
         transform.rotation = Quaternion.Euler(0,0,_stepAngle/2f - 90);
     }
@@ -77,8 +85,33 @@ public class GraphMovement : MonoBehaviour
         var currentAngle = transform.eulerAngles.z;
         currentAngle += _stepAngle;
         transform.rotation = Quaternion.Euler(0,0,currentAngle);
-        RemoveUnusedSegments(_activeQuestion, (int)slider.value);
+        if (cutOut) RemoveUnusedSegments(_activeQuestion, (int)slider.value);
+        if (greyOut) GreyOutUnusedSegments(_activeQuestion, (int)slider.value);
+        boundaryData.data.Add((int)slider.value);
         _activeQuestion++;
+    }
+
+    private void GreyOutUnusedSegments(int chunk, int number)
+    {
+        for (var j = 0; j < _segmentsWithLayers[chunk].segments.Count; j++)
+        {
+            if (j <= number) continue;
+            var line = _segmentsWithLayers[chunk].segments[j].GetComponent<LineRenderer>();
+            line.startColor = ReduceSaturation(line.startColor, greyOutValue);
+            line.endColor = ReduceSaturation(line.endColor, greyOutValue);
+        }
+    }
+    
+    private static Color ReduceSaturation(Color color, float saturationFactor)
+    {
+        // Convert the color from RGB to HSV
+        Color.RGBToHSV(color, out float hue, out float saturation, out float value);
+
+        // Reduce the saturation by the given factor
+        saturation *= saturationFactor;
+
+        // Convert it back to RGB
+        return Color.HSVToRGB(hue, saturation, value);
     }
 
     private void RemoveUnusedSegments(int chunk, int number)

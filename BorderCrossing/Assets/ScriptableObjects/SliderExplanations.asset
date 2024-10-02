@@ -9,7 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6553cd5758e2843c49d21388949d2218, type: 3}
-  m_Name: BoundarySave
+  m_Script: {fileID: 11500000, guid: 39649b5609fac48c6bb06db0ec274864, type: 3}
+  m_Name: SliderExplanations
   m_EditorClassIdentifier: 
-  data: 0300000002000000040000000100000002000000
+  data:
+  - Bad bad
+  - Bad

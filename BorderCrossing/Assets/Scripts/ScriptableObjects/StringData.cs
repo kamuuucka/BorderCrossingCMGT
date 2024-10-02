@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-[CreateAssetMenu(fileName = "New Prompt Data", menuName = "Data/Prompt Data")]
-public class PromptData : ScriptableObject
+[CreateAssetMenu(fileName = "New String Data", menuName = "Data/String Data")]
+public class StringData : ScriptableObject
 {
     [TextArea]
     public List<string> data;
