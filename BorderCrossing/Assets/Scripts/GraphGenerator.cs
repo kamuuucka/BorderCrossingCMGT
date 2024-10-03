@@ -11,6 +11,8 @@ public class GraphGenerator : MonoBehaviour
     [SerializeField] private float lineWidth = 1.6f;
     [Tooltip("Colors of each layer in the graph. Starting from middle. This also defines how many layers are in the graph.")]
     [SerializeField] private Color[] layersColors;
+    [Tooltip("The speed with which graph rotates after the question is answered.")]
+    [SerializeField] private float rotationSpeed = 15f;
     
     [Space(20)] [Header("Necessary objects")]
     [Tooltip("Slider to vote on the graph.")]
@@ -30,10 +32,18 @@ public class GraphGenerator : MonoBehaviour
     
     private readonly List<SegmentWithLayer> _segmentsWithLayers = new();
     private float _stepAngle;
+    private float _targetAngle;
     private int _activeQuestion;
     private int _promptsCount;
-    private float _startRadius;
+    private bool _rotating;
 
+    private void Update()
+    {
+        if (_rotating)
+        {
+            RotateSmoothly();
+        }
+    }
 
     private void Start()
     {
@@ -42,8 +52,7 @@ public class GraphGenerator : MonoBehaviour
         _stepAngle = 360f / _promptsCount;
         slider.maxValue = layersColors.Length - 1;
         boundaryData.data.Clear();
-        _startRadius = lineWidth;
-        
+
         CreateLayers();
         SpawnLineSegments();
 
@@ -75,7 +84,7 @@ public class GraphGenerator : MonoBehaviour
             for (var i = 0; i < _promptsCount; i++)
             {
                 var child = Instantiate(segmentPrefab, _segmentsWithLayers[i].layerParent.transform);
-                child.SpawnLine(lineWidth, layersColors[j], _startRadius + lineWidth * j, _stepAngle *(i+1), _stepAngle * i, transform);
+                child.SpawnLine(lineWidth, layersColors[j], lineWidth + lineWidth * j, _stepAngle *(i+1), _stepAngle * i, transform);
                 _segmentsWithLayers[i].segments.Add(child);
             }
         }
@@ -83,13 +92,27 @@ public class GraphGenerator : MonoBehaviour
 
     public void Rotate()
     {
+        CutTheGraph();
+        _targetAngle = transform.eulerAngles.z + _stepAngle;
+        _rotating = true;
+        _activeQuestion++;
+    }
+
+    private void RotateSmoothly()
+    {
         var currentAngle = transform.eulerAngles.z;
-        currentAngle += _stepAngle;
-        transform.rotation = Quaternion.Euler(0,0,currentAngle);
+        var newAngle = Mathf.MoveTowardsAngle(currentAngle, _targetAngle, rotationSpeed * Time.deltaTime);
+        transform.rotation = Quaternion.Euler(0, 0, newAngle);
+
+        if (!Mathf.Approximately(newAngle, _targetAngle)) return;
+        _rotating = false;
+    }
+
+    private void CutTheGraph()
+    {
         if (cutOut) RemoveUnusedSegments(_activeQuestion, (int)slider.value);
         if (greyOut) GreyOutUnusedSegments(_activeQuestion, (int)slider.value);
         boundaryData.data.Add((int)slider.value);
-        _activeQuestion++;
     }
 
     private void GreyOutUnusedSegments(int chunk, int number)
