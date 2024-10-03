@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: TestPrompts
   m_EditorClassIdentifier: 
   data:
-  - Student doesn't listen when you speak.
-  - Student likes your most recent social media post.
-  - Student plays 18+ games in public.
-  - Student adds you on social media.
-  - Student asks questions about private life.
+  - Student compliments your outfit.
+  - Teacher compliments your outfit.
+  - Student wants to hug you.
+  - Teacher wants to hug you.
