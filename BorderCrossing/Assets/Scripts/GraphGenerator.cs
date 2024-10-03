@@ -7,8 +7,6 @@ using UnityEngine.UI;
 public class GraphGenerator : MonoBehaviour
 {
     [Header("Graph specifications")]
-    [Tooltip("Radius of the middle point of the graph.")]
-    [SerializeField] private float startRadius = 0.2f;
     [Tooltip("Width of the layer in graph.")]
     [SerializeField] private float lineWidth = 1.6f;
     [Tooltip("Colors of each layer in the graph. Starting from middle. This also defines how many layers are in the graph.")]
@@ -19,20 +17,22 @@ public class GraphGenerator : MonoBehaviour
     [SerializeField] private Slider slider;
     [Tooltip("Data with the prompts")]
     [SerializeField] private StringData prompts;
-    [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
-    [SerializeField] private LineSpecs segmentPrefab;
     [Tooltip("Data to save the positions of answers to")]
     [SerializeField] private BoundaryData boundaryData;
+    [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")]
+    [SerializeField] private LineSpecs segmentPrefab;
+    
 
     [Space(20)] [Header("Testing")] 
-    [SerializeField] private bool cutOut = true;
-    [SerializeField] private bool greyOut;
     [SerializeField] private float greyOutValue = 0.5f;
+    [HideInInspector] public bool cutOut = true;
+    [HideInInspector] public bool greyOut;
     
     private readonly List<SegmentWithLayer> _segmentsWithLayers = new();
     private float _stepAngle;
     private int _activeQuestion;
     private int _promptsCount;
+    private float _startRadius;
 
 
     private void Start()
@@ -42,6 +42,7 @@ public class GraphGenerator : MonoBehaviour
         _stepAngle = 360f / _promptsCount;
         slider.maxValue = layersColors.Length - 1;
         boundaryData.data.Clear();
+        _startRadius = lineWidth;
         
         CreateLayers();
         SpawnLineSegments();
@@ -74,7 +75,7 @@ public class GraphGenerator : MonoBehaviour
             for (var i = 0; i < _promptsCount; i++)
             {
                 var child = Instantiate(segmentPrefab, _segmentsWithLayers[i].layerParent.transform);
-                child.SpawnLine(lineWidth, layersColors[j], startRadius + lineWidth * j, _stepAngle *(i+1), _stepAngle * i, transform);
+                child.SpawnLine(lineWidth, layersColors[j], _startRadius + lineWidth * j, _stepAngle *(i+1), _stepAngle * i, transform);
                 _segmentsWithLayers[i].segments.Add(child);
             }
         }
