@@ -13,7 +13,7 @@ public class PhotonBondaryDataCommunicator : MonoBehaviourPun
     {
         BoundaryData boundaryData = BoundaryData.DeSerialize(serializedBoundaryData);
         onRecieveBoundaryData.Invoke(boundaryData);
-        Debug.Log(boundaryData.ToString());
+        Debug.Log(serializedBoundaryData);
     }
 
     public void SendBoundaryData(BoundaryData boundaryData)
@@ -26,7 +26,7 @@ public class PhotonBondaryDataCommunicator : MonoBehaviourPun
     {
         StringData questionData = StringData.DeSerialize(serializedQuestionData);
         onRecieveQuestionData.Invoke(questionData);
-        Debug.Log(questionData.ToString());
+        Debug.Log(serializedQuestionData);
     }
 
     public void SendQuestions(StringData questionData)
