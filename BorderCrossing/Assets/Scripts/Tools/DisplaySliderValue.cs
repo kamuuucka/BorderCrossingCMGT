@@ -14,6 +14,6 @@ public class DisplaySliderValue : MonoBehaviour
     
     public void DisplayValue(TMP_Text text)
     {
-        text.text = _slider.value.ToString();
+        text.text = $"{_slider.value + 1}";
     }
 }
