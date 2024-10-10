@@ -42,7 +42,6 @@ public class LineSpecs : MonoBehaviour
     private void SetUpLine(float lineWidth, Color lineColor)
     {
         _lineRenderer.useWorldSpace = false;
-        _lineRenderer.material = new Material(Shader.Find("Sprites/Default"));
         _lineRenderer.startColor = lineColor;
         _lineRenderer.endColor = lineColor;
         _lineRenderer.startWidth = lineWidth;
