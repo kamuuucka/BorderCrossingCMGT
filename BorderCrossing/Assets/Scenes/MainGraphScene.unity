@@ -250,6 +250,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3557901378912595618, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -0.45159912
+      objectReference: {fileID: 0}
     - target: {fileID: 4184385026228869376, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -364,7 +368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5317202743170554922, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -1.6559906
+      value: -1.6560059
       objectReference: {fileID: 0}
     - target: {fileID: 5317202743170554922, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -809,9 +813,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: cutOut
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: slider
       value: 
       objectReference: {fileID: 398251778}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: greyOut
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: lineWidth
       value: 0.695
@@ -1058,7 +1070,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5533891494721388786, guid: 456ef85c1834841829d9d83849908fec, type: 3}
       propertyPath: radius
-      value: 0.1
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6302759097271886228, guid: 456ef85c1834841829d9d83849908fec, type: 3}
       propertyPath: m_Name

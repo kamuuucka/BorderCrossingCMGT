@@ -35,7 +35,7 @@ public class MapGenerator : MonoBehaviour
 
         for (var i = 0; i < _pointsSpawned.Count; i++)
         {
-            MoveAccordingToCenter(_pointsSpawned[i].transform, transform.position, boundaryData.data[i]);
+            MoveAccordingToCenter(_pointsSpawned[i].transform, transform.position, boundaryData.data[i] * radius);
         }
 
         _lineRenderer.positionCount = _pointsSpawned.Count;
