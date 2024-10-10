@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class LineSpecs : MonoBehaviour
 {
+    [SerializeField] private Material lineMaterial;
+    [SerializeField] private Texture2D lineTexture;
     private float _radius;
     private float _endAngle;
     private float _startAngle;
@@ -42,9 +44,12 @@ public class LineSpecs : MonoBehaviour
     private void SetUpLine(float lineWidth, Color lineColor)
     {
         _lineRenderer.useWorldSpace = false;
+        _lineRenderer.material = lineMaterial;
+        _lineRenderer.material.mainTexture = lineTexture;
         _lineRenderer.startColor = lineColor;
         _lineRenderer.endColor = lineColor;
         _lineRenderer.startWidth = lineWidth;
         _lineRenderer.endWidth = lineWidth;
+
     }
 }

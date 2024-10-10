@@ -22,7 +22,7 @@ public class MapGenerator : MonoBehaviour
         _lineRenderer = GetComponent<LineRenderer>();
         for (var i = 0; i < promptsData.data.Count; i++)
         {
-            var angle = i * Mathf.PI * 2 / promptsData.data.Count;
+            var angle = -i * Mathf.PI * 2 / promptsData.data.Count + Mathf.PI / 2;
             var xPosition = Mathf.Cos(angle) * radius;
             var yPosition = Mathf.Sin(angle) * radius;
             var originalPosition = transform.position;
