@@ -8,14 +8,17 @@ public class DataDisplayer : MonoBehaviour
     [SerializeField] private StringData questions;
     [SerializeField] private List<BoundaryData> answers;
     [SerializeField] private GameObject dataDisplayer;
-    [SerializeField] private TMP_Text textField;
+    [SerializeField] private QuestionData textField;
 
     public void DisplayData()
     {
-        foreach (var questionText in questions.data)
+        for (var i = 0; i < questions.data.Count; i++)
         {
+            var questionText = questions.data[i];
             var question = Instantiate(textField, dataDisplayer.transform);
-            question.text = questionText;
+            question.SetQuestion(questionText);
+            question.SetScores(answers,i);
+            question.Average(answers,i);
         }
     }
 }
