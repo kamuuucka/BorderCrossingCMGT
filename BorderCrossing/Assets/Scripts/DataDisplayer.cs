@@ -8,7 +8,7 @@ public class DataDisplayer : MonoBehaviour
     [SerializeField] private StringData questions;
     [SerializeField] private List<BoundaryData> answers;
     [SerializeField] private GameObject dataDisplayer;
-    [SerializeField] private QuestionData textField;
+    [SerializeField] private AnswersData textField;
 
     public void DisplayData()
     {

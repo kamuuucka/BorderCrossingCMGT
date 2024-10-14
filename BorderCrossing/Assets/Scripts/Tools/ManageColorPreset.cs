@@ -6,15 +6,11 @@ using UnityEngine.Serialization;
 public class ManageColorPreset : MonoBehaviour
 {
     [SerializeField] private ColorPreset colorPreset;
-    [SerializeField] private List<Color> colors;
+    [SerializeField] private GraphGenerator graph;
 
-    public void SaveColorPreset()
+    public void SaveGraphColorPreset()
     {
-        colorPreset.SaveColorPreset(colors);
+        colorPreset.SaveColorPreset(graph.GetColorsOfLayers());
     }
-
-    public void LoadPreset()
-    {
-        colors = colorPreset.LoadColorPreset();
-    }
+    
 }

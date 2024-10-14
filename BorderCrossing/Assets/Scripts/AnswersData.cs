@@ -5,11 +5,23 @@ using System.Linq;
 using TMPro;
 using UnityEngine;
 
-public class QuestionData : MonoBehaviour
+public class AnswersData : MonoBehaviour
 {
     [SerializeField] private TMP_Text question;
     [SerializeField] private List<TMP_Text> scores;
+    [SerializeField] private List<TMP_Text> scale;
     [SerializeField] private TMP_Text average;
+    [SerializeField] private ColorPreset graphColorPreset;
+
+    private void OnEnable()
+    {
+        if (scale == null || scale.Count != graphColorPreset.LoadColorPreset().Count) return;
+        
+        for (var i = 0; i < scale.Count; i++)
+        {
+            scale[i].color = graphColorPreset.LoadColorPreset()[i];
+        }
+    }
 
     public void SetQuestion(string value)
     {
