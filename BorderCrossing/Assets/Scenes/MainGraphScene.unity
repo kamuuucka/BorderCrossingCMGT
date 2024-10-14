@@ -144,7 +144,7 @@ PrefabInstance:
       objectReference: {fileID: 486595518}
     - target: {fileID: 1059242396432016672, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: Rotate
+      value: RotateSegment
       objectReference: {fileID: 0}
     - target: {fileID: 1059242396432016672, guid: 48caadd8215e84614af0d93fe44c714f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
