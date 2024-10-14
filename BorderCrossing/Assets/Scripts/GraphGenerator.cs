@@ -10,7 +10,7 @@ public class GraphGenerator : MonoBehaviour
     [Tooltip("Width of the layer in graph.")]
     [SerializeField] private float lineWidth = 1.6f;
     [Tooltip("Colors of each layer in the graph. Starting from middle. This also defines how many layers are in the graph.")]
-    [SerializeField] private Color[] layersColors;
+    [SerializeField] private List<Color> layersColors;
     [Tooltip("The speed with which graph rotates after the question is answered.")]
     [SerializeField] private float rotationSpeed = 15f;
     
@@ -50,7 +50,7 @@ public class GraphGenerator : MonoBehaviour
         if (prompts.data.Count == 0) return;
         _promptsCount = prompts.data.Count;
         _stepAngle = 360f / _promptsCount;
-        slider.maxValue = layersColors.Length - 1;
+        slider.maxValue = layersColors.Count - 1;
         boundaryData.data.Clear();
 
         CreateLayers();
@@ -79,7 +79,7 @@ public class GraphGenerator : MonoBehaviour
 
     private void SpawnLineSegments()
     {
-        for (var j = 0; j < layersColors.Length; j++)
+        for (var j = 0; j < layersColors.Count; j++)
         {
             for (var i = 0; i < _promptsCount; i++)
             {
@@ -154,6 +154,11 @@ public class GraphGenerator : MonoBehaviour
         }
         
         segmentsToRemove.Clear();
+    }
+
+    public List<Color> GetColorsOfLayers()
+    {
+        return layersColors;
     }
 }
 

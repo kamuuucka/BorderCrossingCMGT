@@ -20,14 +20,7 @@ public class ManageColorPresetEditor : Editor
 
         if (GUILayout.Button("Save The Preset"))
         {
-            _colorPreset.SaveColorPreset();
-            EditorUtility.SetDirty(_colorPreset);
-            AssetDatabase.SaveAssets();
-        }
-        
-        if (GUILayout.Button("Load The Preset"))
-        {
-            _colorPreset.LoadPreset();
+            _colorPreset.SaveGraphColorPreset();
             EditorUtility.SetDirty(_colorPreset);
             AssetDatabase.SaveAssets();
         }
