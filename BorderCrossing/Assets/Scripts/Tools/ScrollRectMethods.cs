@@ -14,6 +14,13 @@ public class ScrollRectMethods : MonoBehaviour
 
     public void ScrollToTop()
     {
-        _scrollRect.normalizedPosition = new Vector2(0, 1);
+        StartCoroutine(ScrollAfterFrame());
+    }
+
+    private IEnumerator ScrollAfterFrame()
+    {
+        yield return new WaitForEndOfFrame();
+        
+        _scrollRect.verticalNormalizedPosition = 1f;
     }
 }
