@@ -42,6 +42,6 @@ public class QuestionData : MonoBehaviour
         var median = size % 2 == 0
             ? (((values[midIndex - 1] + 1) + (values[midIndex]) + 1) / 2.0f)
             : (values[midIndex] + 1);
-        average.text = $"Average: {median}" ;
+        average.text = $"Class Average: {median}" ;
     }
 }
