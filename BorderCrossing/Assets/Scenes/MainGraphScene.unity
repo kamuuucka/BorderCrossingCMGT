@@ -127,11 +127,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4962016842007808695, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
   m_PrefabInstance: {fileID: 1325853380}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &473510986 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6302759097271886228, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-  m_PrefabInstance: {fileID: 1504573861}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &486595517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -714,8 +709,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   boundaryData: {fileID: 11400000, guid: 5077738e6abf6434db870205050f4213, type: 2}
-  rotationSpeed: 45
-  greyOutValue: 0.5
+  rotationSpeed: 360
+  greyOutValue: 0.2
   onRotationStarted:
     m_PersistentCalls:
       m_Calls:
@@ -838,71 +833,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &1504573861
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3857408172522465677, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5533891494721388786, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: radius
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302759097271886228, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_Name
-      value: MapGenerator
-      objectReference: {fileID: 0}
-    - target: {fileID: 6302759097271886228, guid: 456ef85c1834841829d9d83849908fec, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 456ef85c1834841829d9d83849908fec, type: 3}
 --- !u!1 &97309551943884379
 GameObject:
   m_ObjectHideFlags: 0
@@ -1361,7 +1291,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 473510986}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -1423,13 +1353,13 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1325853383}
         m_TargetAssemblyTypeName: MoveRotateResizeObject, Assembly-CSharp
-        m_MethodName: RotateZ
+        m_MethodName: MoveY
         m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 23
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1441,7 +1371,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.7
+          m_FloatArgument: 0.6
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1453,7 +1383,7 @@ MonoBehaviour:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 0.7
+          m_FloatArgument: 0.6
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -1689,7 +1619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.76500005, y: 0.040000003}
   m_AnchorMax: {x: 0.95375013, y: 0.1333347}
-  m_AnchoredPosition: {x: 0, y: 0.6089783}
+  m_AnchoredPosition: {x: 0, y: 0.60894775}
   m_SizeDelta: {x: 0.8213005, y: 1.218}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3422736611439876533
@@ -2526,7 +2456,6 @@ SceneRoots:
   - {fileID: 1223364041}
   - {fileID: 1056123132}
   - {fileID: 1325853380}
-  - {fileID: 1504573861}
   - {fileID: 486595517}
   - {fileID: 4184385025970081281}
   - {fileID: 1400285329}
