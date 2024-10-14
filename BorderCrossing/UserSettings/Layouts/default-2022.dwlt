@@ -245,7 +245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 632
-    width: 1130.5
+    width: 1119.5
     height: 276
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
@@ -269,7 +269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 561.5
+    width: 539
     height: 276
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
@@ -293,9 +293,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 561.5
+    x: 539
     y: 0
-    width: 569
+    width: 580.5
     height: 276
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
@@ -319,9 +319,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1130.5
+    x: 1119.5
     y: 0
-    width: 194
+    width: 191
     height: 908
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -378,7 +378,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 561.5
     y: 728
-    width: 567
+    width: 578.5
     height: 255
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -400,7 +400,7 @@ MonoBehaviour:
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
-  m_EnterPlayModeBehavior: 0
+  m_EnterPlayModeBehavior: 1
   m_UseMipMap: 0
   m_VSyncEnabled: 0
   m_Gizmos: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: -141.75
       y: -58.5
-      width: 283.5
+      width: 289.25
       height: 117
     m_MinimalGUI: 1
   m_defaultScale: 2
@@ -1065,7 +1065,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 728
-    width: 560.5
+    width: 538
     height: 255
   m_SerializedDataModeController:
     m_DataMode: 0

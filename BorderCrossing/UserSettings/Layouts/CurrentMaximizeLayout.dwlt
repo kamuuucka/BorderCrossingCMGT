@@ -257,7 +257,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 5}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -966,8 +966,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
+    scrollPos: {x: 0, y: 263}
+    m_SelectedIDs: 70f4feff
     m_LastClickedID: 0
     m_ExpandedIDs: 0000000086450000884500008a4500008c4500008e4500009045000092450000944500009645000000ca9a3bffffff7f
     m_RenameOverlay:
