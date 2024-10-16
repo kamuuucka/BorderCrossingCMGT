@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a2490fa692aa4cc6a5898d43ad370bb, type: 3}
   m_Name: CorrectCodeTesting
   m_EditorClassIdentifier: 
-  value: abcd
+  value: 123456
