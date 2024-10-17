@@ -4517,7 +4517,7 @@ MonoBehaviour:
   - {fileID: 5353188138271599707}
   - {fileID: 873828626452493160}
   average: {fileID: 7248449348712598927}
-  graphColorPreset: {fileID: 11400000, guid: cf313af6b875a4b48a15654abf33c49a, type: 2}
+  graphColorPreset: {fileID: 11400000, guid: df00d29afe51f47b391f41b4394cb155, type: 2}
 --- !u!114 &3937195866744643180
 MonoBehaviour:
   m_ObjectHideFlags: 0
