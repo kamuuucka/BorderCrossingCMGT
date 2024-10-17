@@ -1583,6 +1583,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 8427968206397244656}
+        m_TargetAssemblyTypeName: ChangeColorBasedOnValue, Assembly-CSharp
+        m_MethodName: ChangeColor
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 2833074697061288724}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Slider, UnityEngine.UI
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &2923273734970487183
 GameObject:
   m_ObjectHideFlags: 0
@@ -1750,6 +1762,7 @@ GameObject:
   - component: {fileID: 7256666018881922043}
   - component: {fileID: 3616962000424666236}
   - component: {fileID: 8427968206397244655}
+  - component: {fileID: 8427968206397244656}
   m_Layer: 5
   m_Name: Fill
   m_TagString: Untagged
@@ -2339,6 +2352,19 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &8427968206397244656
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3736988249258881346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bf9c5705f5ac4e6c909bbf178f50af8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  colors: {fileID: 11400000, guid: cf313af6b875a4b48a15654abf33c49a, type: 2}
 --- !u!114 &8637115618607107688
 MonoBehaviour:
   m_ObjectHideFlags: 0
