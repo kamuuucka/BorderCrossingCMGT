@@ -15,9 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Networking/WaitingRoom.unity
     guid: 66ddfc9f49166bb42ad7c854caa8a7f2
   - enabled: 1
-    path: Assets/Scenes/Networking/StudentAnswerScene.unity
-    guid: 30e3f216ea7ece446badbd9439c1140d
-  - enabled: 1
     path: Assets/Scenes/Networking/TeacherWaitingRoom.unity
     guid: e6b067cf9ed881345a51fba852a7b370
+  - enabled: 1
+    path: Assets/Scenes/Networking/StudentAnswerScene.unity
+    guid: 30e3f216ea7ece446badbd9439c1140d
   m_configObjects: {}
