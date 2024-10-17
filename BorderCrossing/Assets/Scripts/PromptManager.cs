@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.Events;
 using UnityEngine.UI;
 
-public class SceneManager : MonoBehaviour
+public class PromptManager : MonoBehaviour
 {
     [SerializeField] private StringData promptsData;
     [SerializeField] private UnityEvent onPromptsFinished;

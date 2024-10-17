@@ -103,6 +103,12 @@ public class GraphGenerator : MonoBehaviour
     {
         return layersColors;
     }
+
+    public void AssignStringData()
+    {
+       // prompts = data;
+        Debug.Log("New data loaded in!");
+    }
 }
 
 [Serializable]

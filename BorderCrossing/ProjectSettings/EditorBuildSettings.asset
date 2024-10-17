@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Networking/StudentAnswerScene.unity
     guid: 30e3f216ea7ece446badbd9439c1140d
+  - enabled: 1
+    path: Assets/Scenes/MainGraphScene.unity
+    guid: f30e957728611428dad132e2efc9e96f
   m_configObjects: {}
