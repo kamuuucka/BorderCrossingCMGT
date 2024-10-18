@@ -1,22 +1,22 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class ChangeColorBasedOnValue : MonoBehaviour
+public class ChangeTextColorBasedOnValue : MonoBehaviour
 {
     [SerializeField] private ColorPreset colors;
 
-    private Image _image;
+    private TMP_Text _text;
 
     private void Start()
     {
-        _image = GetComponent<Image>();
+        _text = GetComponent<TMP_Text>();
     }
 
     public void ChangeColor(Slider slider)
     {
-        _image.color = colors.LoadColorPreset()[(int)slider.value];
+        _text.color = colors.LoadColorPreset()[(int)slider.value];
     }
 }
