@@ -25,6 +25,9 @@ public class GraphGenerator : MonoBehaviour
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")] 
     [SerializeField] private LineGenerator segmentPrefab;
 
+    [SerializeField] private bool alwaysSavePreset;
+    [SerializeField] private ColorPreset savedPreset;
+
     public List<SegmentWithLayer> SegmentWithLayers { get; } = new();
 
     public float StepAngle { get; private set; }
@@ -46,6 +49,11 @@ public class GraphGenerator : MonoBehaviour
 
         var graphManager = GetComponent<GraphManager>();
         graphManager.enabled = true;
+
+        if (alwaysSavePreset)
+        {
+            savedPreset.SaveColorPreset(layersColors);
+        }
     }
 
     /// <summary>
@@ -102,6 +110,12 @@ public class GraphGenerator : MonoBehaviour
     public List<Color> GetColorsOfLayers()
     {
         return layersColors;
+    }
+
+    public void AssignStringData()
+    {
+       // prompts = data;
+        Debug.Log("New data loaded in!");
     }
 }
 
