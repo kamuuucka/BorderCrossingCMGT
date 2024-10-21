@@ -308,7 +308,7 @@ GameObject:
   - component: {fileID: 280849690}
   - component: {fileID: 280849692}
   m_Layer: 5
-  m_Name: Timer
+  m_Name: Timer Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -497,7 +497,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888937257563397017, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_Name
-      value: Button
+      value: No Button
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -617,7 +617,7 @@ GameObject:
   - component: {fileID: 789651252}
   - component: {fileID: 789651251}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: Information Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -855,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888937257563397017, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_Name
-      value: Button (1)
+      value: Yes Button
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

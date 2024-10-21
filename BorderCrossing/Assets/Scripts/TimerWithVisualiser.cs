@@ -12,7 +12,7 @@ public class TimerWithVisualiser : MonoBehaviour
     [SerializeField] private float timer;
 
     private float _currentTime;
-    private bool _startTimer = false;
+    private bool _startTimer;
 
     private void Start()
     {
@@ -21,6 +21,7 @@ public class TimerWithVisualiser : MonoBehaviour
 
     private void Update()
     {
+        Debug.Log($"_startTimer is {_startTimer}");
         if (_startTimer)
         {
             if (_currentTime > 0)
@@ -31,8 +32,8 @@ public class TimerWithVisualiser : MonoBehaviour
             }
             else
             {
-                whenTimerFinished?.Invoke();
                 _startTimer = false;
+                whenTimerFinished?.Invoke();
             }
         }
     }
@@ -41,11 +42,33 @@ public class TimerWithVisualiser : MonoBehaviour
     {
         _startTimer = false;
         _currentTime = timer;
+        Debug.Log($"Time after reset {_currentTime}");
+    }
+
+    public void ResetAndStart()
+    {
+        _currentTime = timer;
+        _startTimer = true;
+        Debug.Log($"Timer set to {_startTimer}");
     }
 
     public void StartTimer()
     {
         _startTimer = true;
+        Debug.Log($"Start timer, the value is {_startTimer}");
+    }
+
+    public void PauseResumeTimer()
+    {
+        Debug.Log("PAUSE");
+        _startTimer = !_startTimer;
+    }
+
+    public void SetTimer(float value)
+    {
+        Debug.Log("Hagabagwa");
+        timer = value;
+        ResetTimer();
     }
     
 }
