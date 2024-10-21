@@ -589,8 +589,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -370, y: 159}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -1.2, y: -0.000012875}
+  m_SizeDelta: {x: 397.27, y: 172.0729}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2023346562
 MonoBehaviour:
@@ -612,7 +612,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 302b6a77fdd0c1649a6a7f8f2af0bc6c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -642,10 +642,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7754a22736541479a01d740650f9fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shadowColor: {r: 0.08993414, g: 0.10281745, b: 0.4056604, a: 0.5}
-  shadowDistance: {x: 8, y: -8}
+  shadowColor: {r: 0, g: 0, b: 0, a: 1}
+  shadowDistance: {x: 5, y: -8}
   m_UseGraphicAlpha: 0
-  iterations: 20
+  iterations: 32
   shadowSpread: {x: 1, y: 1}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
