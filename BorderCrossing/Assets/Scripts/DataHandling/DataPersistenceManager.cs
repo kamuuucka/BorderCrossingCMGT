@@ -6,8 +6,11 @@ using System.Linq;
 
 public class DataPersistenceManager : MonoBehaviour
 {
+    [SerializeField] private string fileName;
+    
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
+    private FileDataHandler _dataHandler;
     private List<IDataPersistence> _dataPersistenceObjects;
 
     private void Awake()
@@ -22,6 +25,7 @@ public class DataPersistenceManager : MonoBehaviour
 
     private void Start()
     {
+        _dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
         _dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
     }
@@ -34,6 +38,8 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void LoadGame()
     {
+        _promptsData = _dataHandler.Load();
+        
         if (_promptsData == null)
         {
             Debug.Log("There's no game data");
@@ -52,6 +58,8 @@ public class DataPersistenceManager : MonoBehaviour
         {
             dataPersistenceObject.SaveData(ref _promptsData);
         }
+        
+        _dataHandler.Save(_promptsData);
     }
 
     private List<IDataPersistence> FindAllDataPersistenceObjects()
