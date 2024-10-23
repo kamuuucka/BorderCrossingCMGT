@@ -26,13 +26,6 @@ public class DataPersistenceManager : MonoBehaviour
         LoadGame();
     }
 
-    private List<IDataPersistence> FindAllDataPersistenceObjects()
-    {
-        IEnumerable<IDataPersistence> dataPersistenceObjects =
-            FindObjectsOfType<MonoBehaviour>().OfType<IDataPersistence>();
-
-        return new List<IDataPersistence>(dataPersistenceObjects);
-    }
 
     public void NewGame()
     {
@@ -46,13 +39,29 @@ public class DataPersistenceManager : MonoBehaviour
             Debug.Log("There's no game data");
             NewGame();
         }
+
+        foreach (var dataPersistenceObject in _dataPersistenceObjects)
+        {
+            dataPersistenceObject.LoadData(_promptsData);
+        }
     }
 
     public void SaveGame()
     {
-        
+        foreach (var dataPersistenceObject in _dataPersistenceObjects)
+        {
+            dataPersistenceObject.SaveData(ref _promptsData);
+        }
     }
 
+    private List<IDataPersistence> FindAllDataPersistenceObjects()
+    {
+        IEnumerable<IDataPersistence> dataPersistenceObjects =
+            FindObjectsOfType<MonoBehaviour>().OfType<IDataPersistence>();
+
+        return new List<IDataPersistence>(dataPersistenceObjects);
+    }
+    
     private void OnApplicationQuit()
     {
         SaveGame();
