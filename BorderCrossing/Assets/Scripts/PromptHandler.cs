@@ -8,12 +8,12 @@ public class CreateNewPrompts : MonoBehaviour, IDataPersistence
 
     public void LoadData(PromptsData data)
     {
-        Debug.Log($"This is the currently saved data: {data.prompts.Count}");
+        Debug.Log($"This is the currently saved data: {data.promptList.Count}");
     }
 
     public void SaveData(ref PromptsData data)
     {
-        data.prompts = defaultPrompts.data;
-        Debug.Log($"Data being saved: {data.prompts.Count}");
+        data.AddNewPrompts(defaultPrompts.data);
+        Debug.Log($"Data being saved: {data.promptList.Count}");
     }
 }
