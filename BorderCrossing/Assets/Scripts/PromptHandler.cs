@@ -1,19 +1,66 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
+using TMPro;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.Serialization;
+using UnityEngine.UI;
 
-public class CreateNewPrompts : MonoBehaviour, IDataPersistence
+public class PromptHandler : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private StringData defaultPrompts;
+    [SerializeField] private bool saveNew;
+    [SerializeField] private string saveName;
+    [SerializeField] private GameObject group;
+    [SerializeField] private PromptRecord promptRecord;
+
+    private List<PromptRecord> _records = new();
 
     public void LoadData(PromptsData data)
     {
-        Debug.Log($"This is the currently saved data: {data.promptList.Count}");
+        var listOfPrompts = data.promptList;
+
+        foreach (var prompt in listOfPrompts)
+        {
+            var newRecord = Instantiate(promptRecord, group.transform);
+            newRecord.ChangeText(prompt.name);
+            _records.Add(newRecord);
+            var id = _records.IndexOf(newRecord);
+            Debug.Log($"Is this prompt a basic one? {prompt.basePrompt}");
+            if (prompt.basePrompt)
+            {
+                newRecord.GetDeleteButton().gameObject.SetActive(false);
+            }
+            newRecord.GetDeleteButton().onClick.AddListener(() => DeleteData(id));
+            newRecord.GetLoadButton().onClick.AddListener(()=> UseData(id));
+        }
     }
 
     public void SaveData(ref PromptsData data)
     {
-        data.AddNewPrompts(defaultPrompts.data);
+        if (saveNew)
+        {
+            data.AddNewPrompts(saveName, defaultPrompts.data);
+        }
+        
         Debug.Log($"Data being saved: {data.promptList.Count}");
+    }
+
+    public void DeleteData(int id)
+    {
+        Destroy(_records[id].gameObject);
+        _records.RemoveAt(id);
+        DataPersistenceManager.Instance.DeleteSave(id);
+    }
+
+    public void UseData(int id)
+    {
+        DataPersistenceManager.Instance.UseTheSave(id);
+    }
+
+    public void SaveNewData()
+    {
+        saveNew = true;
     }
 }
