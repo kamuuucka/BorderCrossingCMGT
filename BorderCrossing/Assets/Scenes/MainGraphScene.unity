@@ -2348,6 +2348,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prompts: {fileID: 11400000, guid: e3d5b537c31af42d58f582a38c9c8ded, type: 2}
+  onPromptChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!114 &8094032115158272873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2440,7 +2443,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.65
+  m_fontSize: 21.6
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2556,6 +2559,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prompts: {fileID: 11400000, guid: bef9cc68c3cf6413b898ac0588b40e31, type: 2}
+  onPromptChanged:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &8773974063575303209
 GameObject:
   m_ObjectHideFlags: 0
