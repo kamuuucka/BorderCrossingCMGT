@@ -66,12 +66,11 @@ public class DataPersistenceManager : MonoBehaviour
                 prompt.active = false;
             }
         }
+
+        if (foundActive) return;
         
-        if (!foundActive)
-        {
-            Debug.Log("Setting the first prompt as active");
-            _promptsData.promptList[0].active = true;
-        }
+        Debug.Log("Setting the first prompt as active");
+        _promptsData.promptList[0].active = true;
     }
 
     public void SaveGame()

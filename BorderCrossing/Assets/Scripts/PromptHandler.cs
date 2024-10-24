@@ -11,7 +11,6 @@ public class PromptHandler : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private StringData defaultPrompts;
     [SerializeField] private bool saveNew;
-    [SerializeField] private string saveName;
     [SerializeField] private GameObject group;
     [SerializeField] private PromptRecord promptRecord;
 
@@ -23,44 +22,39 @@ public class PromptHandler : MonoBehaviour, IDataPersistence
 
         foreach (var prompt in listOfPrompts)
         {
-            var newRecord = Instantiate(promptRecord, group.transform);
-            newRecord.ChangeText(prompt.name);
-            _records.Add(newRecord);
-            var id = _records.IndexOf(newRecord);
-            Debug.Log($"Is this prompt a basic one? {prompt.basePrompt}");
-            if (prompt.basePrompt)
-            {
-                newRecord.GetDeleteButton().gameObject.SetActive(false);
-            }
-            newRecord.GetDeleteButton().onClick.AddListener(() => DeleteData(id));
-            newRecord.GetLoadButton().onClick.AddListener(()=> UseData(id));
+            CreateNewPromptRecord(prompt);
         }
     }
 
     public void SaveData(ref PromptsData data)
     {
-        if (saveNew)
-        {
-            data.AddNewPrompts(saveName, defaultPrompts.data);
-        }
         
-        Debug.Log($"Data being saved: {data.promptList.Count}");
     }
 
-    public void DeleteData(int id)
+    private void DeleteData(int id)
     {
         Destroy(_records[id].gameObject);
         _records.RemoveAt(id);
         DataPersistenceManager.Instance.DeleteSave(id);
     }
 
-    public void UseData(int id)
+    private void UseData(int id)
     {
         DataPersistenceManager.Instance.UseTheSave(id);
     }
 
-    public void SaveNewData()
+    public void CreateNewPromptRecord(PromptsData.Prompts prompt)
     {
-        saveNew = true;
+        var newRecord = Instantiate(promptRecord, group.transform);
+        newRecord.ChangeText(prompt.name);
+        _records.Add(newRecord);
+        var id = _records.IndexOf(newRecord);
+        Debug.Log($"Is this prompt a basic one? {prompt.basePrompt}");
+        if (prompt.basePrompt)
+        {
+            newRecord.GetDeleteButton().gameObject.SetActive(false);
+        }
+        newRecord.GetDeleteButton().onClick.AddListener(() => DeleteData(id));
+        newRecord.GetLoadButton().onClick.AddListener(()=> UseData(id));
     }
 }

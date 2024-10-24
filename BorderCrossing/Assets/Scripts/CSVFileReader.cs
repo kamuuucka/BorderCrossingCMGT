@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
+using UnityEngine.Events;
 #if UNITY_EDITOR
 using UnityEditor;  // For using Unity's built-in file picker in the Editor.
 #else
@@ -11,22 +12,21 @@ using System.Runtime.InteropServices;  // For macOS standalone native dialogs.
 
 public class CSVFileReader : MonoBehaviour
 {
-    public List<string> csvData;
-    [SerializeField] private StringDataStorage dataStorage;
+    [SerializeField] private List<string> csvData;
+    [SerializeField] private UnityEvent<List<string>> onFileRead;
 
     // Call this function from a UI Button press
     public void LoadCSVFile()
     {
-        string filePath = OpenFileBrowser();
+        var filePath = OpenFileBrowser();
+        var fileName = "";
         if (!string.IsNullOrEmpty(filePath))
         {
             csvData = ReadCSV(filePath);
+            fileName = Path.GetFileName(filePath);
+            csvData.Add(fileName);
         }
-
-        var data = new StringDataStorage.StringList();
-        data.data = new List<string>();
-        data.data.AddRange(csvData);
-        dataStorage.stringDatas.Add(data);
+        onFileRead?.Invoke(csvData);
     }
 
     private string OpenFileBrowser()
