@@ -27,7 +27,7 @@ public class SplineGenerator : MonoBehaviour
 
         foreach (var knot in _splineContainer.Spline.Knots)
         {
-            
+            Debug.Log(knot.Position);
         }
     }
 
