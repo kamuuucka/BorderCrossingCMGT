@@ -44,7 +44,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43a2763f2ce6742c092daff762a7468c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startRadius: 0.2
   lineWidth: 1.6
   layersColors:
   - {r: 1, g: 0, b: 0, a: 1}
@@ -53,5 +52,7 @@ MonoBehaviour:
   - {r: 0.5895567, g: 1, b: 0, a: 1}
   - {r: 0, g: 1, b: 0.92628455, a: 1}
   slider: {fileID: 0}
-  prompts: {fileID: 11400000, guid: e3d5b537c31af42d58f582a38c9c8ded, type: 2}
+  prompts: {fileID: 0}
   segmentPrefab: {fileID: 9032487177766329817, guid: fd4df1b395c334b3b87f83b23b552e9f, type: 3}
+  alwaysSavePreset: 0
+  savedPreset: {fileID: 0}

@@ -617,7 +617,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.1
+  m_fontSize: 32.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -939,18 +939,6 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 839220813}
         m_TargetAssemblyTypeName: PhotonSceneSwitcherUser, Assembly-CSharp
-        m_MethodName: SwtichToSceneStringOtherNonMasterClients
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: StudentAnswerScene
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 839220813}
-        m_TargetAssemblyTypeName: PhotonSceneSwitcherUser, Assembly-CSharp
         m_MethodName: SwitchToSceneString
         m_Mode: 5
         m_Arguments:
@@ -959,18 +947,6 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: TeacherWaitingRoom
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 839220813}
-        m_TargetAssemblyTypeName: PhotonSceneSwitcherUser, Assembly-CSharp
-        m_MethodName: SwtichToSceneStringOtherNonMasterClients
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: MainGraphScene
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 50061824}
@@ -1351,37 +1327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1625514206}
   m_CullTransparentMesh: 1
---- !u!1 &1634378669
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1634378670}
-  m_Layer: 0
-  m_Name: SceneManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1634378670
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634378669}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1788002090
 GameObject:
   m_ObjectHideFlags: 0
@@ -1612,7 +1557,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 603438596}
   - {fileID: 635192101}
-  - {fileID: 1634378670}
   - {fileID: 1294034270}
   - {fileID: 184453392}
   - {fileID: 2058860012}

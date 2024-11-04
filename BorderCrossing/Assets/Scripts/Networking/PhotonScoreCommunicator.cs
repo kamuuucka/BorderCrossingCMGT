@@ -11,6 +11,7 @@ public class PhotonBondaryDataCommunicator : MonoBehaviourPun
     [PunRPC]
     public void RecieveResponse(string serializedBoundaryData) 
     {
+        Debug.Log("Recieved: " + serializedBoundaryData);
         BoundaryData boundaryData = BoundaryData.DeSerialize(serializedBoundaryData);
         onRecieveBoundaryData.Invoke(boundaryData);
         Debug.Log(serializedBoundaryData);
@@ -24,9 +25,9 @@ public class PhotonBondaryDataCommunicator : MonoBehaviourPun
     [PunRPC]
     public void RecieveQuestions(string serializedQuestionData)
     {
+        Debug.Log("Recieved: " + serializedQuestionData);
         StringData questionData = StringData.DeSerialize(serializedQuestionData);
         onRecieveQuestionData.Invoke(questionData);
-        Debug.Log(serializedQuestionData);
     }
 
     public void SendQuestions(StringData questionData)
