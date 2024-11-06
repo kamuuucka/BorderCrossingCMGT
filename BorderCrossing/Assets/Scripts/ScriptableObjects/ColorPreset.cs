@@ -16,6 +16,7 @@ public class ColorPreset : ScriptableObject
 
     public List<Color> LoadColorPreset()
     {
+        Debug.Log($"I am a color preset {_colors.Count}");
         if (_colors != null && _colors.Count != 0)
         {
             return _colors;
