@@ -8,6 +8,7 @@ public class BoundaryDataStorage : MonoBehaviour
 {
     [SerializeField] List<BoundaryData> allData;
     [SerializeField] private UnityEvent<string> onCountUpdate;
+    [SerializeField] private BoundaryDataList dataList;
 
     private void Awake()
     {
@@ -21,5 +22,10 @@ public class BoundaryDataStorage : MonoBehaviour
 
         string countText = allData.Count + "/" + PhotonNetwork.CurrentRoom.PlayerCount;
         onCountUpdate?.Invoke(countText);
+    }
+
+    public void SaveToDataList()
+    {
+        dataList.SaveData(allData);
     }
 }

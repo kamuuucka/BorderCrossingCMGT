@@ -9,6 +9,7 @@ public class DataDisplayer : MonoBehaviour
     [SerializeField] private List<BoundaryData> answers;
     [SerializeField] private GameObject dataDisplayer;
     [SerializeField] private AnswersData textField;
+    [SerializeField] private BoundaryDataList dataList;
 
     public void DisplayData()
     {
@@ -17,8 +18,8 @@ public class DataDisplayer : MonoBehaviour
             var questionText = questions.data[i];
             var question = Instantiate(textField, dataDisplayer.transform);
             question.SetQuestion(questionText);
-            question.SetScores(answers,i);
-            question.Average(answers,i);
+            question.SetScores(dataList.ReadData(),i);
+            question.Average(dataList.ReadData(),i);
         }
     }
 }

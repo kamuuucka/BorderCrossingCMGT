@@ -617,7 +617,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 32.15
+  m_fontSize: 32.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -954,7 +954,7 @@ MonoBehaviour:
         m_MethodName: SendQuestions
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: 054711cb360f6446b93eea39b61499e5, type: 2}
+          m_ObjectArgument: {fileID: 11400000, guid: a4dcfb37ac38d47b5b0fffc478854cd5, type: 2}
           m_ObjectArgumentAssemblyTypeName: StringData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0

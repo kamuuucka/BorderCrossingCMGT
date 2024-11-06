@@ -15,6 +15,7 @@ public class AnswersData : MonoBehaviour
 
     private void OnEnable()
     {
+        Debug.Log(graphColorPreset);
         if (scale == null || scale.Count != graphColorPreset.LoadColorPreset().Count) return;
         
         for (var i = 0; i < scale.Count; i++)
