@@ -18,7 +18,13 @@ public class GraphManager : MonoBehaviour
     [SerializeField] private UnityEvent onRotationStarted;
     [Tooltip("Actions that will be performed when the graph stops rotating")]
     [SerializeField] private UnityEvent onRotationFinished;
-    
+    [SerializeField] private UnityEvent<BoundaryData> onFinish;
+
+    [Tooltip("Will be disabled on the lasts question")]
+    [SerializeField] private GameObject nextButton;
+    [Tooltip("Will be enabled on the lasts question")]
+    [SerializeField] private GameObject finishButton;
+
     private Slider _slider;
     private GraphGenerator _graphGenerator;
     private int _activeQuestion;
@@ -28,6 +34,7 @@ public class GraphManager : MonoBehaviour
 
     private void Awake()
     {
+        finishButton.SetActive(false);
         enabled = false;
     }
 
@@ -52,6 +59,11 @@ public class GraphManager : MonoBehaviour
     /// </summary>
     public void RotateSegment()
     {
+        if (_activeQuestion >= _graphGenerator.promptsCount - 2) {
+            nextButton.SetActive(false);
+            finishButton.SetActive(true);
+        }
+
         GreyOutUnusedParts(_activeQuestion, (int)_slider.value + 1);
         _activeQuestion++;
         boundaryData.data.Add((int)_slider.value);
@@ -107,5 +119,9 @@ public class GraphManager : MonoBehaviour
 
         // Convert it back to RGB
         return Color.HSVToRGB(hue, saturation, value);
+    }
+
+    public void FinishAnswering() {
+        onFinish?.Invoke(boundaryData);
     }
 }

@@ -19,8 +19,7 @@ public class GraphGenerator : MonoBehaviour
 
     public Slider Slider => slider;
 
-    [Tooltip("Data with the prompts")] 
-    [SerializeField] private StringData prompts;
+    [SerializeField] private StringData prompts = null;
 
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")] 
     [SerializeField] private LineGenerator segmentPrefab;
@@ -34,10 +33,16 @@ public class GraphGenerator : MonoBehaviour
 
     private float _targetAngle;
     private int _promptsCount;
+    public int promptsCount { 
+        get { return _promptsCount; }
+    }
     private bool _rotating;
 
     private void Start()
     {
+        if (prompts != null) Debug.Log(StringData.Serialize(prompts));
+        else Debug.Log("Prompts is null");
+
         slider.maxValue = layersColors.Count - 1;
         
         SetUpPromptVariables();
@@ -112,9 +117,10 @@ public class GraphGenerator : MonoBehaviour
         return layersColors;
     }
 
-    public void AssignStringData()
+    public void AssignStringData(StringData data)
     {
-       // prompts = data;
+        prompts = data;
+        if (data != null) enabled = true;
         Debug.Log("New data loaded in!");
     }
 }
