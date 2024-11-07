@@ -399,10 +399,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Waiting...
+  m_text: WWW
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d0273aa1bf935a949b04ea4923ca9afb, type: 2}
-  m_sharedMaterial: {fileID: 959520607796277406, guid: d0273aa1bf935a949b04ea4923ca9afb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+  m_sharedMaterial: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -426,7 +426,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.05
+  m_fontSize: 61.15
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1094,23 +1094,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-  onFinish:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1508132816}
-        m_TargetAssemblyTypeName: PhotonBondaryDataCommunicator, Assembly-CSharp
-        m_MethodName: SendBoundaryData
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  nextButton: {fileID: 2923273734970487183}
-  finishButton: {fileID: 1848463583}
 --- !u!1 &1344110233
 GameObject:
   m_ObjectHideFlags: 0

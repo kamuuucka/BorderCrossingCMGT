@@ -343,8 +343,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Create your \nMap of Boundaries"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d0273aa1bf935a949b04ea4923ca9afb, type: 2}
-  m_sharedMaterial: {fileID: 959520607796277406, guid: d0273aa1bf935a949b04ea4923ca9afb, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+  m_sharedMaterial: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -853,6 +853,18 @@ PrefabInstance:
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_text
       value: Start
+      objectReference: {fileID: 0}
+    - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2888937257563397017, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_Name
