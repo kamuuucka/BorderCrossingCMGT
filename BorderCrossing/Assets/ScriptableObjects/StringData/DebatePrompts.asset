@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39649b5609fac48c6bb06db0ec274864, type: 3}
+  m_Name: DebatePrompts
+  m_EditorClassIdentifier: 
+  data:
+  - I prioritize my own needs whenever necessary.
+  - I let others know when they have violated my boundaries.
+  - I do not give in when someone pushes against a boundary I set.
+  - I feel comfortable stating ground rules for relationships.
+  - I do not like saying no because it can lead to conflict.
+  - I want to say no to others more often than I usually do.
+  - When someone violates a boundary I have set, I follow through with any pre-established
+    consequences.
+  - I can handle strong emotional reactions from others.
+  - Others often take advantage of my good nature.
+  - I am comfortable telling other people when they've crossed a line with me.
+  - I prioritize my own needs whenever necessary.
+  - I please other people even if it makes me feel resentful.
