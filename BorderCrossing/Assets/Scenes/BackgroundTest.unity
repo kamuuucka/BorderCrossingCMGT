@@ -170,7 +170,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee04e2053e4a4b37887ac75d27ddf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasForShadow: {fileID: 0}
+  shadowReference: {fileID: 0}
 --- !u!1 &81166606
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +407,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   offset: {x: 0.6, y: 0, z: 0}
-  scale: 1
+  width: 215
+  height: 150
 --- !u!114 &185838705
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1121,7 +1122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8ee04e2053e4a4b37887ac75d27ddf8a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  canvasForShadow: {fileID: 0}
+  shadowReference: {fileID: 0}
 --- !u!1 &892219638
 GameObject:
   m_ObjectHideFlags: 0
