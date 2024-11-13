@@ -1,43 +1,62 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 [RequireComponent(typeof(SpriteRenderer))]
 public class ShadowEffect : MonoBehaviour
 {
     [SerializeField] private Vector3 offset;
-    [SerializeField] private Material material;
+    [SerializeField] private Sprite shadow;
+    [Range(0, 1)] [SerializeField] private float opacity = 1;
+    
+    private Material _material;
     private GameObject _shadow;
+    private SpriteRenderer _shadowRenderer;
 
     private void Start()
     {
-        if (material == null)
-        {
-            material = new Material(Shader.Find("Unlit/Color"))
-            {
-                color = Color.black
-            };
-        }
-        
+        CreateMaterial();
+        SpawnShadow();
+    }
+
+    private void LateUpdate()
+    {
+        _shadow.transform.localPosition = offset;
+    }
+
+    /// <summary>
+    /// Spawns the shadow on the set offset.
+    /// </summary>
+    private void SpawnShadow()
+    {
         _shadow = new GameObject();
         _shadow.transform.SetParent(transform);
         _shadow.transform.localPosition = offset;
         _shadow.transform.localRotation = Quaternion.identity;
 
         var objectRenderer = GetComponent<SpriteRenderer>();
-        var shadowRenderer = _shadow.AddComponent<SpriteRenderer>();
-        shadowRenderer.sprite = objectRenderer.sprite;
-        shadowRenderer.material = material;
+        _shadowRenderer = _shadow.AddComponent<SpriteRenderer>();
+        _shadowRenderer.sprite = shadow;
+        _shadowRenderer.material = _material;
 
-        shadowRenderer.sortingLayerName = objectRenderer.sortingLayerName;
-        shadowRenderer.sortingOrder = objectRenderer.sortingOrder - 1;
-
+        _shadowRenderer.sortingLayerName = objectRenderer.sortingLayerName;
+        _shadowRenderer.sortingOrder = objectRenderer.sortingOrder - 1;
     }
 
-    private void LateUpdate()
+    /// <summary>
+    /// Creates the material with the transparency chosen by the user.
+    /// </summary>
+    private void CreateMaterial()
     {
-        _shadow.transform.localPosition = offset;
+        _material = new Material(Shader.Find("Standard"))
+        {
+            color = new Color(0f, 0f, 0f, opacity),
+        };
+        _material.SetFloat("_Mode", 3); // Set to Transparent mode
+        _material.SetInt("_SrcBlend", (int)UnityEngine.Rendering.BlendMode.SrcAlpha);
+        _material.SetInt("_DstBlend", (int)UnityEngine.Rendering.BlendMode.OneMinusSrcAlpha);
+        _material.SetInt("_ZWrite", 0);
+        _material.DisableKeyword("_ALPHATEST_ON");
+        _material.EnableKeyword("_ALPHABLEND_ON");
+        _material.DisableKeyword("_ALPHAPREMULTIPLY_ON");
+        _material.renderQueue = 3000;
     }
 }
