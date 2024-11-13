@@ -4,24 +4,40 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+[RequireComponent(typeof(SpriteRenderer))]
 public class ShadowEffect : MonoBehaviour
 {
     [SerializeField] private Vector3 offset;
-    [SerializeField] private float width = 100f;
-    [SerializeField] private float height = 100f;
-    private Image _shadow;
+    [SerializeField] private Material material;
+    private GameObject _shadow;
 
     private void Start()
     {
-        var shadowObject = new GameObject();
-        var shadowTransform = shadowObject.AddComponent<RectTransform>();
-        var canvasForShadow = FindObjectOfType<CanvasShadowReference>().shadowReference.transform;
-        shadowObject.transform.SetParent(canvasForShadow);
-        shadowTransform.transform.position = transform.position + offset;
-        var shadowTransformRect = shadowTransform.rect;
-        shadowTransformRect.width = width;
-        shadowTransformRect.height = height;
-        _shadow = shadowObject.AddComponent<Image>();
-        _shadow.sprite = GetComponent<Image>().sprite;
+        if (material == null)
+        {
+            material = new Material(Shader.Find("Unlit/Color"))
+            {
+                color = Color.black
+            };
+        }
+        
+        _shadow = new GameObject();
+        _shadow.transform.SetParent(transform);
+        _shadow.transform.localPosition = offset;
+        _shadow.transform.localRotation = Quaternion.identity;
+
+        var objectRenderer = GetComponent<SpriteRenderer>();
+        var shadowRenderer = _shadow.AddComponent<SpriteRenderer>();
+        shadowRenderer.sprite = objectRenderer.sprite;
+        shadowRenderer.material = material;
+
+        shadowRenderer.sortingLayerName = objectRenderer.sortingLayerName;
+        shadowRenderer.sortingOrder = objectRenderer.sortingOrder - 1;
+
+    }
+
+    private void LateUpdate()
+    {
+        _shadow.transform.localPosition = offset;
     }
 }
