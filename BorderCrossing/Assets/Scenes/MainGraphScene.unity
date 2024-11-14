@@ -179,7 +179,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 96d606a587bd64d459ec04ec4096e706, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f2d57aea1b6988f458843e436e69dd58, type: 3}
   m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2.75
+  m_PixelsPerUnitMultiplier: 6
 --- !u!222 &80208001
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 96d606a587bd64d459ec04ec4096e706, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64d6f2fa001dc8446964e974418b2bb5, type: 3}
   m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -511,7 +511,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 2.75
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1204059743
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -957,6 +957,11 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+  onFinish:
+    m_PersistentCalls:
+      m_Calls: []
+  nextButton: {fileID: 0}
+  finishButton: {fileID: 0}
 --- !u!1 &1344110233
 GameObject:
   m_ObjectHideFlags: 0
@@ -1630,7 +1635,7 @@ MonoBehaviour:
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
     m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
+  m_Transition: 2
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
@@ -1640,10 +1645,10 @@ MonoBehaviour:
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
+    m_HighlightedSprite: {fileID: 21300000, guid: f20f1d1da3e1682409ea1b8a4a33b853, type: 3}
+    m_PressedSprite: {fileID: 21300000, guid: d7404586083317d46992e1f03bcb4544, type: 3}
+    m_SelectedSprite: {fileID: 21300000, guid: f20f1d1da3e1682409ea1b8a4a33b853, type: 3}
+    m_DisabledSprite: {fileID: 21300000, guid: dfc6e469479e9194dac807bcfa972d1b, type: 3}
   m_AnimationTriggers:
     m_NormalTrigger: Normal
     m_HighlightedTrigger: Highlighted
@@ -2801,7 +2806,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 61ea9136c14a6ce46b68dece524b6ca6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 06d3494a9d6362146add8a23f9585884, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3079,7 +3084,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: fc323c97bf7de8642b2f2445decf7206, type: 3}
-  m_Type: 2
+  m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3087,7 +3092,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 8
+  m_PixelsPerUnitMultiplier: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

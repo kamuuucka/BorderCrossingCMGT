@@ -48,25 +48,25 @@ public class CSVFileReader : MonoBehaviour
         return path;
     }
 
-#if UNITY_STANDALONE_WIN
-    private string OpenFileBrowserWindows()
-    {
-        System.Windows.Forms.OpenFileDialog openFileDialog = new System.Windows.Forms.OpenFileDialog
-        {
-            InitialDirectory = @"C:\", // Set this to a desired default path
-            Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*",
-            FilterIndex = 1,
-            RestoreDirectory = true
-        };
+//#if UNITY_STANDALONE_WIN
+//    private string OpenFileBrowserWindows()
+//    {
+//        System.Windows.Forms.OpenFileDialog openFileDialog = new System.Windows.Forms.OpenFileDialog
+//        {
+//            InitialDirectory = @"C:\", // Set this to a desired default path
+//            Filter = "csv files (*.csv)|*.csv|All files (*.*)|*.*",
+//            FilterIndex = 1,
+//            RestoreDirectory = true
+//        };
 
-        if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-        {
-            return openFileDialog.FileName;
-        }
+//        //if (openFileDialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+//        //{
+//        //    return openFileDialog.FileName;
+//        //}
 
-        return string.Empty;
-    }
-#endif
+//        return string.Empty;
+//    }
+//#endif
 
 #if UNITY_STANDALONE_OSX
     [DllImport("CocoaDialog")]
