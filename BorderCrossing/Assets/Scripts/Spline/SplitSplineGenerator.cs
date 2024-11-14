@@ -6,16 +6,20 @@ using UnityEngine.Splines;
 
 public class SplitSplineGenerator : MonoBehaviour
 {
-    [SerializeField] private float radius = 5f;
-    [SerializeField] private int splitCount = 10;
-    [Range(0.1f, 3f)]
-    [SerializeField] private float smoothing = 3;
+    private float _radius;
+    private int _splitCount;
+    private float _smoothing;
+    private float _lineWidth;
 
     private const int NumberOfKnots = 10;
     private SplineContainer _splineContainer;
-
-    private void Start()
+    
+    public void GenerateSplitSpline(float radius, int splitCount, float smoothing, float lineWidth)
     {
+        _radius = radius;
+        _splitCount = splitCount;
+        _smoothing = smoothing;
+        _lineWidth = lineWidth;
         _splineContainer = GetComponent<SplineContainer>();
         if (_splineContainer == null)
         {
@@ -40,6 +44,7 @@ public class SplitSplineGenerator : MonoBehaviour
         meshRenderer.material = new Material(Shader.Find("Sprites/Default"));
         var mesh = spline.GetComponent<MeshFilter>();
         mesh.mesh = new Mesh();
+        splineExtrude.Radius = _lineWidth;
     }
 
     /// <summary>
@@ -56,8 +61,8 @@ public class SplitSplineGenerator : MonoBehaviour
         {
             var angleInRadians = Mathf.Deg2Rad * i * segmentAngle;
 
-            var x = Mathf.Cos(angleInRadians) * radius;
-            var z = Mathf.Sin(angleInRadians) * radius;
+            var x = Mathf.Cos(angleInRadians) * _radius;
+            var z = Mathf.Sin(angleInRadians) * _radius;
 
             var knot = new BezierKnot(new Vector3(x, 0, z));
             _splineContainer.Spline.Add(knot);
@@ -79,11 +84,14 @@ public class SplitSplineGenerator : MonoBehaviour
         var splitContainers = new List<SplineContainer>();
         var originalSpline = originalContainer.Spline;
 
-        var splitLength = 1f / splitCount;
-        for (var i = 0; i < splitCount; i++)
+        var splitLength = 1f / _splitCount;
+        for (var i = 0; i < _splitCount; i++)
         {
             var newObj = new GameObject($"SplineSegment_{i + 1}");
             newObj.transform.SetParent(transform);
+            var newObjScale= newObj.transform.localScale;
+            newObjScale.y = 0;
+            newObj.transform.localScale = newObjScale;
             var newContainer = newObj.AddComponent<SplineContainer>();
             var newSpline = newContainer.Spline;
             newObj.AddComponent<SplineExtrude>();
@@ -109,7 +117,7 @@ public class SplitSplineGenerator : MonoBehaviour
     {
         //Calculating how many sample points should be in one segment. The number of knots is divided by 3 to reduce the density of knots while remaining the original shape.
         //To make segment smoother, change 3 to smaller number.
-        var samplePoints = Mathf.CeilToInt(NumberOfKnots / smoothing);
+        var samplePoints = Mathf.CeilToInt(NumberOfKnots / _smoothing);
 
         for (var i = 0; i < samplePoints; i++)
         {
