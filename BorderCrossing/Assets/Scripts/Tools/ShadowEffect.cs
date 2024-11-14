@@ -31,6 +31,7 @@ public class ShadowEffect : MonoBehaviour
         _shadow.transform.SetParent(transform);
         _shadow.transform.localPosition = offset;
         _shadow.transform.localRotation = Quaternion.identity;
+        _shadow.transform.localScale = new Vector3(1, 1, 1);
 
         var objectRenderer = GetComponent<SpriteRenderer>();
         _shadowRenderer = _shadow.AddComponent<SpriteRenderer>();

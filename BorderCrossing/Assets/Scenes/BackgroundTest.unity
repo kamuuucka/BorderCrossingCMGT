@@ -434,7 +434,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: {x: 0, y: 0, z: 0}
   shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
-  opacity: 0.4
+  opacity: 1
 --- !u!212 &94221811
 SpriteRenderer:
   m_ObjectHideFlags: 0
