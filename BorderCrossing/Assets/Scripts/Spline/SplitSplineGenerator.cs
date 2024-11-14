@@ -10,16 +10,18 @@ public class SplitSplineGenerator : MonoBehaviour
     private int _splitCount;
     private float _smoothing;
     private float _lineWidth;
+    private Material _material;
 
     private const int NumberOfKnots = 10;
     private SplineContainer _splineContainer;
     
-    public void GenerateSplitSpline(float radius, int splitCount, float smoothing, float lineWidth)
+    public void GenerateSplitSpline(float radius, int splitCount, float smoothing, float lineWidth, Material material)
     {
         _radius = radius;
         _splitCount = splitCount;
         _smoothing = smoothing;
         _lineWidth = lineWidth;
+        _material = material;
         _splineContainer = GetComponent<SplineContainer>();
         if (_splineContainer == null)
         {
@@ -40,10 +42,10 @@ public class SplitSplineGenerator : MonoBehaviour
     {
         var splineExtrude = spline.GetComponent<SplineExtrude>();
         splineExtrude.Container = spline;
-        var meshRenderer = spline.GetComponent<MeshRenderer>();
-        meshRenderer.material = new Material(Shader.Find("Sprites/Default"));
         var mesh = spline.GetComponent<MeshFilter>();
         mesh.mesh = new Mesh();
+        var meshRenderer = spline.GetComponent<MeshRenderer>();
+        meshRenderer.material = _material;
         splineExtrude.Radius = _lineWidth;
     }
 
@@ -90,7 +92,7 @@ public class SplitSplineGenerator : MonoBehaviour
             var newObj = new GameObject($"SplineSegment_{i + 1}");
             newObj.transform.SetParent(transform);
             var newObjScale= newObj.transform.localScale;
-            newObjScale.y = 0;
+            newObjScale.y = 0.01f;
             newObj.transform.localScale = newObjScale;
             var newContainer = newObj.AddComponent<SplineContainer>();
             var newSpline = newContainer.Spline;
