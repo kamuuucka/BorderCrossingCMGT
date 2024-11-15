@@ -14,7 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Networking/TeacherLobby.unity
     guid: cc8113ec810c56241a811800ca822b7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Networking/TeacherSettings.unity
     guid: 1dbec55d39c554e44b16bb99fd0fcc2b
   - enabled: 1
@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MainGraphScene.unity
     guid: f30e957728611428dad132e2efc9e96f
+  - enabled: 1
+    path: Assets/Scenes/Networking/PlayerMenu.unity
+    guid: 49b65cf29798a5641bab56860d5b0672
+  - enabled: 1
+    path: Assets/Scenes/Networking/HostMenu.unity
+    guid: d2055c488c2c4f249adcb9c132684d93
   m_configObjects: {}
