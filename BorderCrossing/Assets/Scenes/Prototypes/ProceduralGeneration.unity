@@ -844,7 +844,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerWidth: 3
   radius: 2
-  graphMaterials: []
+  graphMaterials:
+  - {fileID: 2100000, guid: ea8512eabd38a41c0820706cbc4e1bd6, type: 2}
+  - {fileID: 2100000, guid: d8ae506fa4fd24ef4ba4f62c751063eb, type: 2}
+  - {fileID: 2100000, guid: 3766edc081af94bb08de823dfab6d3fc, type: 2}
+  - {fileID: 2100000, guid: e15005a843a6e42b6ae2bb2be86c701c, type: 2}
+  - {fileID: 2100000, guid: ecc971f2cdd2748b8887211f4dc66e1d, type: 2}
   prompts: {fileID: 11400000, guid: e3d5b537c31af42d58f582a38c9c8ded, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

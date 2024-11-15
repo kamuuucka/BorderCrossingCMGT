@@ -6,55 +6,15 @@ using UnityEngine.Splines;
 
 public class SplitSplineGenerator : MonoBehaviour
 {
-    private float _radius;
-    private int _splitCount;
-    private float _smoothing;
-    private float _lineWidth;
-    private Material _material;
-
     private const int NumberOfKnots = 10;
-    private SplineContainer _splineContainer;
-    
-    public void GenerateSplitSpline(float radius, int splitCount, float smoothing, float lineWidth, Material material)
-    {
-        _radius = radius;
-        _splitCount = splitCount;
-        _smoothing = smoothing;
-        _lineWidth = lineWidth;
-        _material = material;
-        _splineContainer = GetComponent<SplineContainer>();
-        if (_splineContainer == null)
-        {
-            _splineContainer = gameObject.AddComponent<SplineContainer>();
-        }
-        
-        CreateCircularSpline();
-        
-        List<SplineContainer> splitSplines = SplitSpline(_splineContainer);
-
-        foreach (var spline in splitSplines)
-        {
-            ExtrudeSpline(spline);
-        }
-    }
-
-    private void ExtrudeSpline(SplineContainer spline)
-    {
-        var splineExtrude = spline.GetComponent<SplineExtrude>();
-        splineExtrude.Container = spline;
-        var mesh = spline.GetComponent<MeshFilter>();
-        mesh.mesh = new Mesh();
-        var meshRenderer = spline.GetComponent<MeshRenderer>();
-        meshRenderer.material = _material;
-        splineExtrude.Radius = _lineWidth;
-    }
 
     /// <summary>
     /// Create a spline that is a circle. Needs to have at least 10 knots.
     /// </summary>
-    private void CreateCircularSpline()
+    public SplineContainer CreateCircularSpline(float radius)
     {
-        _splineContainer.Spline.Clear();
+        var splineContainer = gameObject.AddComponent<SplineContainer>();
+        splineContainer.Spline.Clear();
 
         var segmentAngle = 360f / NumberOfKnots;
 
@@ -63,31 +23,35 @@ public class SplitSplineGenerator : MonoBehaviour
         {
             var angleInRadians = Mathf.Deg2Rad * i * segmentAngle;
 
-            var x = Mathf.Cos(angleInRadians) * _radius;
-            var z = Mathf.Sin(angleInRadians) * _radius;
+            var x = Mathf.Cos(angleInRadians) * radius;
+            var z = Mathf.Sin(angleInRadians) * radius;
 
             var knot = new BezierKnot(new Vector3(x, 0, z));
-            _splineContainer.Spline.Add(knot);
+            splineContainer.Spline.Add(knot);
         }
         
         //Close the spline to make sure it's a full circle
-        _splineContainer.Spline.Closed = true;
-        _splineContainer.Spline.SetTangentMode(TangentMode.AutoSmooth);
+        splineContainer.Spline.Closed = true;
+        splineContainer.Spline.SetTangentMode(TangentMode.AutoSmooth);
+
+        return splineContainer;
     }
 
     /// <summary>
     /// Split spline into segments that will create the same circle as the original spline.
     /// Needed to create our graph that can be sliced depending on the user's answers.
     /// </summary>
-    /// <param name="originalContainer">Original circular spline</param>
+    /// <param name="originalContainer">Original circular spline.</param>
+    /// <param name="splitCount">The amount of segments the spline has to be split to.</param>
+    /// <param name="smoothing">The value necessary to create smoother angles in the segments.</param>
     /// <returns>List of SplineContainers</returns>
-    private List<SplineContainer> SplitSpline(SplineContainer originalContainer)
+    public List<SplineContainer> SplitSpline(SplineContainer originalContainer, int splitCount, float smoothing)
     {
         var splitContainers = new List<SplineContainer>();
         var originalSpline = originalContainer.Spline;
 
-        var splitLength = 1f / _splitCount;
-        for (var i = 0; i < _splitCount; i++)
+        var splitLength = 1f / splitCount;
+        for (var i = 0; i < splitCount; i++)
         {
             var newObj = new GameObject($"SplineSegment_{i + 1}");
             newObj.transform.SetParent(transform);
@@ -98,12 +62,29 @@ public class SplitSplineGenerator : MonoBehaviour
             var newSpline = newContainer.Spline;
             newObj.AddComponent<SplineExtrude>();
 
-            AddSplineSegment(originalSpline, newSpline, i * splitLength, (i + 1) * splitLength, newContainer.transform);
+            AddSplineSegment(originalSpline, newSpline, i * splitLength, (i + 1) * splitLength, newContainer.transform, smoothing);
             
             splitContainers.Add(newContainer);
         }
 
         return splitContainers;
+    }
+
+    /// <summary>
+    /// Creates the mesh for the spline and assigns a material to it.
+    /// </summary>
+    /// <param name="spline">SplineContainer that will be extruded.</param>
+    /// <param name="material">Material that the spline will use.</param>
+    /// <param name="lineWidth">The width of the line on the spline.</param>
+    public void ExtrudeSpline(SplineContainer spline, Material material, float lineWidth)
+    {
+        var splineExtrude = spline.GetComponent<SplineExtrude>();
+        splineExtrude.Container = spline;
+        var mesh = spline.GetComponent<MeshFilter>();
+        mesh.mesh = new Mesh();
+        var meshRenderer = spline.GetComponent<MeshRenderer>();
+        meshRenderer.material = material;
+        splineExtrude.Radius = lineWidth;
     }
 
 
@@ -115,11 +96,12 @@ public class SplitSplineGenerator : MonoBehaviour
     /// <param name="startT">Start of the segment (based on the knots on the original Spline).</param>
     /// <param name="endT">End of the segment (based on the knots on the original Spline).</param>
     /// <param name="newSplineTransform">Transform of the new Spline.</param>
-    private void AddSplineSegment(Spline originalSpline, Spline newSpline, float startT, float endT, Transform newSplineTransform)
+    /// <param name="smoothing">Number that reduces density of the spline.</param>
+    private void AddSplineSegment(Spline originalSpline, Spline newSpline, float startT, float endT, Transform newSplineTransform, float smoothing)
     {
         //Calculating how many sample points should be in one segment. The number of knots is divided by 3 to reduce the density of knots while remaining the original shape.
         //To make segment smoother, change 3 to smaller number.
-        var samplePoints = Mathf.CeilToInt(NumberOfKnots / _smoothing);
+        var samplePoints = Mathf.CeilToInt(NumberOfKnots / smoothing);
 
         for (var i = 0; i < samplePoints; i++)
         {
