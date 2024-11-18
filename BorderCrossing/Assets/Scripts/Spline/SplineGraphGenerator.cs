@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.Splines;
 
 public class SplineGraphGenerator : MonoBehaviour
@@ -22,12 +23,22 @@ public class SplineGraphGenerator : MonoBehaviour
     [Space(10)] [Header("Necessary Objects")] [Tooltip("Data with the prompts.")] [SerializeField]
     private StringData prompts;
 
+    [SerializeField] private GraphGeneratorManager graphManager;
+
     #endregion
 
     #region Private Variables
 
     private readonly float _smoothing = 1.64f;
-    private List<SegmentWithLayers> _chunksWithLayers = new();
+
+    #endregion
+
+    #region Public Variables
+
+    public List<SegmentWithLayers> chunksWithLayers = new();
+    public int numberOfPrompts;
+    public int stepAngle;
+    public int layersNumber;
 
     #endregion
 
@@ -45,9 +56,20 @@ public class SplineGraphGenerator : MonoBehaviour
             Debug.LogError("Graph has no layers to generate! ");
             return;
         }
+
+        numberOfPrompts = prompts.data.Count;
+        stepAngle = 360 / numberOfPrompts;
+        layersNumber = graphMaterials.Count;
         
         CreateSegments(prompts.data.Count);
-        SpawnGraphOnChunks(graphMaterials.Count, prompts.data.Count);
+        SpawnGraphOnChunks(layersNumber, numberOfPrompts);
+
+        transform.rotation = Quaternion.Euler(0, stepAngle / 2f, 0);
+
+        if (graphManager != null)
+        {
+            graphManager.enabled = true;
+        }
     }
 
     /// <summary>
@@ -63,12 +85,12 @@ public class SplineGraphGenerator : MonoBehaviour
             var tempObject = new GameObject();
             var splineGenerator = tempObject.AddComponent<SplitSplineGenerator>();
             var circularSpline = splineGenerator.CreateCircularSpline(radius + (layerWidth + layerWidth) * i);
-            var splitSplines = splineGenerator.SplitSpline(circularSpline, prompts.data.Count, _smoothing);
+            var splitSplines = splineGenerator.SplitSpline(circularSpline, numberOfChunks, _smoothing);
             
             for (int j = 0; j < numberOfChunks; j++)
             {
-                _chunksWithLayers[j].segments.Add(splitSplines[j]);
-                _chunksWithLayers[j].segments[i].transform.SetParent(_chunksWithLayers[j].chunk.transform);
+                chunksWithLayers[j].segments.Add(splitSplines[j]);
+                chunksWithLayers[j].segments[i].transform.SetParent(chunksWithLayers[j].chunk.transform);
             }
             
             foreach (var spline in splitSplines)
@@ -98,7 +120,7 @@ public class SplineGraphGenerator : MonoBehaviour
                 chunk = chunkParent,
                 segments = new List<SplineContainer>()
             };
-            _chunksWithLayers.Add(chunkWithLayers);
+            chunksWithLayers.Add(chunkWithLayers);
         }
     }
 }
