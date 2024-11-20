@@ -102,8 +102,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 234
-        height: 234
+        width: 227.5
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: BG_Sun_ANIM_1
       rect:
         serializedVersion: 2
-        x: 234
+        x: 227
         y: 0
-        width: 234
-        height: 234
+        width: 227.5
+        height: 223
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +134,48 @@ TextureImporter:
       bones: []
       spriteID: 3e99b213693da3046a88c673a1513557
       internalID: -1986066011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Sun_ANIM_2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 0
+        width: 227.5
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09940329124e857489e6d7d2dc35a3a8
+      internalID: -934793428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_Sun_ANIM_3
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 0
+        width: 227.5
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4616e877b5a067046b3172522e0844bc
+      internalID: 1500917203
       vertices: []
       indices: 
       edges: []
@@ -151,6 +193,8 @@ TextureImporter:
     nameFileIdTable:
       BG_Sun_ANIM_0: 1878784076
       BG_Sun_ANIM_1: -1986066011
+      BG_Sun_ANIM_2: -934793428
+      BG_Sun_ANIM_3: 1500917203
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
