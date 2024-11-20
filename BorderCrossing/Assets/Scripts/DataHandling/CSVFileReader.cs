@@ -27,7 +27,6 @@ public class CSVFileReader : MonoBehaviour
             csvData.Add(fileName);
             onFileRead?.Invoke(csvData);
         }
-        
     }
 
     private string OpenFileBrowser()
