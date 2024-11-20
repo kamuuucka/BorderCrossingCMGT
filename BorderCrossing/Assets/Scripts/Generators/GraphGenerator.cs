@@ -66,7 +66,7 @@ public class GraphGenerator : MonoBehaviour
     /// </summary>
     private void SetUpPromptVariables()
     {
-        if (prompts.data.Count == 0) return;
+        if (prompts == null || prompts.data.Count == 0) return;
         _promptsCount = prompts.data.Count;
         StepAngle = 360f / _promptsCount;
     }
