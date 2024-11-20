@@ -15,6 +15,7 @@ public class SaveInputFieldValueFloat : MonoBehaviour
     private void Start()
     {
         _inputField = GetComponent<TMP_InputField>();
+        persistentFloat.value = 30f;
     }
 
     public void SaveValue()
