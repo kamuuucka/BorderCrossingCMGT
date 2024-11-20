@@ -928,7 +928,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 277417418}
         m_TargetAssemblyTypeName: PromptsImporter, Assembly-CSharp
         m_MethodName: SaveNewData
         m_Mode: 1
