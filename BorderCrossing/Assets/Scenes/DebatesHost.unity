@@ -182,7 +182,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   timerImage: {fileID: 856110192}
-  timer: 5
+  timer: {fileID: 11400000, guid: c51274bf2b29941abb7872e6b5c9096e, type: 2}
 --- !u!1 &213558900
 GameObject:
   m_ObjectHideFlags: 0

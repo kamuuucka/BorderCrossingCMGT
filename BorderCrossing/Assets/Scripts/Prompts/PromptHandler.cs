@@ -45,6 +45,7 @@ public class PromptHandler : MonoBehaviour, IDataPersistence
     {
         var newRecord = Instantiate(promptRecord, group.transform);
         newRecord.ChangeText(prompt.name);
+        prompt.image = newRecord.GetColor();
         _records.Add(newRecord);
         var id = _records.IndexOf(newRecord);
         Debug.Log($"Is this prompt a basic one? {prompt.basePrompt}");

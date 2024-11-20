@@ -21,7 +21,10 @@ public class PromptsImporter : MonoBehaviour, IDataPersistence
     {
         if (_save)
         {
-            Debug.Log("I am happening");
+            if (inputField.text == "")
+            {
+                inputField.text = "New Prompt";
+            }
             data.AddNewPrompts(inputField.text, _dataToSave);
             var newPrompts = data.promptList[^1];
             onPromptCreated?.Invoke(newPrompts);

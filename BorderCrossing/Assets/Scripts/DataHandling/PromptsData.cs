@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PromptsData
 {
@@ -31,6 +32,7 @@ public class PromptsData
         public List<string> prompts;
         public bool active;
         public bool basePrompt;
+        public Image image;
 
         public void SetAsActive()
         {

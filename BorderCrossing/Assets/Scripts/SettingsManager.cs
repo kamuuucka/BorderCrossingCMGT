@@ -7,7 +7,6 @@ using UnityEngine;
 public class SettingsManager : MonoBehaviour
 {
     [SerializeField] private StringData promptsToUse;
-    [SerializeField] private StringData debatesToUse;
     [SerializeField] private TMP_Text questTypePie;
     [SerializeField] private TMP_Text questNumPie;
 
@@ -21,8 +20,11 @@ public class SettingsManager : MonoBehaviour
         text.text = promptsToUse.data.Count.ToString();
     }
 
-    public void DisplayDebatesNumber(TMP_Text text)
+    public void UpdateActiveSettings(string activeQuestionsName, int activeQuestionsNumber)
     {
-        text.text = debatesToUse.data.Count.ToString();
+        questTypePie.text = activeQuestionsName;
+        questNumPie.text = activeQuestionsNumber.ToString();
+
     }
+    
 }
