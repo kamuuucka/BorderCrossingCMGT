@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class PromptsImporter : MonoBehaviour, IDataPersistence
 {
+    //CAN'T BE ON THE UI ELEMENT
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TMP_Text chooseFileButtonName;
     [SerializeField] private UnityEvent<PromptsData.Prompts> onPromptCreated;
@@ -20,6 +21,10 @@ public class PromptsImporter : MonoBehaviour, IDataPersistence
     {
         if (_save)
         {
+            if (inputField.text == "")
+            {
+                inputField.text = "New Prompt";
+            }
             data.AddNewPrompts(inputField.text, _dataToSave);
             var newPrompts = data.promptList[^1];
             onPromptCreated?.Invoke(newPrompts);

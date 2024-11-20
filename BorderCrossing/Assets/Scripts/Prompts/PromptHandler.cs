@@ -9,8 +9,6 @@ using UnityEngine.UI;
 
 public class PromptHandler : MonoBehaviour, IDataPersistence
 {
-    [SerializeField] private StringData defaultPrompts;
-    [SerializeField] private bool saveNew;
     [SerializeField] private GameObject group;
     [SerializeField] private PromptRecord promptRecord;
 
@@ -47,6 +45,7 @@ public class PromptHandler : MonoBehaviour, IDataPersistence
     {
         var newRecord = Instantiate(promptRecord, group.transform);
         newRecord.ChangeText(prompt.name);
+        prompt.image = newRecord.GetColor();
         _records.Add(newRecord);
         var id = _records.IndexOf(newRecord);
         Debug.Log($"Is this prompt a basic one? {prompt.basePrompt}");

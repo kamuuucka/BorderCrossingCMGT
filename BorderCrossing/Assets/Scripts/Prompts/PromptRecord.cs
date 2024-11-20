@@ -8,12 +8,18 @@ using UnityEngine.UI;
 public class PromptRecord : MonoBehaviour
 {
     [SerializeField] private TMP_Text textField;
+    [SerializeField] private Image image;
     [SerializeField] private Button deleteButton;
     [SerializeField] private Button loadButton;
 
     public void ChangeText(string value)
     {
         textField.text = value;
+    }
+
+    public Image GetColor()
+    {
+        return image;
     }
 
     public Button GetDeleteButton()

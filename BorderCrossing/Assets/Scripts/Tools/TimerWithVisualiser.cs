@@ -9,7 +9,7 @@ public class TimerWithVisualiser : MonoBehaviour
 {
     [SerializeField] private UnityEvent whenTimerFinished;
     [SerializeField] private Image timerImage;
-    [SerializeField] private float timer;
+    [SerializeField] private PersistentFloat timer;
 
     private float _currentTime;
     private bool _startTimer;
@@ -27,7 +27,7 @@ public class TimerWithVisualiser : MonoBehaviour
             if (_currentTime > 0)
             {
                 _currentTime -= Time.deltaTime;
-                float normalizedTime = Math.Clamp(_currentTime / timer, 0f, 1f);
+                float normalizedTime = Math.Clamp(_currentTime / timer.value, 0f, 1f);
                 timerImage.fillAmount = normalizedTime;
             }
             else
@@ -41,13 +41,13 @@ public class TimerWithVisualiser : MonoBehaviour
     public void ResetTimer()
     {
         _startTimer = false;
-        _currentTime = timer;
+        _currentTime = timer.value;
         Debug.Log($"Time after reset {_currentTime}");
     }
 
     public void ResetAndStart()
     {
-        _currentTime = timer;
+        _currentTime = timer.value;
         _startTimer = true;
         Debug.Log($"Timer set to {_startTimer}");
     }
@@ -67,7 +67,7 @@ public class TimerWithVisualiser : MonoBehaviour
     public void SetTimer(float value)
     {
         Debug.Log("Hagabagwa");
-        timer = value;
+        timer.SetInt(value);
         ResetTimer();
     }
     

@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a2490fa692aa4cc6a5898d43ad370bb, type: 3}
-  m_Name: CorrectCodeTesting
+  m_Script: {fileID: 11500000, guid: 39649b5609fac48c6bb06db0ec274864, type: 3}
+  m_Name: DebatesToUse
   m_EditorClassIdentifier: 
-  value: 123456
+  data: []
