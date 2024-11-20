@@ -255,6 +255,10 @@ PrefabInstance:
       value: SceneManager
       objectReference: {fileID: 0}
     - target: {fileID: 7847176430207308766, guid: 402886e13f54b47d8b8cdf0372763af0, type: 3}
+      propertyPath: promptsData
+      value: 
+      objectReference: {fileID: 11400000, guid: a4dcfb37ac38d47b5b0fffc478854cd5, type: 2}
+    - target: {fileID: 7847176430207308766, guid: 402886e13f54b47d8b8cdf0372763af0, type: 3}
       propertyPath: onPromptsFinished.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 2923273734970487183}
@@ -730,15 +734,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5113286569873095347, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -82.12098
+      value: -9.94
       objectReference: {fileID: 0}
     - target: {fileID: 5113286569873095347, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -83.901146
+      value: 1.02
       objectReference: {fileID: 0}
     - target: {fileID: 5113286569873095347, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.447037
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5113286569873095347, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -780,6 +784,10 @@ PrefabInstance:
       propertyPath: greyOut
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: prompts
+      value: 
+      objectReference: {fileID: 11400000, guid: a4dcfb37ac38d47b5b0fffc478854cd5, type: 2}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: lineWidth
       value: 0.7
