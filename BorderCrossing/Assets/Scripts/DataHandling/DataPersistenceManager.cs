@@ -3,16 +3,22 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.Serialization;
 
 public class DataPersistenceManager : MonoBehaviour
 {
     [SerializeField] private string fileName;
+    [SerializeField] private string debatesFileName;
     [SerializeField] private StringData promptsToUse;
     [SerializeField] private StringData defaultPrompts;
+    [SerializeField] private StringData debatesToUse;
+    [SerializeField] private StringData defaultDebates;
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
-    private FileDataHandler _dataHandler;
+    private PromptsData _debatesData;
+    private FileDataHandler _questionsDataHandler;
+    private FileDataHandler _debatesDataHandler;
     private List<IDataPersistence> _dataPersistenceObjects;
 
     private void Awake()
@@ -27,7 +33,7 @@ public class DataPersistenceManager : MonoBehaviour
 
     private void Start()
     {
-        _dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
+        _questionsDataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
         _dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
     }
@@ -43,7 +49,7 @@ public class DataPersistenceManager : MonoBehaviour
 
     private void LoadGame()
     {
-        _promptsData = _dataHandler.Load();
+        _promptsData = _questionsDataHandler.Load();
 
         if (_promptsData == null)
         {
@@ -84,7 +90,7 @@ public class DataPersistenceManager : MonoBehaviour
             dataPersistenceObject.SaveData(ref _promptsData);
         }
 
-        _dataHandler.Save(_promptsData);
+        _questionsDataHandler.Save(_promptsData);
     }
 
     public void DeleteSave(int id)
@@ -96,7 +102,7 @@ public class DataPersistenceManager : MonoBehaviour
         }
         _promptsData.promptList.Remove(_promptsData.promptList[id]);
 
-        _dataHandler.Save(_promptsData);
+        _questionsDataHandler.Save(_promptsData);
     }
 
     public void UseTheSave(int id)
@@ -109,7 +115,7 @@ public class DataPersistenceManager : MonoBehaviour
         Debug.Log($"Now using: {_promptsData.promptList[id].name}");
         promptsToUse.data = _promptsData.promptList[id].prompts;
 
-        _dataHandler.Save(_promptsData);
+        _questionsDataHandler.Save(_promptsData);
     }
 
     private List<IDataPersistence> FindAllDataPersistenceObjects()

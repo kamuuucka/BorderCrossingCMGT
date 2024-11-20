@@ -9,8 +9,6 @@ using UnityEngine.UI;
 
 public class PromptHandler : MonoBehaviour, IDataPersistence
 {
-    [SerializeField] private StringData defaultPrompts;
-    [SerializeField] private bool saveNew;
     [SerializeField] private GameObject group;
     [SerializeField] private PromptRecord promptRecord;
 
