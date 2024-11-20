@@ -8,6 +8,7 @@ public class DataPersistenceManager : MonoBehaviour
 {
     [SerializeField] private string fileName;
     [SerializeField] private StringData promptsToUse;
+    [SerializeField] private StringData defaultPrompts;
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
@@ -35,6 +36,9 @@ public class DataPersistenceManager : MonoBehaviour
     private void NewGame()
     {
         _promptsData = new PromptsData();
+        _promptsData.AddNewPrompts("General questions about transgressive behaviour", defaultPrompts.data);
+        _promptsData.promptList[0].basePrompt = true;
+        _promptsData.promptList[0].active = true;
     }
 
     private void LoadGame()
