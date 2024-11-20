@@ -16,9 +16,8 @@ public class DataPersistenceManager : MonoBehaviour
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
-    private PromptsData _debatesData;
+    private PromptsData.Prompts _activePrompt;
     private FileDataHandler _questionsDataHandler;
-    private FileDataHandler _debatesDataHandler;
     private List<IDataPersistence> _dataPersistenceObjects;
 
     private void Awake()
@@ -85,8 +84,10 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void SaveGame()
     {
+        Debug.Log(_dataPersistenceObjects.Count);
         foreach (var dataPersistenceObject in _dataPersistenceObjects)
         {
+            Debug.Log("AHsyvdahejvdhj");
             dataPersistenceObject.SaveData(ref _promptsData);
         }
 
@@ -110,12 +111,19 @@ public class DataPersistenceManager : MonoBehaviour
         foreach (var prompt in _promptsData.promptList)
         {
             prompt.active = _promptsData.promptList[id] == prompt;
+            _activePrompt = _promptsData.promptList[id];
         }
 
         Debug.Log($"Now using: {_promptsData.promptList[id].name}");
+        Debug.Log($"Active prompt: {_activePrompt.name}");
         promptsToUse.data = _promptsData.promptList[id].prompts;
 
         _questionsDataHandler.Save(_promptsData);
+    }
+
+    public PromptsData.Prompts GetActivePrompt()
+    {
+        return _activePrompt;
     }
 
     private List<IDataPersistence> FindAllDataPersistenceObjects()
