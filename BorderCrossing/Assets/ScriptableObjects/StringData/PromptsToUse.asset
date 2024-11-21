@@ -12,12 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39649b5609fac48c6bb06db0ec274864, type: 3}
   m_Name: PromptsToUse
   m_EditorClassIdentifier: 
-  data:
-  - Test question 1
-  - Teacher compliments your outfit.
-  - Student wants to hug you.
-  - Teacher wants to hug you.
-  - Student makes sexual jokes during group projects.
-  - Teacher makes sexual jokes during group projects.
-  - Student makes an "edgy" joke.
-  - Teacher makes an "edgy" joke.
+  data: []
