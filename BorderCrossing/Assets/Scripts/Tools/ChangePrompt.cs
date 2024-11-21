@@ -12,7 +12,7 @@ public class ChangePrompt : MonoBehaviour
     private TMP_Text _promptText;
     private int _activePrompt;
 
-    private void Start()
+    private void OnEnable()
     {
         _promptText = GetComponent<TMP_Text>();
         _activePrompt = 0;
