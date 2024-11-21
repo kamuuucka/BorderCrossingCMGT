@@ -37,6 +37,12 @@ public class PromptManager : MonoBehaviour
         _promptsUsed++;
     }
 
+    public void AssignStringData(StringData data)
+    {
+        promptsData = data;
+        if (data != null) enabled = true;
+    }
+
     private void HandleOnPromptsFinished()
     {
         Debug.Log("No more prompts to display!");

@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -51,5 +52,11 @@ public class ChangePrompt : MonoBehaviour
         {
             _promptText.text = prompts.data[(int)slider.value];
         }
+    }
+
+    public void AssignStringData(StringData data)
+    {
+        prompts = data;
+        if (data != null) enabled = true;
     }
 }

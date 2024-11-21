@@ -32,4 +32,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Networking/HostMenu.unity
     guid: d2055c488c2c4f249adcb9c132684d93
+  - enabled: 1
+    path: Assets/Scenes/DebatesHost.unity
+    guid: 3ac74eaf298fe4aa0b7e55a925d13bf8
+  - enabled: 1
+    path: Assets/Scenes/DebatesPlayer.unity
+    guid: 4431f4442d49e478fad14218cc8b2b23
   m_configObjects: {}
