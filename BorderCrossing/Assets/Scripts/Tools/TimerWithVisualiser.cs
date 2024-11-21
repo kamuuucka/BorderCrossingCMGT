@@ -21,7 +21,6 @@ public class TimerWithVisualiser : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log($"_startTimer is {_startTimer}");
         if (_startTimer)
         {
             if (_currentTime > 0)
@@ -33,6 +32,7 @@ public class TimerWithVisualiser : MonoBehaviour
             else
             {
                 _startTimer = false;
+                Debug.Log("Timer finish");
                 whenTimerFinished?.Invoke();
             }
         }
@@ -42,31 +42,32 @@ public class TimerWithVisualiser : MonoBehaviour
     {
         _startTimer = false;
         _currentTime = timer.value;
-        Debug.Log($"Time after reset {_currentTime}");
     }
 
     public void ResetAndStart()
     {
         _currentTime = timer.value;
         _startTimer = true;
-        Debug.Log($"Timer set to {_startTimer}");
     }
 
     public void StartTimer()
     {
+        Debug.Log("Timer start");
         _startTimer = true;
-        Debug.Log($"Start timer, the value is {_startTimer}");
     }
 
     public void PauseResumeTimer()
     {
-        Debug.Log("PAUSE");
         _startTimer = !_startTimer;
+    }
+
+    public void StopTimer()
+    {
+        _startTimer = false;
     }
 
     public void SetTimer(float value)
     {
-        Debug.Log("Hagabagwa");
         timer.SetInt(value);
         ResetTimer();
     }
