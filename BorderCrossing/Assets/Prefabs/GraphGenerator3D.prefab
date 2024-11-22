@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7088643781462851895
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1343620962477139598}
+  - component: {fileID: 1741394996382559758}
+  - component: {fileID: 7141716301829234776}
+  m_Layer: 0
+  m_Name: GraphGenerator3D
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1343620962477139598
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088643781462851895}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1741394996382559758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088643781462851895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f77e7078994541e8bff3e8b7c9003a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  layerWidth: 3
+  radius: 2
+  graphMaterials:
+  - {fileID: 2100000, guid: ea8512eabd38a41c0820706cbc4e1bd6, type: 2}
+  - {fileID: 2100000, guid: d8ae506fa4fd24ef4ba4f62c751063eb, type: 2}
+  - {fileID: 2100000, guid: 3766edc081af94bb08de823dfab6d3fc, type: 2}
+  - {fileID: 2100000, guid: e15005a843a6e42b6ae2bb2be86c701c, type: 2}
+  - {fileID: 2100000, guid: ecc971f2cdd2748b8887211f4dc66e1d, type: 2}
+  prompts: {fileID: 11400000, guid: e3d5b537c31af42d58f582a38c9c8ded, type: 2}
+  graphManager: {fileID: 7141716301829234776}
+  chunksWithLayers: []
+  numberOfPrompts: 0
+  stepAngle: 0
+  layersNumber: 0
+--- !u!114 &7141716301829234776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7088643781462851895}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f7e20f33b41429b8360b85b65e4c7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  boundaryData: {fileID: 0}
+  slider: {fileID: 0}
+  rotationSpeed: 15
+  greyOutValue: 0.5
+  onRotationStarted:
+    m_PersistentCalls:
+      m_Calls: []
+  onRotationFinished:
+    m_PersistentCalls:
+      m_Calls: []
