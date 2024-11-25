@@ -56,7 +56,7 @@ public class DataPersistenceManager : MonoBehaviour
         _promptsData.promptList[0].basePrompt = true;
         _promptsData.promptList[0].active = true;
         _discussionsData = new PromptsData();
-        _discussionsData.AddNewPrompts("afbhabfhabhfba", defaultDiscussions.data);
+        _discussionsData.AddNewPrompts("General discussion topics about transgressive behaviour", defaultDiscussions.data);
         _discussionsData.promptList[0].basePrompt = true;
         _discussionsData.promptList[0].active = true;
     }
