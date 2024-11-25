@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Networking/TeacherLobby.unity
     guid: cc8113ec810c56241a811800ca822b7b
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Networking/TeacherSettings.unity
     guid: 1dbec55d39c554e44b16bb99fd0fcc2b
   - enabled: 1
