@@ -3828,9 +3828,17 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2181698988434816521, guid: 162c4d81f77264acf981e34bc50a24e1, type: 3}
+      propertyPath: discussionToUse
+      value: 
+      objectReference: {fileID: 11400000, guid: 8090275121c16534d99cc9e7ea077469, type: 2}
+    - target: {fileID: 2181698988434816521, guid: 162c4d81f77264acf981e34bc50a24e1, type: 3}
       propertyPath: settingsManager
       value: 
       objectReference: {fileID: 1191305916}
+    - target: {fileID: 2181698988434816521, guid: 162c4d81f77264acf981e34bc50a24e1, type: 3}
+      propertyPath: discussionFileName
+      value: discussionData
+      objectReference: {fileID: 0}
     - target: {fileID: 2953849807622209951, guid: 162c4d81f77264acf981e34bc50a24e1, type: 3}
       propertyPath: inputField
       value: 
