@@ -18,6 +18,7 @@ public class CSVFileReader : MonoBehaviour
     // Call this function from a UI Button press
     public void LoadCSVFile()
     {
+        Debug.Log("LoadCSVFile opened");
         var filePath = OpenFileBrowser();
         var fileName = "";
         if (!string.IsNullOrEmpty(filePath))
@@ -31,6 +32,7 @@ public class CSVFileReader : MonoBehaviour
 
     private string OpenFileBrowser()
     {
+        Debug.Log("I am here trying to open");
         string path = string.Empty;
 
 #if UNITY_EDITOR
@@ -39,7 +41,7 @@ public class CSVFileReader : MonoBehaviour
 #else
 #if UNITY_STANDALONE_WIN
         // Windows standalone file dialog
-        path = OpenFileBrowserWindows();
+        // path = OpenFileBrowserWindows();
 #elif UNITY_STANDALONE_OSX
         // macOS native file dialog
         path = OpenFileBrowserMac();
