@@ -7,18 +7,21 @@ using UnityEngine.Serialization;
 
 public class DataPersistenceManager : MonoBehaviour
 {
-    [SerializeField] private string fileName;
-    [SerializeField] private string discussionFileName;
+    [SerializeField] private string fileName = "promptsData";
+    [SerializeField] private string discussionFileName = "discussionsData";
     [SerializeField] private StringData promptsToUse;
     [SerializeField] private StringData defaultPrompts;
-    [SerializeField] private StringData discussionToUse;
+    [SerializeField] private StringData defaultDiscussions;
     [SerializeField] private SettingsManager settingsManager;
     [SerializeField] private bool isDebug;
+    [SerializeField] private List<PromptHandler> dataHandlers;
+    [SerializeField] private List<PromptsImporter> dataImporters;
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
     private PromptsData _discussionsData;
     private PromptsData.Prompts _activePrompt;
+    private PromptsData.Prompts _activeDiscussion;
     private FileDataHandler _questionsDataHandler;
     private FileDataHandler _discussionsDataHandler;
     private List<IDataPersistence> _dataPersistenceObjects;
@@ -50,7 +53,7 @@ public class DataPersistenceManager : MonoBehaviour
         _promptsData.promptList[0].basePrompt = true;
         _promptsData.promptList[0].active = true;
         _discussionsData = new PromptsData();
-        _discussionsData.AddNewPrompts("afbhabfhabhfba", discussionToUse.data);
+        _discussionsData.AddNewPrompts("afbhabfhabhfba", defaultDiscussions.data);
         _discussionsData.promptList[0].basePrompt = true;
         _discussionsData.promptList[0].active = true;
     }
@@ -65,12 +68,9 @@ public class DataPersistenceManager : MonoBehaviour
             if(isDebug) Debug.Log("GameData missing!");
             NewGame();
         }
-
-        foreach (var dataPersistenceObject in _dataPersistenceObjects)
-        {
-            dataPersistenceObject.LoadData(_promptsData);
-            dataPersistenceObject.LoadData(_discussionsData);
-        }
+        
+        dataHandlers[0].LoadData(_promptsData);
+        dataHandlers[1].LoadData(_discussionsData);
 
         var foundActivePrompt = false;
         foreach (var prompt in _promptsData.promptList)
@@ -119,11 +119,14 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void SaveGame()
     {
-        foreach (var dataPersistenceObject in _dataPersistenceObjects)
-        {
-            dataPersistenceObject.SaveData(ref _promptsData);
-            dataPersistenceObject.SaveData(ref _discussionsData);
-        }
+        // foreach (var dataPersistenceObject in _dataPersistenceObjects)
+        // {
+        //     dataPersistenceObject.SaveData(ref _promptsData);
+        //     dataPersistenceObject.SaveData(ref _discussionsData);
+        // }
+        
+        dataImporters[0].SaveData(ref _promptsData);
+        dataImporters[1].SaveData(ref _discussionsData);
 
         _questionsDataHandler.Save(_promptsData);
         _discussionsDataHandler.Save(_discussionsData);
