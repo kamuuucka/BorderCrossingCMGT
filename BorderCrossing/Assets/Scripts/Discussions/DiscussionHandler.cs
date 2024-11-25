@@ -7,7 +7,7 @@ using UnityEngine.Events;
 using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class PromptHandler : MonoBehaviour, IDataPersistence
+public class DiscussionHandler : MonoBehaviour, IDataPersistence
 {
     [SerializeField] private GameObject group;
     [SerializeField] private PromptRecord promptRecord;
@@ -33,12 +33,12 @@ public class PromptHandler : MonoBehaviour, IDataPersistence
     {
         Destroy(_records[id].gameObject);
         _records.RemoveAt(id);
-        DataPersistenceManager.Instance.DeletePromptSave(id);
+        DataPersistenceManager.Instance.DeleteDiscussionSave(id);
     }
 
     private void UseData(int id)
     {
-        DataPersistenceManager.Instance.UseThePromptSave(id);
+        DataPersistenceManager.Instance.UseTheDiscussionSave(id);
     }
 
     public void CreateNewPromptRecord(PromptsData.Prompts prompt)

@@ -11,11 +11,14 @@ public class DataPersistenceManager : MonoBehaviour
     [SerializeField] private string discussionFileName = "discussionsData";
     [SerializeField] private StringData promptsToUse;
     [SerializeField] private StringData defaultPrompts;
+    [SerializeField] private StringData discussionsToUse;
     [SerializeField] private StringData defaultDiscussions;
     [SerializeField] private SettingsManager settingsManager;
     [SerializeField] private bool isDebug;
-    [SerializeField] private List<PromptHandler> dataHandlers;
-    [SerializeField] private List<PromptsImporter> dataImporters;
+    [SerializeField] private PromptHandler promptHandler;
+    [SerializeField] private PromptsImporter promptImporter;
+    [SerializeField] private DiscussionHandler discussionHandler;
+    [SerializeField] private DiscussionImporter discussionImporter;
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
@@ -69,8 +72,8 @@ public class DataPersistenceManager : MonoBehaviour
             NewGame();
         }
         
-        dataHandlers[0].LoadData(_promptsData);
-        dataHandlers[1].LoadData(_discussionsData);
+        promptHandler.LoadData(_promptsData);
+        discussionHandler.LoadData(_discussionsData);
 
         var foundActivePrompt = false;
         foreach (var prompt in _promptsData.promptList)
@@ -79,7 +82,7 @@ public class DataPersistenceManager : MonoBehaviour
             if (prompt.active && !foundActivePrompt)
             {
                 foundActivePrompt = true;
-                UseTheSave(_promptsData.promptList.IndexOf(prompt));
+                UseThePromptSave(_promptsData.promptList.IndexOf(prompt));
             }
             else if (prompt.active && foundActivePrompt)
             {
@@ -100,7 +103,7 @@ public class DataPersistenceManager : MonoBehaviour
             if (discussion.active && !foundActiveDiscussion)
             {
                 foundActiveDiscussion = true;
-                UseTheSave(_discussionsData.promptList.IndexOf(discussion));
+                UseTheDiscussionSave(_discussionsData.promptList.IndexOf(discussion));
             }
             else if (discussion.active && foundActiveDiscussion)
             {
@@ -119,32 +122,38 @@ public class DataPersistenceManager : MonoBehaviour
 
     public void SaveGame()
     {
-        // foreach (var dataPersistenceObject in _dataPersistenceObjects)
-        // {
-        //     dataPersistenceObject.SaveData(ref _promptsData);
-        //     dataPersistenceObject.SaveData(ref _discussionsData);
-        // }
-        
-        dataImporters[0].SaveData(ref _promptsData);
-        dataImporters[1].SaveData(ref _discussionsData);
+        promptImporter.SaveData(ref _promptsData);
+        discussionImporter.SaveData(ref _discussionsData);
 
         _questionsDataHandler.Save(_promptsData);
         _discussionsDataHandler.Save(_discussionsData);
     }
 
-    public void DeleteSave(int id)
+    public void DeletePromptSave(int id)
     {
         if(isDebug) Debug.Log($"Value {_promptsData.promptList[id].name} just got removed");
         if (_promptsData.promptList[id].active)
         {
-            UseTheSave(id == 0 ? 1 : 0);
+            UseThePromptSave(id == 0 ? 1 : 0);
         }
         _promptsData.promptList.Remove(_promptsData.promptList[id]);
 
         _questionsDataHandler.Save(_promptsData);
     }
 
-    public void UseTheSave(int id)
+    public void DeleteDiscussionSave(int id)
+    {
+        if(isDebug) Debug.Log($"Value {_discussionsData.promptList[id].name} just got removed");
+        if (_discussionsData.promptList[id].active)
+        {
+            UseTheDiscussionSave(id == 0 ? 1 : 0);
+        }
+        _discussionsData.promptList.Remove(_discussionsData.promptList[id]);
+
+        _discussionsDataHandler.Save(_discussionsData);
+    }
+
+    public void UseThePromptSave(int id)
     {
         foreach (var prompt in _promptsData.promptList)
         {
@@ -160,6 +169,24 @@ public class DataPersistenceManager : MonoBehaviour
         settingsManager.UpdateActiveSettings(_activePrompt.name, promptsToUse.data.Count);
         
         _questionsDataHandler.Save(_promptsData);
+    }
+
+    public void UseTheDiscussionSave(int id)
+    {
+        foreach (var prompt in _discussionsData.promptList)
+        {
+            prompt.active = _discussionsData.promptList[id] == prompt;
+            _activeDiscussion = _discussionsData.promptList[id];
+            
+            if(prompt != _discussionsData.promptList[id]) prompt.image.color = Color.white;
+        }
+        if(isDebug) Debug.Log($"Active prompt: {_activeDiscussion.name}");
+        _activeDiscussion.image.color = new Color(0.839f, 0.89f, 0.694f);
+        discussionsToUse.data = _discussionsData.promptList[id].prompts;
+        
+        settingsManager.UpdateActiveSettings(_activeDiscussion.name, discussionsToUse.data.Count);
+        
+        _discussionsDataHandler.Save(_discussionsData);
     }
 
     public PromptsData.Prompts GetActivePrompt()
