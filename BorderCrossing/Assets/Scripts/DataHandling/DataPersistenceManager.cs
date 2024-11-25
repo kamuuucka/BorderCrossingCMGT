@@ -166,7 +166,7 @@ public class DataPersistenceManager : MonoBehaviour
         _activePrompt.image.color = new Color(0.839f, 0.89f, 0.694f);
         promptsToUse.data = _promptsData.promptList[id].prompts;
         
-        settingsManager.UpdateActiveSettings(_activePrompt.name, promptsToUse.data.Count);
+        settingsManager.UpdatePromptsSettings(_activePrompt.name, promptsToUse.data.Count);
         
         _questionsDataHandler.Save(_promptsData);
     }
@@ -184,7 +184,7 @@ public class DataPersistenceManager : MonoBehaviour
         _activeDiscussion.image.color = new Color(0.839f, 0.89f, 0.694f);
         discussionsToUse.data = _discussionsData.promptList[id].prompts;
         
-        settingsManager.UpdateActiveSettings(_activeDiscussion.name, discussionsToUse.data.Count);
+        settingsManager.UpdateDiscussionSettings(_activeDiscussion.name, discussionsToUse.data.Count);
         
         _discussionsDataHandler.Save(_discussionsData);
     }
