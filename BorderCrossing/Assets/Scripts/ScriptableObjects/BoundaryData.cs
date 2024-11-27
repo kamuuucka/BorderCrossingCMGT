@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 
+[System.Serializable]
 [CreateAssetMenu(fileName = "New Boundary Data", menuName = "Data/Boundary Data")]
 public class BoundaryData : ScriptableObject
 {
