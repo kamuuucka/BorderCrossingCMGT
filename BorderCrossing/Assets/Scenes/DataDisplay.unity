@@ -516,7 +516,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 36153584}
   m_HandleRect: {fileID: 36153583}
   m_Direction: 2
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -1250,7 +1250,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e21efc1cdbe844318a1428441c4ca088, type: 2}
   dataDisplayer: {fileID: 1692220971}
   textField: {fileID: 2676534381332741912, guid: 8b0c150435b7e40c7b97098ae8d8b8a6, type: 3}
-  dataList: {fileID: 0}
+  dataList: {fileID: 11400000, guid: 01428d2bc07fd4f008d7d8cab8e52243, type: 2}
 --- !u!4 &1954639942
 Transform:
   m_ObjectHideFlags: 0

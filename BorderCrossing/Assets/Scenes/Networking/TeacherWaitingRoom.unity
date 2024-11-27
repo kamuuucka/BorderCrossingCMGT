@@ -855,7 +855,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
-      value: DebatesHost
+      value: DataDisplay
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
