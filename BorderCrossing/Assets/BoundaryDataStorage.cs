@@ -20,6 +20,8 @@ public class BoundaryDataStorage : MonoBehaviour
     public void AddBoundaryData(BoundaryData newData) { 
         allData.Add(newData);
 
+        Debug.Log(BoundaryData.Serialize(newData));
+
         string countText = allData.Count + "/" + PhotonNetwork.CurrentRoom.PlayerCount;
         onCountUpdate?.Invoke(countText);
     }
