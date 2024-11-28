@@ -1,14 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public abstract class BaseHandler : MonoBehaviour, IDataPersistence
 {
     [SerializeField] protected GameObject group;
-    [SerializeField] protected PromptRecord promptRecord;
+    [FormerlySerializedAs("promptRecord")] [SerializeField] protected DataRecord dataRecord;
     [SerializeField] protected bool isDebug;
 
-    private List<PromptRecord> _records = new();
+    private readonly List<DataRecord> _records = new();
 
     public void LoadData(PromptsData data)
     {
@@ -37,7 +38,7 @@ public abstract class BaseHandler : MonoBehaviour, IDataPersistence
 
     public void CreateNewPromptRecord(PromptsData.Prompts prompt)
     {
-        var newRecord = Instantiate(promptRecord, group.transform);
+        var newRecord = Instantiate(dataRecord, group.transform);
         newRecord.ChangeText(prompt.name);
         prompt.image = newRecord.GetColor();
         _records.Add(newRecord);

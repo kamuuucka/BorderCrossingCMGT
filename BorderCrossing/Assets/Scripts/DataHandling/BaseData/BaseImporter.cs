@@ -1,17 +1,18 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
-public class DiscussionImporter : MonoBehaviour, IDataPersistence
+public class BaseImporter : MonoBehaviour, IDataPersistence
 {
-    //CAN'T BE ON THE UI ELEMENT
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TMP_Text chooseFileButtonName;
     [SerializeField] private UnityEvent<PromptsData.Prompts> onPromptCreated;
+
     private List<string> _dataToSave;
     private bool _save;
+    
     public void LoadData(PromptsData data)
     {
         

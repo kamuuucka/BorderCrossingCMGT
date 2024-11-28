@@ -1,14 +1,11 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using System.Linq;
-using UnityEngine.Serialization;
 
 public class DataPersistenceManager : MonoBehaviour
 {
+    [Header("Save files")]
     [SerializeField] private string fileName = "promptsData";
     [SerializeField] private string discussionFileName = "discussionsData";
+    
     [SerializeField] private StringData promptsToUse;
     [SerializeField] private StringData defaultPrompts;
     [SerializeField] private StringData discussionsToUse;
@@ -16,9 +13,9 @@ public class DataPersistenceManager : MonoBehaviour
     [SerializeField] private SettingsManager settingsManager;
     [SerializeField] private bool isDebug;
     [SerializeField] private BaseHandler promptHandler;
-    [SerializeField] private PromptsImporter promptImporter;
+    [SerializeField] private BaseImporter promptImporter;
     [SerializeField] private BaseHandler discussionHandler;
-    [SerializeField] private DiscussionImporter discussionImporter;
+    [SerializeField] private BaseImporter discussionImporter;
 
     public static DataPersistenceManager Instance { get; private set; }
     private PromptsData _promptsData;
@@ -27,7 +24,6 @@ public class DataPersistenceManager : MonoBehaviour
     private PromptsData.Prompts _activeDiscussion;
     private FileDataHandler _questionsDataHandler;
     private FileDataHandler _discussionsDataHandler;
-    private List<IDataPersistence> _dataPersistenceObjects;
 
     private void Awake()
     {
@@ -43,7 +39,6 @@ public class DataPersistenceManager : MonoBehaviour
     {
         _questionsDataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
         _discussionsDataHandler = new FileDataHandler(Application.persistentDataPath, discussionFileName);
-        _dataPersistenceObjects = FindAllDataPersistenceObjects();
         LoadGame();
     }
 
@@ -193,12 +188,5 @@ public class DataPersistenceManager : MonoBehaviour
     {
         return _activePrompt;
     }
-
-    private List<IDataPersistence> FindAllDataPersistenceObjects()
-    {
-        IEnumerable<IDataPersistence> dataPersistenceObjects =
-            FindObjectsOfType<MonoBehaviour>().OfType<IDataPersistence>();
-
-        return new List<IDataPersistence>(dataPersistenceObjects);
-    }
+    
 }
