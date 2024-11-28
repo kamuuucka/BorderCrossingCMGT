@@ -980,6 +980,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2299023378247902094, guid: f3b74737c352c43a2924a5827eab1ce3, type: 3}
+      propertyPath: isDebug
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2299023378247902094, guid: f3b74737c352c43a2924a5827eab1ce3, type: 3}
       propertyPath: promptHandler
       value: 
       objectReference: {fileID: 3629549148273623109}
@@ -1619,7 +1623,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   group: {fileID: 1408796054}
-  promptRecord: {fileID: 6545720478846289302, guid: 25dee6209172a46e3ac1dc8d75dc286b, type: 3}
+  dataRecord: {fileID: 6545720478846289302, guid: 25dee6209172a46e3ac1dc8d75dc286b, type: 3}
   isDebug: 0
 --- !u!114 &3756158421177219194
 MonoBehaviour:
@@ -1674,7 +1678,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   group: {fileID: 999284733}
-  promptRecord: {fileID: 6545720478846289302, guid: 25dee6209172a46e3ac1dc8d75dc286b, type: 3}
+  dataRecord: {fileID: 6545720478846289302, guid: 25dee6209172a46e3ac1dc8d75dc286b, type: 3}
   isDebug: 0
 --- !u!4 &5230328400379989792
 Transform:
