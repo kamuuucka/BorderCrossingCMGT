@@ -2,34 +2,35 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class PromptsData
+public class GameData
 {
-    public List<Prompts> promptList;
+    public List<DataElement> Elements;
 
-    public PromptsData()
+    public GameData()
     {
-        promptList = new List<Prompts>();
+        Elements = new List<DataElement>();
     }
 
     public void AddNewPrompts(string name, List<string> newValue)
     {
-        var newPrompts = new Prompts
+        var newElement = new DataElement
         {
             name = name,
-            prompts = newValue,
+            content = newValue,
             active = false,
             basePrompt = false
         };
-        promptList.Add(newPrompts);
+        Elements.Add(newElement);
     }
 
     [Serializable]
-    public class Prompts
+    public class DataElement
     {
         public string name;
-        public List<string> prompts;
+        public List<string> content;
         public bool active;
         public bool basePrompt;
         public Image image;
