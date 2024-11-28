@@ -15,9 +15,9 @@ public class DataPersistenceManager : MonoBehaviour
     [SerializeField] private StringData defaultDiscussions;
     [SerializeField] private SettingsManager settingsManager;
     [SerializeField] private bool isDebug;
-    [SerializeField] private PromptHandler promptHandler;
+    [SerializeField] private BaseHandler promptHandler;
     [SerializeField] private PromptsImporter promptImporter;
-    [SerializeField] private DiscussionHandler discussionHandler;
+    [SerializeField] private BaseHandler discussionHandler;
     [SerializeField] private DiscussionImporter discussionImporter;
 
     public static DataPersistenceManager Instance { get; private set; }
@@ -159,7 +159,7 @@ public class DataPersistenceManager : MonoBehaviour
         {
             prompt.active = _promptsData.promptList[id] == prompt;
             _activePrompt = _promptsData.promptList[id];
-            
+
             if(prompt != _promptsData.promptList[id]) prompt.image.color = Color.white;
         }
         if(isDebug) Debug.Log($"Active prompt: {_activePrompt.name}");
