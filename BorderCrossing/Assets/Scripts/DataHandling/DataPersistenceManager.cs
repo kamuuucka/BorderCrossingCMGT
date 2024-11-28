@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Serialization;
 
 public class DataPersistenceManager : MonoBehaviour
 {
@@ -195,45 +194,48 @@ public class DataPersistenceManager : MonoBehaviour
         gameData.Elements.Remove(gameData.Elements[id]);
     }
 
+    /// <summary>
+    /// Happens when the prompt selection is performed.
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be selected.</param>
     public void OnSelectThePromptSave(int id)
     {
-        foreach (var prompt in _promptsData.Elements)
-        {
-            prompt.active = _promptsData.Elements[id] == prompt;
-            _activePrompt = _promptsData.Elements[id];
-
-            if(prompt != _promptsData.Elements[id]) prompt.image.color = Color.white;
-        }
-        if(isDebug) Debug.Log($"Active prompt: {_activePrompt.name}");
-        _activePrompt.image.color = new Color(0.839f, 0.89f, 0.694f);
-        promptsToUse.data = _promptsData.Elements[id].content;
+        SelectSave(id, _promptsData, promptsToUse, ref _activePrompt);
         
         settingsManager.UpdatePromptsSettings(_activePrompt.name, promptsToUse.data.Count);
-        
         _questionsDataHandler.Save(_promptsData);
     }
 
+    /// <summary>
+    /// Happens when the discussion selection is performed.
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be selected.</param>
     public void OnSelectTheDiscussionSave(int id)
     {
-        foreach (var prompt in _discussionsData.Elements)
-        {
-            prompt.active = _discussionsData.Elements[id] == prompt;
-            _activeDiscussion = _discussionsData.Elements[id];
-            
-            if(prompt != _discussionsData.Elements[id]) prompt.image.color = Color.white;
-        }
-        if(isDebug) Debug.Log($"Active prompt: {_activeDiscussion.name}");
-        _activeDiscussion.image.color = new Color(0.839f, 0.89f, 0.694f);
-        discussionsToUse.data = _discussionsData.Elements[id].content;
+        SelectSave(id, _discussionsData, discussionsToUse, ref _activeDiscussion);
         
         settingsManager.UpdateDiscussionSettings(_activeDiscussion.name, discussionsToUse.data.Count);
-        
         _discussionsDataHandler.Save(_discussionsData);
     }
 
-    public GameData.DataElement GetActivePrompt()
+    /// <summary>
+    /// Marks the element as the active one. Updates also its colour and the data transferred through the levels.
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be selected from GameData.</param>
+    /// <param name="gameData">GameData list that the operation will be performed on.</param>
+    /// <param name="dataToUse">Data that needs to be carried through the levels.</param>
+    /// <param name="activeElement">Reference to the active element.</param>
+    private void SelectSave(int id, GameData gameData, StringData dataToUse, ref GameData.DataElement activeElement)
     {
-        return _activePrompt;
+        foreach (var prompt in gameData.Elements)
+        {
+            prompt.active = gameData.Elements[id] == prompt;
+            activeElement = gameData.Elements[id];
+
+            if(prompt != gameData.Elements[id]) prompt.image.color = Color.white;
+        }
+        if(isDebug) Debug.Log($"Active prompt: {activeElement.name}");
+        activeElement.image.color = new Color(0.839f, 0.89f, 0.694f);
+        dataToUse.data = gameData.Elements[id].content;
     }
-    
 }
