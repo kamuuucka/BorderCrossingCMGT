@@ -118,6 +118,10 @@ public class DataPersistenceManager : MonoBehaviour
         newData.Elements[0].active = true;
     }
 
+    /// <summary>
+    /// Check if there's an active element. If not, set the first one as the active one.
+    /// </summary>
+    /// <param name="dataToCheck">Game data containing the elements to check.</param>
     private void CheckForActive(GameData dataToCheck)
     {
         bool foundActivePrompt = false;
@@ -128,22 +132,24 @@ public class DataPersistenceManager : MonoBehaviour
             if (prompt.active && !foundActivePrompt)
             {
                 foundActivePrompt = true;
-                UseThePromptSave(dataToCheck.Elements.IndexOf(prompt));
+                OnSelectThePromptSave(dataToCheck.Elements.IndexOf(prompt));
             }
             else if (prompt.active && foundActivePrompt)
             {
                 prompt.active = false;
             }
         }
+
+        if (foundActivePrompt) return;
         
-        if (!foundActivePrompt)
-        {
-            if(isDebug) Debug.Log("Setting the first prompt as active");
-            UseThePromptSave(0);
-        }
+        if(isDebug) Debug.Log("Setting the first prompt as active");
+        OnSelectThePromptSave(0);
     }
 
 
+    /// <summary>
+    /// Saves the new added elements and the state of the whole game.
+    /// </summary>
     public void SaveGame()
     {
         promptImporter.SaveData(ref _promptsData);
@@ -152,32 +158,44 @@ public class DataPersistenceManager : MonoBehaviour
         _questionsDataHandler.Save(_promptsData);
         _discussionsDataHandler.Save(_discussionsData);
     }
-
-    public void DeletePromptSave(int id)
+    
+    /// <summary>
+    /// Happens when the prompt deletion is performed. 
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be removed from GameData.</param>
+    public void OnDeletePromptSave(int id)
     {
-        if(isDebug) Debug.Log($"Value {_promptsData.Elements[id].name} just got removed");
-        if (_promptsData.Elements[id].active)
-        {
-            UseThePromptSave(id == 0 ? 1 : 0);
-        }
-        _promptsData.Elements.Remove(_promptsData.Elements[id]);
-
+        DeleteSave(id, _promptsData);
         _questionsDataHandler.Save(_promptsData);
     }
 
-    public void DeleteDiscussionSave(int id)
+    /// <summary>
+    /// Happens when the discussion deletion is performed.
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be removed from GameData.</param>
+    public void OnDeleteDiscussionSave(int id)
     {
-        if(isDebug) Debug.Log($"Value {_discussionsData.Elements[id].name} just got removed");
-        if (_discussionsData.Elements[id].active)
-        {
-            UseTheDiscussionSave(id == 0 ? 1 : 0);
-        }
-        _discussionsData.Elements.Remove(_discussionsData.Elements[id]);
-
+        DeleteSave(id, _discussionsData);
         _discussionsDataHandler.Save(_discussionsData);
     }
 
-    public void UseThePromptSave(int id)
+    /// <summary>
+    /// Removes the specific element from the GameData.
+    /// If it's the currently active one, switches to the first one.
+    /// </summary>
+    /// <param name="id">The id of the element that needs to be removed from GameData.</param>
+    /// <param name="gameData">GameData list that the operation will be performed on.</param>
+    private void DeleteSave(int id, GameData gameData)
+    {
+        if(isDebug) Debug.Log($"Value {gameData.Elements[id].name} just got removed");
+        if (gameData.Elements[id].active)
+        {
+            OnSelectThePromptSave(id == 0 ? 1 : 0);
+        }
+        gameData.Elements.Remove(gameData.Elements[id]);
+    }
+
+    public void OnSelectThePromptSave(int id)
     {
         foreach (var prompt in _promptsData.Elements)
         {
@@ -195,7 +213,7 @@ public class DataPersistenceManager : MonoBehaviour
         _questionsDataHandler.Save(_promptsData);
     }
 
-    public void UseTheDiscussionSave(int id)
+    public void OnSelectTheDiscussionSave(int id)
     {
         foreach (var prompt in _discussionsData.Elements)
         {
