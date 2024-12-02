@@ -154,6 +154,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: General Settings Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 1130174862049740483, guid: 6644c4fa4c63f4cf69e558764c845186, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 2398279781690068719, guid: 6644c4fa4c63f4cf69e558764c845186, type: 3}
       propertyPath: m_Type
       value: 0
@@ -1244,6 +1248,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1092473160806224805, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092473160806224805, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70c83effe7697f646b5de6d120ab68c7, type: 3}
     - target: {fileID: 1847145279844586513, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1336,6 +1348,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb6476b59ddcf0540b49e0fa47460a2f, type: 3}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf3e1ce3817ba6e47bcc82c66c481213, type: 3}
     - target: {fileID: 6094401515491042244, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1357,6 +1381,18 @@ PrefabInstance:
       value: BaseImporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb6476b59ddcf0540b49e0fa47460a2f, type: 3}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf3e1ce3817ba6e47bcc82c66c481213, type: 3}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1130584572}
@@ -1364,6 +1400,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SaveGame
       objectReference: {fileID: 0}
+    - target: {fileID: 6477550806243539457, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477550806243539457, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70c83effe7697f646b5de6d120ab68c7, type: 3}
     - target: {fileID: 6633790456805062503, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_Name
       value: Add Questions Canvas
@@ -1396,6 +1440,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: CSVFileReader, Assembly-CSharp
       objectReference: {fileID: 0}
+    - target: {fileID: 8950586225150405542, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8950586225150405542, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 64de4659b2352f042bdd20a7a73bb51b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1452,6 +1504,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1092473160806224805, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1092473160806224805, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70c83effe7697f646b5de6d120ab68c7, type: 3}
     - target: {fileID: 1847145279844586513, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1544,6 +1604,18 @@ PrefabInstance:
       propertyPath: m_SizeDelta.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb6476b59ddcf0540b49e0fa47460a2f, type: 3}
+    - target: {fileID: 5300134714339141056, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf3e1ce3817ba6e47bcc82c66c481213, type: 3}
     - target: {fileID: 6094401515491042244, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -1565,6 +1637,18 @@ PrefabInstance:
       value: BaseImporter, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Transition
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_PressedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: fb6476b59ddcf0540b49e0fa47460a2f, type: 3}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_SpriteState.m_HighlightedSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: bf3e1ce3817ba6e47bcc82c66c481213, type: 3}
+    - target: {fileID: 6303678083884925296, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1130584572}
@@ -1572,6 +1656,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SaveGame
       objectReference: {fileID: 0}
+    - target: {fileID: 6477550806243539457, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6477550806243539457, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 70c83effe7697f646b5de6d120ab68c7, type: 3}
     - target: {fileID: 6633790456805062503, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
       propertyPath: m_Name
       value: Add Discussions Canvas
@@ -1600,6 +1692,14 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: LoadCSVFile
       objectReference: {fileID: 0}
+    - target: {fileID: 8950586225150405542, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8950586225150405542, guid: b601ea6dfc8964bf399c9ea85b5ec084, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 64de4659b2352f042bdd20a7a73bb51b, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
