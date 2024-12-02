@@ -9,6 +9,7 @@ public class ChangePrompt : MonoBehaviour
 {
     [SerializeField] private StringData prompts;
     [SerializeField] private UnityEvent onPromptChanged;
+    [SerializeField] private UnityEvent onPromptsFinished;
     
     private TMP_Text _promptText;
     private int _activePrompt;
@@ -34,6 +35,7 @@ public class ChangePrompt : MonoBehaviour
         onPromptChanged?.Invoke();
         if (_activePrompt > prompts.data.Count-1 || prompts.data[_activePrompt] == null )
         {
+            onPromptsFinished?.Invoke();
             _promptText.text = $"No data available";
         }
         else

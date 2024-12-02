@@ -775,11 +775,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_text
-      value: Show stats
+      value: Start discussions
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_fontSize
-      value: 14.8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_fontAsset
@@ -799,11 +799,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_fontSizeMax
-      value: 14.8
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_fontSizeMin
-      value: 11
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2290108104511402928, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_sharedMaterial

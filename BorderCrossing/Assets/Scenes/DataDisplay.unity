@@ -1245,12 +1245,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions: {fileID: 11400000, guid: a4dcfb37ac38d47b5b0fffc478854cd5, type: 2}
-  answers:
-  - {fileID: 11400000, guid: a46fe21630c7344a3b3dc4d50d1faa68, type: 2}
-  - {fileID: 11400000, guid: e21efc1cdbe844318a1428441c4ca088, type: 2}
+  answers: []
   dataDisplayer: {fileID: 1692220971}
   textField: {fileID: 2676534381332741912, guid: 8b0c150435b7e40c7b97098ae8d8b8a6, type: 3}
-  dataList: {fileID: 0}
+  dataList: {fileID: 11400000, guid: 01428d2bc07fd4f008d7d8cab8e52243, type: 2}
 --- !u!4 &1954639942
 Transform:
   m_ObjectHideFlags: 0

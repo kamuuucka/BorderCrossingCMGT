@@ -20,12 +20,18 @@ public class BoundaryDataStorage : MonoBehaviour
     public void AddBoundaryData(BoundaryData newData) { 
         allData.Add(newData);
 
+        Debug.Log(BoundaryData.Serialize(newData));
+
         string countText = allData.Count + "/" + PhotonNetwork.CurrentRoom.PlayerCount;
         onCountUpdate?.Invoke(countText);
     }
 
     public void SaveToDataList()
     {
-        dataList.SaveData(allData);
+        foreach (var data in allData)
+        {
+            Debug.Log("trying to save data");
+            dataList.SaveData(data);
+        }
     }
 }

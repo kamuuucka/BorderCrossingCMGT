@@ -13,11 +13,11 @@ MonoBehaviour:
   m_Name: TestPrompts
   m_EditorClassIdentifier: 
   data:
-  - Student compliments your outfit.
-  - Teacher compliments your outfit.
-  - Student wants to hug you.
-  - Teacher wants to hug you.
-  - Student makes sexual jokes during group projects.
-  - Teacher makes sexual jokes during group projects.
-  - Student makes an "edgy" joke.
-  - Teacher makes an "edgy" joke.
+  - A student says "I like how you look".
+  - A student asks for a hug.
+  - A teacher offers to drive you to school.
+  - A student makes a stereotypical joke about a race.
+  - A teacher talks over you constantly.
+  - A teacher likes a picture of you at the beach.
+  - A student has NSFW material on their laptop screen at school.
+  - Student yells at the teacher.
