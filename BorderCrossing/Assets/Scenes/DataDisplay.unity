@@ -516,7 +516,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 36153584}
   m_HandleRect: {fileID: 36153583}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -619,7 +619,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1c86279820e1b834e9cf535cdfe4c47c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 64de4659b2352f042bdd20a7a73bb51b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1245,9 +1245,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   questions: {fileID: 11400000, guid: a4dcfb37ac38d47b5b0fffc478854cd5, type: 2}
-  answers:
-  - {fileID: 11400000, guid: a46fe21630c7344a3b3dc4d50d1faa68, type: 2}
-  - {fileID: 11400000, guid: e21efc1cdbe844318a1428441c4ca088, type: 2}
+  answers: []
   dataDisplayer: {fileID: 1692220971}
   textField: {fileID: 2676534381332741912, guid: 8b0c150435b7e40c7b97098ae8d8b8a6, type: 3}
   dataList: {fileID: 11400000, guid: 01428d2bc07fd4f008d7d8cab8e52243, type: 2}

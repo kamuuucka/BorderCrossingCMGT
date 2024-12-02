@@ -1,23 +1,24 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
-using UnityEngine.UI;
 
-public class PromptsImporter : MonoBehaviour, IDataPersistence
+public class BaseImporter : MonoBehaviour, IDataPersistence
 {
-    //CAN'T BE ON THE UI ELEMENT
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private TMP_Text chooseFileButtonName;
-    [SerializeField] private UnityEvent<PromptsData.Prompts> onPromptCreated;
+    [SerializeField] private UnityEvent<GameData.DataElement> onPromptCreated;
+
     private List<string> _dataToSave;
     private bool _save;
-    public void LoadData(PromptsData data)
+    
+    public void LoadData(GameData data)
     {
         
     }
 
-    public void SaveData(ref PromptsData data)
+    public void SaveData(ref GameData data)
     {
         if (_save)
         {
@@ -26,7 +27,7 @@ public class PromptsImporter : MonoBehaviour, IDataPersistence
                 inputField.text = "New Prompt";
             }
             data.AddNewPrompts(inputField.text, _dataToSave);
-            var newPrompts = data.promptList[^1];
+            var newPrompts = data.Elements[^1];
             onPromptCreated?.Invoke(newPrompts);
         }
         _save = false;

@@ -28,6 +28,10 @@ public class BoundaryDataStorage : MonoBehaviour
 
     public void SaveToDataList()
     {
-        dataList.SaveData(allData);
+        foreach (var data in allData)
+        {
+            Debug.Log("trying to save data");
+            dataList.SaveData(data);
+        }
     }
 }

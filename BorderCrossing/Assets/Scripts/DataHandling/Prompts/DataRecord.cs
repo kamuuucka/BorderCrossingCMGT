@@ -1,11 +1,8 @@
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Serialization;
 using UnityEngine.UI;
 
-public class PromptRecord : MonoBehaviour
+public class DataRecord : MonoBehaviour
 {
     [SerializeField] private TMP_Text textField;
     [SerializeField] private Image image;

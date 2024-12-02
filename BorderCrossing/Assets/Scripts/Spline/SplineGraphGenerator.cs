@@ -34,10 +34,10 @@ public class SplineGraphGenerator : MonoBehaviour
 
     #region Public Variables
 
-    public List<SegmentWithLayers> chunksWithLayers = new();
-    public int numberOfPrompts;
-    public int stepAngle;
-    public int layersNumber;
+    [HideInInspector] public List<SegmentWithLayers> chunksWithLayers = new();
+    [HideInInspector] public int numberOfPrompts;
+    [HideInInspector] public int stepAngle;
+    [HideInInspector] public int layersNumber;
 
     #endregion
 
