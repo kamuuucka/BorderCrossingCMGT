@@ -39,9 +39,9 @@ public class DataDisplayManager : MonoBehaviour
 
     public void NextQuestion()
     {
-        if (_questionNumber + 1 >= dataList.ReadData().Count - 1)
+        if (_questionNumber + 1 >= dataList.ReadData()[0].data.Count-1)
         {
-            _questionNumber = dataList.ReadData().Count - 1;
+            _questionNumber = dataList.ReadData()[0].data.Count-1;
         }
         else
         {
