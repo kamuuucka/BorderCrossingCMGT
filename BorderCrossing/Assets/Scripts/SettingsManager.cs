@@ -1,6 +1,3 @@
-using System;
-using System.Collections;
-using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
@@ -15,7 +12,6 @@ public class SettingsManager : MonoBehaviour
     {
         questTypePie.text = activeQuestionsName;
         questNumPie.text = activeQuestionsNumber.ToString();
-
     }
 
     public void UpdateDiscussionSettings(string activeDiscussionsName, int activeDiscussionsNumber)

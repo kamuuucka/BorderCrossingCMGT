@@ -48,6 +48,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   group: {fileID: 0}
   promptRecord: {fileID: 6545720478846289302, guid: 25dee6209172a46e3ac1dc8d75dc286b, type: 3}
+  isDebug: 0
 --- !u!114 &4304195625439659784
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -105,7 +106,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 3629549147745149244}
         m_TargetAssemblyTypeName: UnityEngine.UI.Selectable, UnityEngine.UI
         m_MethodName: set_interactable
         m_Mode: 6

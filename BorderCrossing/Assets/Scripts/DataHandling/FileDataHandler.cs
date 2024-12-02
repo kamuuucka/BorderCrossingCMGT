@@ -15,10 +15,10 @@ public class FileDataHandler
         _dataFileName = dataFileName;
     }
 
-    public PromptsData Load()
+    public GameData Load()
     {
         var fullPath = Path.Combine(_dataDirPath, _dataFileName);
-        PromptsData data;
+        GameData data;
         if (!File.Exists(fullPath)) return null;
         try
         {
@@ -31,7 +31,7 @@ public class FileDataHandler
                 }
             }
 
-            data = JsonUtility.FromJson<PromptsData>(dataToLoad);
+            data = JsonUtility.FromJson<GameData>(dataToLoad);
         }
         catch (Exception e)
         {
@@ -42,7 +42,7 @@ public class FileDataHandler
         return data;
     }
 
-    public void Save(PromptsData data)
+    public void Save(GameData data)
     {
         var fullPath = Path.Combine(_dataDirPath, _dataFileName);
         try
