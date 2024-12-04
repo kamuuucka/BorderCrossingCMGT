@@ -14,7 +14,10 @@ public class EditorManager : MonoBehaviour
         {
             foreach (var objectToDisable in objectsToDisable)
             {
-                objectToDisable.SetActive(false);
+                if (objectToDisable.activeSelf)
+                {
+                    objectToDisable.SetActive(false);
+                }
             }
         }
     }
