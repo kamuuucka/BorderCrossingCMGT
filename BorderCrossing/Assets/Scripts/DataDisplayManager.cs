@@ -7,7 +7,6 @@ using UnityEngine.Serialization;
 
 public class DataDisplayManager : MonoBehaviour
 {
-    [SerializeField] private GameObject emptyField;
     [SerializeField] private Sprite filled;
     [SerializeField] private Sprite empty;
     [SerializeField] private int scale = 10;
@@ -19,6 +18,12 @@ public class DataDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
+        if (dataList == null || dataList.ReadData().Count == 0)
+        {
+            Debug.LogError("No data available!");
+            return;
+        }
+        
         for (int i = 0; i < dataList.ReadData()[0].data.Count; i++)
         {
             _listOfValuesWithAppearances.Add(ReadScores(dataList.ReadData(), i));
@@ -67,8 +72,11 @@ public class DataDisplayManager : MonoBehaviour
         {
             for (int j = 0; j < scale; j++)
             {
-                GameObject field = Instantiate(emptyField, new Vector3(1 * j, 1 * i, 0), Quaternion.identity);
-                SpriteRenderer fieldSprite = field.GetComponent<SpriteRenderer>();
+                GameObject field = new GameObject("Field");
+                field.transform.SetParent(transform);
+                field.transform.localPosition = new Vector3(1 * j, 1 * i, 0);
+                field.transform.localRotation = Quaternion.identity;
+                SpriteRenderer fieldSprite = field.AddComponent<SpriteRenderer>();
                 _graph.Add(field);
                 if (_listOfValuesWithAppearances[questionNumber].Keys.Contains(j) && _listOfValuesWithAppearances[questionNumber][j] >= (i+1))
                 {
