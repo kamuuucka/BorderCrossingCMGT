@@ -97,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BG_bush_small_dark_ANIM_0
+      name: BG_bush_large_ANIM_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 2107
-        height: 423
+        width: 2107.3333
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -111,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5dfcad584668484a8da174d3406637a
-      internalID: 1782657426
+      spriteID: 2ad6b044296468a4595822b3331941ca
+      internalID: -1304470838
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BG_bush_small_dark_ANIM_1
+      name: BG_bush_large_ANIM_1
       rect:
         serializedVersion: 2
         x: 2107
         y: 0
-        width: 2107
-        height: 423
+        width: 2107.3333
+        height: 424
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -132,8 +132,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e1ab350a7afe56e4589578681bb33bd9
-      internalID: -1633051591
+      spriteID: 116b00fdc13bd4245836d5515c034b2b
+      internalID: -1792577683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_bush_large_ANIM_2
+      rect:
+        serializedVersion: 2
+        x: 4214
+        y: 0
+        width: 2107.3333
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5311ce5802d8c489273ad0ed51d74c
+      internalID: 1188915363
       vertices: []
       indices: 
       edges: []
@@ -149,8 +170,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BG_bush_small_dark_ANIM_0: 1782657426
-      BG_bush_small_dark_ANIM_1: -1633051591
+      BG_bush_large_ANIM_0: -1304470838
+      BG_bush_large_ANIM_1: -1792577683
+      BG_bush_large_ANIM_2: 1188915363
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

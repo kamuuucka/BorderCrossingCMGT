@@ -102,8 +102,8 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 760.5
-        height: 310
+        width: 737.3333
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: BG_bush_small_ANIM_1
       rect:
         serializedVersion: 2
-        x: 760
+        x: 737
         y: 0
-        width: 760.5
-        height: 310
+        width: 737.3333
+        height: 301
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +134,27 @@ TextureImporter:
       bones: []
       spriteID: 72ac4926559f9e8479598910b8b0ec7b
       internalID: -349078074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_bush_small_ANIM_2
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 0
+        width: 737.3333
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaf01f61d531e004296d517c8266eaab
+      internalID: 1109725905
       vertices: []
       indices: 
       edges: []
@@ -151,6 +172,7 @@ TextureImporter:
     nameFileIdTable:
       BG_bush_small_ANIM_0: 870884084
       BG_bush_small_ANIM_1: -349078074
+      BG_bush_small_ANIM_2: 1109725905
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
