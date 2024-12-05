@@ -22,7 +22,7 @@ public class BoundaryDataStorage : MonoBehaviour
 
         Debug.Log(BoundaryData.Serialize(newData));
 
-        string countText = allData.Count + "/" + PhotonNetwork.CurrentRoom.PlayerCount;
+        string countText = allData.Count + "/" + (PhotonNetwork.CurrentRoom.PlayerCount - 1);
         onCountUpdate?.Invoke(countText);
     }
 
