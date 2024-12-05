@@ -1407,6 +1407,10 @@ PrefabInstance:
       propertyPath: onConnectedToPhoton.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 7076096504392197345}
+    - target: {fileID: 8008678852035465045, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: onCreatedRoom.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Lobby Host
+      objectReference: {fileID: 0}
     - target: {fileID: 8386558076188129279, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0

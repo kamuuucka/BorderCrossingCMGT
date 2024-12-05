@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Networking/Player/MainGraphScene.unity
     guid: f30e957728611428dad132e2efc9e96f
   - enabled: 1
-    path: Assets/Scenes/Networking/Player/PlayerMenu.unity
+    path: Assets/Scenes/Networking/Player/Menu Player.unity
     guid: 49b65cf29798a5641bab56860d5b0672
   - enabled: 1
     path: Assets/Scenes/Networking/Host/Menu Host.unity

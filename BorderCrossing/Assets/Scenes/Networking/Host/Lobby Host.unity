@@ -1045,7 +1045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 611408215619863017, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
-      value: TeacherWaitingRoom
+      value: Waiting Room Host
       objectReference: {fileID: 0}
     - target: {fileID: 611408215619863017, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
@@ -1458,7 +1458,7 @@ MonoBehaviour:
   onEnoughStudents:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1210562949}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
