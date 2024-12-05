@@ -38,7 +38,7 @@ public class GraphGenerator : MonoBehaviour
     }
     private bool _rotating;
 
-    private void Start()
+    private void OnEnable()
     {
         if (prompts != null) Debug.Log(StringData.Serialize(prompts));
         else Debug.Log("Prompts is null");
