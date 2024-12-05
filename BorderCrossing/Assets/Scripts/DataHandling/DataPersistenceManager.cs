@@ -81,8 +81,8 @@ public class DataPersistenceManager : MonoBehaviour
         discussionHandler.LoadData(_discussionsData);
 
         //Check for the active prompt / discussion.
-        CheckForActive(_promptsData);
-        CheckForActive(_discussionsData);
+        CheckForActivePrompt(_promptsData);
+        CheckForActiveDiscussion(_discussionsData);
     }
 
 
@@ -121,13 +121,13 @@ public class DataPersistenceManager : MonoBehaviour
     /// Check if there's an active element. If not, set the first one as the active one.
     /// </summary>
     /// <param name="dataToCheck">Game data containing the elements to check.</param>
-    private void CheckForActive(GameData dataToCheck)
+    private void CheckForActivePrompt(GameData dataToCheck)
     {
         bool foundActivePrompt = false;
         
         foreach (var prompt in dataToCheck.Elements)
         {
-            if(isDebug) Debug.Log($"Am I active? {prompt.active}");
+            if(isDebug) Debug.Log($"Am I active? {prompt.active}.");
             if (prompt.active && !foundActivePrompt)
             {
                 foundActivePrompt = true;
@@ -143,6 +143,34 @@ public class DataPersistenceManager : MonoBehaviour
         
         if(isDebug) Debug.Log("Setting the first prompt as active");
         OnSelectThePromptSave(0);
+    }
+
+    /// <summary>
+    /// Check if there's an active element. If not, set the first one as the active one.
+    /// </summary>
+    /// <param name="dataToCheck">Game data containing the elements to check.</param>
+    private void CheckForActiveDiscussion(GameData dataToCheck)
+    {
+        bool foundActiveDiscussion = false;
+        
+        foreach (var discussion in dataToCheck.Elements)
+        {
+            if(isDebug) Debug.Log($"Am I active? {discussion.active}.");
+            if (discussion.active && !foundActiveDiscussion)
+            {
+                foundActiveDiscussion = true;
+                OnSelectTheDiscussionSave(dataToCheck.Elements.IndexOf(discussion));
+            }
+            else if (discussion.active && foundActiveDiscussion)
+            {
+                discussion.active = false;
+            }
+        }
+
+        if (foundActiveDiscussion) return;
+        
+        if(isDebug) Debug.Log("Setting the first discussion as active");
+        OnSelectTheDiscussionSave(0);
     }
 
 
