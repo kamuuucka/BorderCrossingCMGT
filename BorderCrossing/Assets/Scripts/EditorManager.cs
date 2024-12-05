@@ -10,7 +10,7 @@ public class EditorManager : MonoBehaviour
 
     private void DisableScenes()
     {
-        if (objectsToDisable.Length > 0)
+        if (objectsToDisable is { Length: > 0 })
         {
             foreach (var objectToDisable in objectsToDisable)
             {
