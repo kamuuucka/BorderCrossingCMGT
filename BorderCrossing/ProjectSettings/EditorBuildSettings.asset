@@ -30,9 +30,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Networking/HostMenu.unity
     guid: d2055c488c2c4f249adcb9c132684d93
   - enabled: 1
-    path: Assets/Scenes/DebatesHost.unity
+    path: Assets/Scenes/Debate/DebatesHost.unity
     guid: 3ac74eaf298fe4aa0b7e55a925d13bf8
   - enabled: 1
-    path: Assets/Scenes/DebatesPlayer.unity
+    path: Assets/Scenes/Debate/DebatesPlayer.unity
     guid: 4431f4442d49e478fad14218cc8b2b23
+  - enabled: 1
+    path: Assets/Scenes/Debate/DebatesPlayerYes.unity
+    guid: cf6a06a073440eb4e81e46ce9c9062b6
+  - enabled: 1
+    path: Assets/Scenes/Debate/DebatesPlayerNo.unity
+    guid: 771fdb84bd0af484c89be1302665f839
+  - enabled: 1
+    path: Assets/Scenes/Debate/DebatesPlayerNeutral.unity
+    guid: 18f63484ae4077d4e8dc46e5bc075646
   m_configObjects: {}

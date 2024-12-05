@@ -547,6 +547,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1158674055}
   - component: {fileID: 1158674056}
+  - component: {fileID: 1158674057}
   m_Layer: 0
   m_Name: WatingRoomManager
   m_TagString: Untagged
@@ -579,6 +580,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8596d15fbe030436687aaf7ac1ba8d74, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1158674057
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1158674054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ccab337f85e56b4aab3d9ea7732618d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1165888246
@@ -819,7 +832,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2888937257563397017, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_Name
-      value: Button
+      value: Start Discussions Button
       objectReference: {fileID: 0}
     - target: {fileID: 2888937257563397017, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_IsActive
@@ -843,7 +856,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: bf3e1ce3817ba6e47bcc82c66c481213, type: 3}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -851,6 +864,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
@@ -862,11 +879,19 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1158674056}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1158674057}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
@@ -878,6 +903,10 @@ PrefabInstance:
       value: SwitchToScene
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: SwtichToSceneStringOtherNonMasterClients
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: BoundaryDataStorage, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -886,8 +915,16 @@ PrefabInstance:
       value: GoToScene, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: PhotonSceneSwitcherUser, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_StringArgument
       value: DebatesHost
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_StringArgument
+      value: DebatesPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -895,6 +932,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 8953275117624312787, guid: a18961aaab93c4cd89c27ab3e07442da, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
