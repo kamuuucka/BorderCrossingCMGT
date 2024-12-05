@@ -6,30 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Networking/Step1/MainMenu.unity
+    path: Assets/Scenes/Networking/MainMenu.unity
     guid: 2f87d2efb38d83b428d3746ff84145a6
   - enabled: 1
-    path: Assets/Scenes/Networking/TeacherLobby.unity
+    path: Assets/Scenes/Networking/Host/Lobby Host.unity
     guid: cc8113ec810c56241a811800ca822b7b
   - enabled: 1
-    path: Assets/Scenes/Networking/TeacherWaitingRoom.unity
+    path: Assets/Scenes/Networking/Host/Waiting Room Host.unity
     guid: e6b067cf9ed881345a51fba852a7b370
   - enabled: 1
-    path: Assets/Scenes/DataDisplay.unity
+    path: Assets/Scenes/Networking/Host/DataDisplay.unity
     guid: a0745bbd9a5854509b84a640418a1884
   - enabled: 1
-    path: Assets/Scenes/MainGraphScene.unity
+    path: Assets/Scenes/Networking/Player/MainGraphScene.unity
     guid: f30e957728611428dad132e2efc9e96f
   - enabled: 1
-    path: Assets/Scenes/Networking/Step2/PlayerMenu.unity
+    path: Assets/Scenes/Networking/Player/PlayerMenu.unity
     guid: 49b65cf29798a5641bab56860d5b0672
   - enabled: 1
-    path: Assets/Scenes/Networking/Step2/HostMenu.unity
+    path: Assets/Scenes/Networking/Host/Menu Host.unity
     guid: d2055c488c2c4f249adcb9c132684d93
   - enabled: 1
-    path: Assets/Scenes/DebatesHost.unity
+    path: Assets/Scenes/Networking/Host/Debates Host.unity
     guid: 3ac74eaf298fe4aa0b7e55a925d13bf8
   - enabled: 1
-    path: Assets/Scenes/DebatesPlayer.unity
+    path: Assets/Scenes/Networking/Player/DebatesPlayer.unity
     guid: 4431f4442d49e478fad14218cc8b2b23
   m_configObjects: {}
