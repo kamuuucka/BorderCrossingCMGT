@@ -894,7 +894,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1064807229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1147,6 +1147,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1302160606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230893184030263123, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+  m_PrefabInstance: {fileID: 3246046294263178726}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1325853380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1701,7 +1706,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 1064807228}
+      - m_Target: {fileID: 1302160606}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6

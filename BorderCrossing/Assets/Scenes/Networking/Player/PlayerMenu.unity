@@ -395,26 +395,50 @@ MonoBehaviour:
   m_VerticalScrollbarEventHandler: {fileID: 0}
   m_LayoutGroup: {fileID: 0}
   m_ScrollSensitivity: 1
-  m_ContentType: 0
+  m_ContentType: 2
   m_InputType: 0
   m_AsteriskChar: 42
-  m_KeyboardType: 0
+  m_KeyboardType: 4
   m_LineType: 0
   m_HideMobileInput: 0
   m_HideSoftKeyboard: 0
-  m_CharacterValidation: 0
+  m_CharacterValidation: 2
   m_RegexValue: 
   m_GlobalPointSize: 14
-  m_CharacterLimit: 0
+  m_CharacterLimit: 4
   m_OnEndEdit:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1588524890}
+        m_TargetAssemblyTypeName: RoomJoiner, Assembly-CSharp
+        m_MethodName: TryToJoinRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnSubmit:
     m_PersistentCalls:
       m_Calls: []
   m_OnSelect:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1588524890}
+        m_TargetAssemblyTypeName: RoomJoiner, Assembly-CSharp
+        m_MethodName: TryToJoinRoom
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_OnDeselect:
     m_PersistentCalls:
       m_Calls: []
@@ -1175,6 +1199,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534959754}
   m_CullTransparentMesh: 1
+--- !u!1001 &1549936697
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6230893184030263123, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_Name
+      value: Loading Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7239478
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7239478
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.7239478
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.047909
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.28682
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+--- !u!1 &1549936698 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6230893184030263123, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+  m_PrefabInstance: {fileID: 1549936697}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1588524885
 GameObject:
   m_ObjectHideFlags: 0
@@ -1245,8 +1343,8 @@ Canvas:
   m_GameObject: {fileID: 1588524885}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 679717277}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1320,6 +1418,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1549936698}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
   onStartSearching:
     m_PersistentCalls:
@@ -1727,3 +1837,4 @@ SceneRoots:
   - {fileID: 973170207}
   - {fileID: 1958230440}
   - {fileID: 683130503}
+  - {fileID: 1549936697}
