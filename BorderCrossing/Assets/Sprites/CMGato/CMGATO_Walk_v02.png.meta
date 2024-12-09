@@ -1,0 +1,862 @@
+fileFormatVersion: 2
+guid: 049ed553ed5157a40b49812c75c134ed
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7d0e11bedab574393e32128ed29167
+      internalID: -387423543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_1
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fdb898c02344c34f99301cb3223dc9e
+      internalID: -1950541018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_2
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8d79dfe9c5d1541bb174c2b291c808
+      internalID: -1363143777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_3
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a33bd1c2c35c4be4fa44f787dfaae6a0
+      internalID: 917331576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_4
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2a3efa6abcb12d4597deba64ce945c8
+      internalID: 1835747312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_5
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 4240
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1383018ec32a044b994f28d3fb0fa9
+      internalID: 590298769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3550be5eff79e0547aeec296b80c0467
+      internalID: 1995775688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_7
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ca78036b941c2b448102fd0e848cd29
+      internalID: -538848944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_8
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15bba38725a5bd54aa451fd47d76f579
+      internalID: -580214078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_9
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381007c32fafe2d489206f9c1e5db5f8
+      internalID: 1292685396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_10
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5613c82a236118a46bf50e7342ec0314
+      internalID: -2121709591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_11
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 3392
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 467b20933ce300b46ab9a33702c05312
+      internalID: -1168568375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8802622d66dae146a1c8277df2ec48f
+      internalID: 1506975164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_13
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd172324232a78438797388f71e961e
+      internalID: -1684747984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_14
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5917227225760d4eab986030b9d7838
+      internalID: -1160664766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_15
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83654901d220ab418eb54c507333fa5
+      internalID: 201914882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_16
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b09e0abdfec694da083dc558cef401
+      internalID: 967353273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_17
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 2544
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a37fcd85ccca498469ecf38d4d2ae
+      internalID: -958718113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c05c330189471468cef8231094a1d8
+      internalID: 35946662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_19
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f1a5100d92c884ba75ce9c46afde4a
+      internalID: -708151150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_20
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b8dc7e838b51549a1f2811a0afe0f8
+      internalID: 1669200465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_21
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e36d2367e34b8db4892ce77a2e3aeb0b
+      internalID: 1712372418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_22
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 699be28ebe695ba4d98f7cef47700d2b
+      internalID: -2103988600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_23
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 1696
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5eb36df96a82f440b597eab166be163
+      internalID: -1382698693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b313000cda0fe2e43a66d4c4e76fc671
+      internalID: -1199584629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_25
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd22e0bb32dddd428e72f9430929621
+      internalID: 776331275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_26
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc97839ff9095374daa5e94a3b798c75
+      internalID: -1334009359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_27
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c320db9e53504874aad99c205758ef01
+      internalID: 1152905590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_28
+      rect:
+        serializedVersion: 2
+        x: 4164
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a824c26be062d478b1d722f4ee8b50
+      internalID: -1595567018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_29
+      rect:
+        serializedVersion: 2
+        x: 5205
+        y: 848
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 669a907b98733c243a9116c2bf09d6ff
+      internalID: -59868285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f44f477501b2754fb44c16048d50b60
+      internalID: 1347017243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_31
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 0
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a6b6e8e9d450e4081b6554f03a7836
+      internalID: -1543551466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_32
+      rect:
+        serializedVersion: 2
+        x: 2082
+        y: 0
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b1e432e3fa4446b678ce23582192e
+      internalID: -1566325043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Walk_v02_33
+      rect:
+        serializedVersion: 2
+        x: 3123
+        y: 0
+        width: 1041
+        height: 848
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a496cb7277864ba439e6ba7276de2a10
+      internalID: 841787613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b75325fbf5dbf954bb2f1ba1cc7b28ce
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Walk_v02_0: -387423543
+      CMGATO_Walk_v02_1: -1950541018
+      CMGATO_Walk_v02_10: -2121709591
+      CMGATO_Walk_v02_11: -1168568375
+      CMGATO_Walk_v02_12: 1506975164
+      CMGATO_Walk_v02_13: -1684747984
+      CMGATO_Walk_v02_14: -1160664766
+      CMGATO_Walk_v02_15: 201914882
+      CMGATO_Walk_v02_16: 967353273
+      CMGATO_Walk_v02_17: -958718113
+      CMGATO_Walk_v02_18: 35946662
+      CMGATO_Walk_v02_19: -708151150
+      CMGATO_Walk_v02_2: -1363143777
+      CMGATO_Walk_v02_20: 1669200465
+      CMGATO_Walk_v02_21: 1712372418
+      CMGATO_Walk_v02_22: -2103988600
+      CMGATO_Walk_v02_23: -1382698693
+      CMGATO_Walk_v02_24: -1199584629
+      CMGATO_Walk_v02_25: 776331275
+      CMGATO_Walk_v02_26: -1334009359
+      CMGATO_Walk_v02_27: 1152905590
+      CMGATO_Walk_v02_28: -1595567018
+      CMGATO_Walk_v02_29: -59868285
+      CMGATO_Walk_v02_3: 917331576
+      CMGATO_Walk_v02_30: 1347017243
+      CMGATO_Walk_v02_31: -1543551466
+      CMGATO_Walk_v02_32: -1566325043
+      CMGATO_Walk_v02_33: 841787613
+      CMGATO_Walk_v02_4: 1835747312
+      CMGATO_Walk_v02_5: 590298769
+      CMGATO_Walk_v02_6: 1995775688
+      CMGATO_Walk_v02_7: -538848944
+      CMGATO_Walk_v02_8: -580214078
+      CMGATO_Walk_v02_9: 1292685396
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
