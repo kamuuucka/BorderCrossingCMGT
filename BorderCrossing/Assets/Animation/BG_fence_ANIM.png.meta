@@ -100,10 +100,10 @@ TextureImporter:
       name: BG_fence_ANIM_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 1
         y: 0
-        width: 2163.5
-        height: 259
+        width: 2159
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,10 +121,10 @@ TextureImporter:
       name: BG_fence_ANIM_1
       rect:
         serializedVersion: 2
-        x: 2163
+        x: 2160
         y: 0
-        width: 2163.5
-        height: 259
+        width: 2160
+        height: 349
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,6 +134,27 @@ TextureImporter:
       bones: []
       spriteID: 830e388f96835034f98c3ba237dfe2bd
       internalID: 1215832841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BG_fence_ANIM_2
+      rect:
+        serializedVersion: 2
+        x: 4318
+        y: 0
+        width: 2160
+        height: 349
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5a9737c9038c345b9168977caa8bfb
+      internalID: -1651503888
       vertices: []
       indices: 
       edges: []
@@ -151,6 +172,7 @@ TextureImporter:
     nameFileIdTable:
       BG_fence_ANIM_0: 303729261
       BG_fence_ANIM_1: 1215832841
+      BG_fence_ANIM_2: -1651503888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
