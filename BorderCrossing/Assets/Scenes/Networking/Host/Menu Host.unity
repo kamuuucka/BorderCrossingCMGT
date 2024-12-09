@@ -1175,6 +1175,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 961842330434407195, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Edit Prompts
+      objectReference: {fileID: 0}
     - target: {fileID: 1032912847630483825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -1198,6 +1202,12 @@ PrefabInstance:
     - target: {fileID: 1032912847630483825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1770711679397045833, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: 'Select Prompts - Discussion
+
+'
       objectReference: {fileID: 0}
     - target: {fileID: 2191427573401987996, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -1238,6 +1248,50 @@ PrefabInstance:
     - target: {fileID: 3339604726570070128, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_SizeDelta.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 170
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3402972447197264825, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 4681732920005724191, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Prompts Type - Discussion
+      objectReference: {fileID: 0}
+    - target: {fileID: 4748756726290388171, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Prompts Number- Discussion
+      objectReference: {fileID: 0}
+    - target: {fileID: 4801892067394097187, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Prompts Number - Piechart
+      objectReference: {fileID: 0}
+    - target: {fileID: 5243496635899231529, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Prompts Type - Piechart
       objectReference: {fileID: 0}
     - target: {fileID: 5307047364355585626, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1358,6 +1412,14 @@ PrefabInstance:
     - target: {fileID: 6601856153486501766, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6727086738416738915, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Prompt Duration (sec) - Discussion
+      objectReference: {fileID: 0}
+    - target: {fileID: 7342988049509535874, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Select Prompts - Piechart
       objectReference: {fileID: 0}
     - target: {fileID: 7481789440283280826, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_AnchorMax.y
