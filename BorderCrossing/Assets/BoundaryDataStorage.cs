@@ -12,7 +12,7 @@ public class BoundaryDataStorage : MonoBehaviour
 
     private void Awake()
     {
-        string countText = 0 + "/" + PhotonNetwork.CurrentRoom.PlayerCount;
+        string countText = 0 + "/" + (PhotonNetwork.CurrentRoom.PlayerCount - 1);
         onCountUpdate?.Invoke(countText);
     }
 
