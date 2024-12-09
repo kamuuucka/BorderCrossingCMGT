@@ -3613,6 +3613,102 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!1 &2923273734970487183
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8984774062807376537}
+  - component: {fileID: 1378251891814921910}
+  - component: {fileID: 9183586107923520874}
+  - component: {fileID: 1059242396222616097}
+  m_Layer: 5
+  m_Name: Next Button
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1001 &3246046294263178726
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6230893184030263123, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_Name
+      value: Loading Animation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6659403066845513008, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e5af658952cdcdc49b2b68b7d6428c5b, type: 3}
+--- !u!224 &3312666025387523334
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418772372178315781}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4739092450388888748}
+  m_Father: {fileID: 4184385025970081281}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.76500005, y: 0.040000003}
+  m_AnchorMax: {x: 0.95375013, y: 0.1333347}
+  m_AnchoredPosition: {x: 0, y: 0.6090088}
+  m_SizeDelta: {x: 0.8213005, y: 1.218}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &3422736611439876533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4196,4 +4292,4 @@ SceneRoots:
   - {fileID: 1400285329}
   - {fileID: 1508132817}
   - {fileID: 2032070590}
-  - {fileID: 764993515}
+  - {fileID: 3246046294263178726}
