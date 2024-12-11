@@ -17,6 +17,8 @@ public class DataDisplayManager : MonoBehaviour
     [SerializeField] private int scale = 10;
     [Tooltip("Scriptable object containing the list of BoundaryData collected from the players.")]
     [SerializeField] private BoundaryDataList dataList;
+
+    [SerializeField] private ColorPreset colorPreset;
     [Space(10)] [Tooltip("If true, the debug messages will be displayed.")]
     [SerializeField] private bool isDebug = false;
     
@@ -114,7 +116,8 @@ public class DataDisplayManager : MonoBehaviour
                     _listOfValuesWithAppearances[questionNumber][j] >= (i + 1))
                 {
                     fieldSprite.sprite = filled;
-                    fieldSprite.color = Color.red;
+                    //fieldSprite.color = Color.red;
+                    fieldSprite.color = colorPreset.LoadColorPreset()[j];
                 }
                 else
                 {
