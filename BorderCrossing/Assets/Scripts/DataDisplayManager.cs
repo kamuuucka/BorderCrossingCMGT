@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Linq;
+using TMPro;
 using UnityEngine;
 using UnityEngine.Serialization;
 
@@ -10,21 +11,28 @@ public class DataDisplayManager : MonoBehaviour
 {
     #region Exposed Variables
 
-    [Tooltip("Highest number on the graphs range. Default is 10.")]
-    [SerializeField] private int ratingRange = 10;
-    [Range(0,1)]
-    [SerializeField] private float scale = 1;
-    [Tooltip("Sprite used as an empty field of the graph.")]
-    [SerializeField] private Sprite empty;
-    [Tooltip("Sprite used as a filled field of the graph.")]
-    [SerializeField] private Sprite filled;
-    [Tooltip("Scriptable object containing the list of BoundaryData collected from the players.")]
-    [SerializeField] private BoundaryDataList dataList;
-    [Tooltip("Colors that will be used in the display graph.")]
-    [SerializeField] private ColorPreset colorPreset;
-    [Space(10)] [Tooltip("If true, the debug messages will be displayed.")]
-    [SerializeField] private bool isDebug = false;
-    
+    [Tooltip("Highest number on the graphs range. Default is 10.")] [SerializeField]
+    private int ratingRange = 10;
+
+    [Range(0, 1)] [SerializeField] private float scale = 1;
+
+    [Tooltip("Sprite used as an empty field of the graph.")] [SerializeField]
+    private Sprite empty;
+
+    [Tooltip("Sprite used as a filled field of the graph.")] [SerializeField]
+    private Sprite filled;
+
+    [SerializeField] private GameObject numberField;
+
+    [Tooltip("Scriptable object containing the list of BoundaryData collected from the players.")] [SerializeField]
+    private BoundaryDataList dataList;
+
+    [Tooltip("Colors that will be used in the display graph.")] [SerializeField]
+    private ColorPreset colorPreset;
+
+    [Space(10)] [Tooltip("If true, the debug messages will be displayed.")] [SerializeField]
+    private bool isDebug = false;
+
     #endregion
 
     #region Private Variables
@@ -39,7 +47,7 @@ public class DataDisplayManager : MonoBehaviour
     {
         if (dataList == null || dataList.ReadData().Count == 0)
         {
-            if(isDebug) Debug.LogError("No data available!");
+            if (isDebug) Debug.LogError("No data available!");
             return;
         }
 
@@ -78,7 +86,7 @@ public class DataDisplayManager : MonoBehaviour
         {
             _questionNumber++;
         }
-        
+
         RegenerateGraph();
     }
 
@@ -95,7 +103,7 @@ public class DataDisplayManager : MonoBehaviour
         {
             _questionNumber--;
         }
-        
+
         RegenerateGraph();
     }
 
@@ -107,20 +115,17 @@ public class DataDisplayManager : MonoBehaviour
     {
         for (int i = 0; i < dataList.ReadData().Count; i++)
         {
+            CreateNumber(i, -1, i+1);
+            
             for (int j = 0; j < ratingRange; j++)
             {
-                GameObject field = new GameObject("Field");
-                field.transform.SetParent(transform);
-                field.transform.localPosition = new Vector3(1 * scale * i, 1 * scale * j, 0);
-                field.transform.localRotation = Quaternion.identity;
-                field.transform.localScale = new Vector3(scale, scale, 1);
-                SpriteRenderer fieldSprite = field.AddComponent<SpriteRenderer>();
-                _graph.Add(field);
+                CreateNumber(-1, j, j+1);
+                SpriteRenderer fieldSprite = CreateFieldSprite(i, j);  
+               
                 if (_listOfValuesWithAppearances[questionNumber].Keys.Contains(j) &&
                     _listOfValuesWithAppearances[questionNumber][j] >= (i + 1))
                 {
                     fieldSprite.sprite = filled;
-                    //fieldSprite.color = Color.red;
                     fieldSprite.color = colorPreset.LoadColorPreset()[j];
                 }
                 else
@@ -129,6 +134,28 @@ public class DataDisplayManager : MonoBehaviour
                 }
             }
         }
+    }
+
+    private void CreateNumber(int x, int y, int numberToAssign)
+    {
+        GameObject field = Instantiate(numberField, transform);
+        field.transform.localPosition = new Vector3(1 * scale * x, 1 * scale * y, 0);
+        field.transform.localRotation = Quaternion.identity;
+        field.transform.localScale = new Vector3(scale, scale, 1);
+        TMP_Text fieldText = field.GetComponentInChildren<TMP_Text>();
+        fieldText.text = $"{numberToAssign}";
+    }
+
+    private SpriteRenderer CreateFieldSprite(int x, int y)
+    {
+        GameObject field = new GameObject("Field");
+        field.transform.SetParent(transform);
+        field.transform.localPosition = new Vector3(1 * scale * x, 1 * scale * y, 0);
+        field.transform.localRotation = Quaternion.identity;
+        field.transform.localScale = new Vector3(scale, scale, 1);
+        SpriteRenderer fieldSprite = field.AddComponent<SpriteRenderer>();
+        _graph.Add(field);
+        return fieldSprite;
     }
 
     /// <summary>
