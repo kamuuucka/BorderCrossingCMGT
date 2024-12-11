@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 /// <summary>
 /// Takes care of displaying the data collected from the players.
@@ -9,15 +10,17 @@ public class DataDisplayManager : MonoBehaviour
 {
     #region Exposed Variables
 
+    [Tooltip("Highest number on the graphs range. Default is 10.")]
+    [SerializeField] private int ratingRange = 10;
+    [Range(0,1)]
+    [SerializeField] private float scale = 1;
     [Tooltip("Sprite used as an empty field of the graph.")]
     [SerializeField] private Sprite empty;
     [Tooltip("Sprite used as a filled field of the graph.")]
     [SerializeField] private Sprite filled;
-    [Tooltip("Size of a scale on the graph. Same as the slider in the MainGraphScene.")]
-    [SerializeField] private int scale = 10;
     [Tooltip("Scriptable object containing the list of BoundaryData collected from the players.")]
     [SerializeField] private BoundaryDataList dataList;
-
+    [Tooltip("Colors that will be used in the display graph.")]
     [SerializeField] private ColorPreset colorPreset;
     [Space(10)] [Tooltip("If true, the debug messages will be displayed.")]
     [SerializeField] private bool isDebug = false;
@@ -104,12 +107,13 @@ public class DataDisplayManager : MonoBehaviour
     {
         for (int i = 0; i < dataList.ReadData().Count; i++)
         {
-            for (int j = 0; j < scale; j++)
+            for (int j = 0; j < ratingRange; j++)
             {
                 GameObject field = new GameObject("Field");
                 field.transform.SetParent(transform);
-                field.transform.localPosition = new Vector3(1 * j, 1 * i, 0);
+                field.transform.localPosition = new Vector3(1 * scale * i, 1 * scale * j, 0);
                 field.transform.localRotation = Quaternion.identity;
+                field.transform.localScale = new Vector3(scale, scale, 1);
                 SpriteRenderer fieldSprite = field.AddComponent<SpriteRenderer>();
                 _graph.Add(field);
                 if (_listOfValuesWithAppearances[questionNumber].Keys.Contains(j) &&
