@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -36,7 +37,24 @@ public class ChangePrompt : MonoBehaviour
         if (_activePrompt > prompts.data.Count-1 || prompts.data[_activePrompt] == null )
         {
             onPromptsFinished?.Invoke();
-            _promptText.text = $"No data available";
+            _promptText.text = prompts.data[^1];
+            _activePrompt = prompts.data.Count-1;
+        }
+        else
+        {
+            _promptText.text = prompts.data[_activePrompt];
+        }
+    }
+
+    public void GoToThePreviousPrompt()
+    {
+        _activePrompt--;
+        onPromptChanged?.Invoke();
+        if (_activePrompt <= 0 || prompts.data[_activePrompt] == null )
+        {
+            onPromptsFinished?.Invoke();
+            _promptText.text = prompts.data[0];
+            _activePrompt = 0;
         }
         else
         {
