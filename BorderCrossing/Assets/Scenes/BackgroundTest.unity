@@ -168,8 +168,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &41443401
 Animator:
@@ -412,8 +412,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &58183562
 Animator:
@@ -996,8 +996,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &153443097
 Animator:
@@ -1489,8 +1489,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &219725392
 GameObject:
@@ -1538,8 +1538,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: ddbde3f62038e4f4f9bda3ad14378742, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 08c7872817632b541a53ed751b5fcec8, type: 3}
   opacity: 0.4
 --- !u!95 &219725395
 Animator:
@@ -1602,7 +1602,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 18
+  m_SortingOrder: 20
   m_Sprite: {fileID: 870884084, guid: 4cb584fde81f7a943ad6be1d9b1e80de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2198,8 +2198,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &395114556
 GameObject:
@@ -2296,7 +2296,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 10
+  m_SortingOrder: 12
   m_Sprite: {fileID: 303729261, guid: 8b5ed2e2940091b45b468aa6580f4f6a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2320,7 +2320,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
+  offset: {x: 0.1, y: -0.1, z: 0}
   shadow: {fileID: 21300000, guid: d3236300c02a1874eb2b8a41e7e50900, type: 3}
   opacity: 0.4
 --- !u!1 &409885260
@@ -2618,8 +2618,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &483490807
 GameObject:
@@ -2667,8 +2667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 8a1ca203224d67347857f117bc751ff4, type: 3}
+  offset: {x: 0.1, y: -0.04, z: 0}
+  shadow: {fileID: 21300000, guid: d4f3e0a8efc69014186ae74a570d991b, type: 3}
   opacity: 0.5
 --- !u!95 &483490810
 Animator:
@@ -2731,7 +2731,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 14
   m_Sprite: {fileID: -2054465233, guid: 163ba9d7137cdcd498585e96c043d74a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2918,8 +2918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &492601033
 GameObject:
@@ -2967,8 +2967,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &492601036
 Animator:
@@ -3031,7 +3031,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: -1727348994, guid: 5804c353376b57a469397d77ccaa4c6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3162,8 +3162,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &499701132
 GameObject:
@@ -3284,8 +3284,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!4 &517326337 stripped
 Transform:
@@ -3387,7 +3387,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 18
   m_Sprite: {fileID: 1863310137, guid: 85c4620fcbfe3aa4e85b4ab1ad9acdb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3411,8 +3411,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.05, y: -0.03, z: 0}
-  shadow: {fileID: 21300000, guid: b444ca5038221f448a81af4bf179de10, type: 3}
+  offset: {x: 0.01, y: -0.02, z: 0}
+  shadow: {fileID: 21300000, guid: 4dc07283dd4334e45b69a1501427e1b7, type: 3}
   opacity: 0.4
 --- !u!1 &519743684
 GameObject:
@@ -3657,8 +3657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &532924866
 Animator:
@@ -3901,8 +3901,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &556167842
 Animator:
@@ -3965,7 +3965,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 8
   m_Sprite: {fileID: -1727348994, guid: 5804c353376b57a469397d77ccaa4c6c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4160,7 +4160,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 947548132, guid: 7ab702bb9fb42d54fbb956904d5a8e6e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4184,8 +4184,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5db59d2042b991b4ca2c984706f19270, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a803c1d2935745e4b8fc47eed25ba1f1, type: 3}
   opacity: 0.4
 --- !u!1 &627661305
 GameObject:
@@ -4306,8 +4306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &657055383
 GameObject:
@@ -4604,8 +4604,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &684629625
 GameObject:
@@ -5024,8 +5024,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &754289633
 GameObject:
@@ -5146,8 +5146,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &757708313
 GameObject:
@@ -5268,8 +5268,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &760126188
 GameObject:
@@ -5390,8 +5390,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &766757516
 GameObject:
@@ -6698,8 +6698,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &962737894
 GameObject:
@@ -6961,8 +6961,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1046801922
 GameObject:
@@ -7147,7 +7147,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 14
+  m_SortingOrder: 16
   m_Sprite: {fileID: 217428843, guid: 58d0617427398b64eacf1b2fb67f013d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7171,8 +7171,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: f6942590b760d224c845202eb40fdd5b, type: 3}
+  offset: {x: 0.2, y: 0, z: 0}
+  shadow: {fileID: 21300000, guid: 91f1f655d9d295941ad7fd463e9abe4e, type: 3}
   opacity: 0.4
 --- !u!1 &1070639314
 GameObject:
@@ -7269,7 +7269,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 18
   m_Sprite: {fileID: 1863310137, guid: 85c4620fcbfe3aa4e85b4ab1ad9acdb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7293,8 +7293,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.05, y: -0.03, z: 0}
-  shadow: {fileID: 21300000, guid: b444ca5038221f448a81af4bf179de10, type: 3}
+  offset: {x: 0.01, y: -0.02, z: 0}
+  shadow: {fileID: 21300000, guid: 4dc07283dd4334e45b69a1501427e1b7, type: 3}
   opacity: 0.4
 --- !u!1 &1076905579
 GameObject:
@@ -7503,8 +7503,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1107240127
 GameObject:
@@ -7625,8 +7625,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!1 &1117587109
 GameObject:
@@ -7933,7 +7933,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 284750560, guid: 4730750876651724a89f76da6aaa48bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7957,8 +7957,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: d58a01b1f55bec443958327bc0874596, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 2e90a9d4764c06e4aacc7f97121a8b72, type: 3}
   opacity: 0.4
 --- !u!1 &1124765554
 GameObject:
@@ -8574,8 +8574,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &1193986471
 GameObject:
@@ -9182,8 +9182,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &1262357831
 GameObject:
@@ -9402,7 +9402,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 18
   m_Sprite: {fileID: 1863310137, guid: 85c4620fcbfe3aa4e85b4ab1ad9acdb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9426,8 +9426,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.05, y: -0.03, z: 0}
-  shadow: {fileID: 21300000, guid: b444ca5038221f448a81af4bf179de10, type: 3}
+  offset: {x: 0.01, y: -0.02, z: 0}
+  shadow: {fileID: 21300000, guid: 4dc07283dd4334e45b69a1501427e1b7, type: 3}
   opacity: 0.4
 --- !u!1 &1275881752
 GameObject:
@@ -9791,8 +9791,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!4 &1321349558 stripped
 Transform:
@@ -9894,7 +9894,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 16
+  m_SortingOrder: 18
   m_Sprite: {fileID: 1863310137, guid: 85c4620fcbfe3aa4e85b4ab1ad9acdb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -9918,8 +9918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.05, y: -0.03, z: 0}
-  shadow: {fileID: 21300000, guid: b444ca5038221f448a81af4bf179de10, type: 3}
+  offset: {x: 0.01, y: -0.02, z: 0}
+  shadow: {fileID: 21300000, guid: 4dc07283dd4334e45b69a1501427e1b7, type: 3}
   opacity: 0.4
 --- !u!1 &1330321436
 GameObject:
@@ -11432,8 +11432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: ac0f8e6a628e84475836082a3f8fd79a, type: 3}
+  offset: {x: 0.1, y: -0.03, z: 0}
+  shadow: {fileID: 21300000, guid: 40b14a62b233dd443ad8ddbf2523ada6, type: 3}
   opacity: 0.5
 --- !u!1 &1487887818
 GameObject:
@@ -11796,8 +11796,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1517712285
 GameObject:
@@ -11918,8 +11918,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.1, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 6dafce8ed2928544d913ad15cf4b11b1, type: 3}
+  offset: {x: 0.05, y: -0.05, z: 0}
+  shadow: {fileID: 21300000, guid: dabda350db9e85e4a8c01acd0812c8b9, type: 3}
   opacity: 0.4
 --- !u!1 &1565197668
 GameObject:
@@ -12173,8 +12173,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 00259e0e43cd9364f8c483565a47cd58, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 536e3d179af43fe45b09d0095273b5f3, type: 3}
   opacity: 0.4
 --- !u!95 &1571640872
 Animator:
@@ -12237,7 +12237,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: -858891824, guid: 8b7ce5cf93d3b804d9b84bd2b3399e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -12461,8 +12461,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &1637556960
 GameObject:
@@ -12583,8 +12583,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &1649323394
 GameObject:
@@ -12861,7 +12861,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 12
+  m_SortingOrder: 14
   m_Sprite: {fileID: 1913623119, guid: beda1038f70248f45a5f7468e5541ede, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13500,8 +13500,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &1818463193
 GameObject:
@@ -13686,7 +13686,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 269739676, guid: d1e87464310ca754781baa1e7d87f197, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -13710,8 +13710,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: f64052c108513a6438a9305c68f97fde, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6684af5a98256c241854ed239c42b69a, type: 3}
   opacity: 0.4
 --- !u!1 &1855993263
 GameObject:
@@ -13832,8 +13832,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1866478544
 GameObject:
@@ -14089,8 +14089,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 4084b27a1d088c549937ce14ece6be06, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a4c3f8cbb3fc085448b838b31eee5473, type: 3}
   opacity: 0.4
 --- !u!95 &1878763239
 Animator:
@@ -14153,7 +14153,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 22
   m_Sprite: {fileID: -1491132532, guid: 5f78b1d7a8c384d469651d305cd94f87, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14248,8 +14248,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 00259e0e43cd9364f8c483565a47cd58, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 536e3d179af43fe45b09d0095273b5f3, type: 3}
   opacity: 0.4
 --- !u!95 &1896704236
 Animator:
@@ -14312,7 +14312,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: -858891824, guid: 8b7ce5cf93d3b804d9b84bd2b3399e2a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14501,8 +14501,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1918367653
 GameObject:
@@ -14623,8 +14623,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &1922034361
 GameObject:
@@ -14721,7 +14721,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 284750560, guid: 4730750876651724a89f76da6aaa48bf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -14745,8 +14745,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: d58a01b1f55bec443958327bc0874596, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 2e90a9d4764c06e4aacc7f97121a8b72, type: 3}
   opacity: 0.4
 --- !u!1 &1937277949
 GameObject:
@@ -15048,8 +15048,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 1f1993c02a35d2c488336be499c216d5, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a357fdb7dc2646046a549dd0107a5e0e, type: 3}
   opacity: 0.4
 --- !u!1 &2001311814
 GameObject:
@@ -15292,8 +15292,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 7eb14ddc381f1944fafadb8f05a700db, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6b07f8a615eb21f4f9a90b3cb6406d32, type: 3}
   opacity: 0.4
 --- !u!1 &2011315619
 GameObject:
@@ -15639,8 +15639,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: 5debc7884182ff34cb318c7b0a87ceb3, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: a9a23aac4e3d14f4dbaa3d6dba82fab5, type: 3}
   opacity: 0.4
 --- !u!95 &2099467033
 Animator:
@@ -16054,7 +16054,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 8
+  m_SortingOrder: 9
   m_Sprite: {fileID: 269739676, guid: d1e87464310ca754781baa1e7d87f197, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -16078,8 +16078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6c6f12928dd84b799d3eb5bf3955a19, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0.2, y: -0.1, z: 0}
-  shadow: {fileID: 21300000, guid: f64052c108513a6438a9305c68f97fde, type: 3}
+  offset: {x: 0.1, y: -0.1, z: 0}
+  shadow: {fileID: 21300000, guid: 6684af5a98256c241854ed239c42b69a, type: 3}
   opacity: 0.4
 --- !u!1001 &1351995920313812990
 PrefabInstance:
@@ -16129,9 +16129,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 10.495
       objectReference: {fileID: 0}
+    - target: {fileID: 2267408933830907779, guid: c22d36e21d4408140b49ec5ad296edca, type: 3}
+      propertyPath: m_SortingOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7363817655813143608, guid: c22d36e21d4408140b49ec5ad296edca, type: 3}
       propertyPath: m_Name
       value: BG_flower_1_ANIM_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9216811769806083273, guid: c22d36e21d4408140b49ec5ad296edca, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: a803c1d2935745e4b8fc47eed25ba1f1, type: 3}
+    - target: {fileID: 9216811769806083273, guid: c22d36e21d4408140b49ec5ad296edca, type: 3}
+      propertyPath: offset.x
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16146,6 +16158,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1246683905}
     m_Modifications:
+    - target: {fileID: 3074058726059939915, guid: ee5333e1a4424c04db797efccea637b4, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: 2e90a9d4764c06e4aacc7f97121a8b72, type: 3}
+    - target: {fileID: 3074058726059939915, guid: ee5333e1a4424c04db797efccea637b4, type: 3}
+      propertyPath: offset.x
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4940429546993628487, guid: ee5333e1a4424c04db797efccea637b4, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.07
@@ -16189,6 +16209,10 @@ PrefabInstance:
     - target: {fileID: 7650409116566505461, guid: ee5333e1a4424c04db797efccea637b4, type: 3}
       propertyPath: m_Name
       value: BG_flower_3_ANIM
+      objectReference: {fileID: 0}
+    - target: {fileID: 7912375134485471712, guid: ee5333e1a4424c04db797efccea637b4, type: 3}
+      propertyPath: m_SortingOrder
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16243,6 +16267,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 859172299938212530, guid: ca7cebb6708175442954b45417d8211a, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: 536e3d179af43fe45b09d0095273b5f3, type: 3}
+    - target: {fileID: 859172299938212530, guid: ca7cebb6708175442954b45417d8211a, type: 3}
+      propertyPath: offset.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3058962981957287526, guid: ca7cebb6708175442954b45417d8211a, type: 3}
+      propertyPath: m_SortingOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 7210296397957820118, guid: ca7cebb6708175442954b45417d8211a, type: 3}
       propertyPath: m_Name
       value: BG_flower_4_ANIM_0
@@ -16260,9 +16296,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1282487931}
     m_Modifications:
+    - target: {fileID: 3700954415540085416, guid: 4ff4a75bace238e45becff11171d39f3, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: a4c3f8cbb3fc085448b838b31eee5473, type: 3}
+    - target: {fileID: 3700954415540085416, guid: 4ff4a75bace238e45becff11171d39f3, type: 3}
+      propertyPath: offset.x
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 4805667600299267285, guid: 4ff4a75bace238e45becff11171d39f3, type: 3}
       propertyPath: m_Name
       value: BG_bush_small_dark_ANIM_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6216759841366032258, guid: 4ff4a75bace238e45becff11171d39f3, type: 3}
+      propertyPath: m_SortingOrder
+      value: 22
       objectReference: {fileID: 0}
     - target: {fileID: 6516300536335387724, guid: 4ff4a75bace238e45becff11171d39f3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16321,6 +16369,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BG_flower_2_ANIM_0
       objectReference: {fileID: 0}
+    - target: {fileID: 4281914856611326502, guid: b390da77502f9c54ebe2b217bba5683c, type: 3}
+      propertyPath: m_SortingOrder
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5294287954691330738, guid: b390da77502f9c54ebe2b217bba5683c, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.535
@@ -16360,6 +16412,14 @@ PrefabInstance:
     - target: {fileID: 5294287954691330738, guid: b390da77502f9c54ebe2b217bba5683c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6436475225854012683, guid: b390da77502f9c54ebe2b217bba5683c, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: 6684af5a98256c241854ed239c42b69a, type: 3}
+    - target: {fileID: 6436475225854012683, guid: b390da77502f9c54ebe2b217bba5683c, type: 3}
+      propertyPath: offset.x
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16414,9 +16474,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6509377157219714842, guid: 6233a8a22c4806c4882d4ea06dcda694, type: 3}
+      propertyPath: m_SortingOrder
+      value: 14
+      objectReference: {fileID: 0}
     - target: {fileID: 6517989843668485500, guid: 6233a8a22c4806c4882d4ea06dcda694, type: 3}
       propertyPath: m_Name
       value: BG_bush_medium_ANIM_0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783706150910787909, guid: 6233a8a22c4806c4882d4ea06dcda694, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: d4f3e0a8efc69014186ae74a570d991b, type: 3}
+    - target: {fileID: 8783706150910787909, guid: 6233a8a22c4806c4882d4ea06dcda694, type: 3}
+      propertyPath: offset.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8783706150910787909, guid: 6233a8a22c4806c4882d4ea06dcda694, type: 3}
+      propertyPath: offset.y
+      value: -0.04
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16474,6 +16550,18 @@ PrefabInstance:
     - target: {fileID: 3236238611123766946, guid: bf175e19ae5990743bea3123e6819ead, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5951731074868107020, guid: bf175e19ae5990743bea3123e6819ead, type: 3}
+      propertyPath: shadow
+      value: 
+      objectReference: {fileID: 21300000, guid: 08c7872817632b541a53ed751b5fcec8, type: 3}
+    - target: {fileID: 5951731074868107020, guid: bf175e19ae5990743bea3123e6819ead, type: 3}
+      propertyPath: offset.x
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7521992210304635468, guid: bf175e19ae5990743bea3123e6819ead, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
