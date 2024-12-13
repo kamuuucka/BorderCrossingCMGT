@@ -1008,6 +1008,42 @@ PrefabInstance:
       propertyPath: m_Name
       value: RoomCodeJoined
       objectReference: {fileID: 0}
+    - target: {fileID: 1937353172987539270, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937353172987539270, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_fontSize
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 1937353172987539270, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 1937353172987539270, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 1937353172987539270, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075185390136585970, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 4075185390136585970, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
+    - target: {fileID: 4075185390136585970, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4075185390136585970, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8597358039819463989, guid: 797a9df66ce735647a8ed5d25493134b, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
