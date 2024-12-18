@@ -10,6 +10,8 @@ public class BoundaryDataStorage : MonoBehaviour
     [SerializeField] private UnityEvent<string> onCountUpdate;
     [SerializeField] private BoundaryDataList dataList;
 
+    public static List<BoundaryData> NewDataList = new();
+
     private void Awake()
     {
         string countText = 0 + "/" + (PhotonNetwork.CurrentRoom.PlayerCount - 1);
@@ -19,7 +21,7 @@ public class BoundaryDataStorage : MonoBehaviour
 
     public void AddBoundaryData(BoundaryData newData) { 
         allData.Add(newData);
-
+        NewDataList.Add(newData);
         Debug.Log(BoundaryData.Serialize(newData));
 
         string countText = allData.Count + "/" + (PhotonNetwork.CurrentRoom.PlayerCount - 1);
@@ -32,6 +34,7 @@ public class BoundaryDataStorage : MonoBehaviour
         {
             Debug.Log("trying to save data");
             dataList.SaveData(data);
+            
         }
     }
 }
