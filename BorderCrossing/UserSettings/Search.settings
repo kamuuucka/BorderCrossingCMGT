@@ -60,11 +60,18 @@ providers = {
 objectSelectors = {
 }
 recentSearches = [
+	"ref=\"Assets/Prefabs/Backgrounds/BG_STUDENT_SCREEN_v2_1.png\""
+	"ref=\"Assets/Prefabs/Backgrounds/BG_STUDENT_SCREEN_v2_1.png\" scope:<$list:project, [user, project], Filter Icon, #EBD05FFF$>"
+	"ref=\"Assets/Prefabs/Backgrounds/BG_STUDENT_SCREEN_v2_1.png\" id:\"create/\""
+	"ref=\"Assets/Prefabs/Loading Animation.prefab\""
+	"ref=\"Assets/Prefabs/Backgrounds/BG_flower_1_ANIM_0.prefab\""
+	"ref=\"Assets/Prefabs/Backgrounds/BG_field_ANIM.prefab\""
+	"ref=\"Assets/Prefabs/Backgrounds/BG_bush_small_dark_ANIM_0.prefab\""
 ]
 searchItemFavorites = [
 ]
 savedSearchesSortOrder = 0
-showSavedSearchPanel = false
+showSavedSearchPanel = true
 hideTabs = false
 expandedQueries = [
 ]
