@@ -33,11 +33,9 @@ public class BaseImporter : MonoBehaviour, IDataPersistence
         _save = false;
     }
 
-    public void GetCSVData(List<string> data)
+    public void GetCSVData(List<string> data, string fileName)
     {
-        var fileName = data[^1];
         chooseFileButtonName.text = fileName;
-        data.RemoveAt(data.Count-1);
         _dataToSave = data;
     }
 
