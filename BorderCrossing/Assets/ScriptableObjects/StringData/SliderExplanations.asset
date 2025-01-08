@@ -13,19 +13,12 @@ MonoBehaviour:
   m_Name: SliderExplanations
   m_EditorClassIdentifier: 
   data:
-  - "<b>It's as bad as it gets.</b> \nI want to report this to the autorities (school
-    administrators, the police etc.)"
   - "<b>I hate this.</b> \nI never want to be in this situation again."
   - "<b>I am very uncomfortable.</b> \nI want to get out of this situation soon."
   - "<b>I am uncomfortable.</b> \nHowever, it's bearable."
-  - "<b>I am neutral about it.</b> \nNeither ok nor bothered by it."
-  - "<b>I am ok with it.</b> \nSome changes need to be made to make me feel better
-    about it."
   - '<b>I am mostly fine with it.</b>
 
     it''s not a serious issue.'
-  - "<b>I am fine with it.</b> \nWith some exceptions, this poses no issues."
-  - "<b>I am very fine with it.</b> \nAlmost anyone can do this and be fine."
-  - '<b>I have no issues with it.</b>
+  - '<b>I am fine with it.</b>
 
     Anyone can do this and it will be fine.'
