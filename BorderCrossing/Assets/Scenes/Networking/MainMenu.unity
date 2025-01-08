@@ -250,6 +250,22 @@ PrefabInstance:
       propertyPath: m_text
       value: Host
       objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_fontSize
+      value: 80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -657,9 +673,9 @@ MonoBehaviour:
   m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -822,7 +838,7 @@ GameObject:
   - component: {fileID: 1641108621}
   - component: {fileID: 1641108620}
   m_Layer: 5
-  m_Name: Who are you?
+  m_Name: Choose your role Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -842,8 +858,8 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1389771465}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.057500005, y: 0.60222226}
-  m_AnchorMax: {x: 0.9387501, y: 0.82000005}
+  m_AnchorMin: {x: 0.06988852, y: 0.5475871}
+  m_AnchorMax: {x: 0.91950935, y: 0.75336695}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -894,12 +910,12 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.8
-  m_fontSizeBase: 36
+  m_fontSize: 115.2
+  m_fontSizeBase: 115.2
   m_fontWeight: 400
-  m_enableAutoSizing: 1
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18.12
+  m_fontSizeMax: 115.2
   m_fontStyle: 0
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
@@ -1146,6 +1162,18 @@ PrefabInstance:
     - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_text
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_fontSize
+      value: 80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 80.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

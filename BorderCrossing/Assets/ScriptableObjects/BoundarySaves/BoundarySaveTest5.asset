@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6553cd5758e2843c49d21388949d2218, type: 3}
   m_Name: BoundarySaveTest5
   m_EditorClassIdentifier: 
-  data: 0900000001000000010000000700000007000000
+  data: 0400000001000000010000000300000002000000
