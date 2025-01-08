@@ -16,7 +16,7 @@ public class TimerWithVisualiser : MonoBehaviour
 
     private void OnEnable()
     {
-        Debug.Log($"TIMER: {timer.GetFloat()}");
+        Debug.Log($"TIMER: {SaveInputFieldValueFloat.TimerFloat}");
         ResetTimer();
     }
 
@@ -27,7 +27,7 @@ public class TimerWithVisualiser : MonoBehaviour
             if (_currentTime > 0)
             {
                 _currentTime -= Time.deltaTime;
-                float normalizedTime = Math.Clamp(_currentTime / timer.GetFloat(), 0f, 1f);
+                float normalizedTime = Math.Clamp(_currentTime / SaveInputFieldValueFloat.TimerFloat, 0f, 1f);
                 timerImage.fillAmount = normalizedTime;
             }
             else
@@ -39,15 +39,15 @@ public class TimerWithVisualiser : MonoBehaviour
         }
     }
 
-    public void ResetTimer()
+    private void ResetTimer()
     {
         _startTimer = false;
-        _currentTime = timer.GetFloat();
+        _currentTime = SaveInputFieldValueFloat.TimerFloat;
     }
 
     public void ResetAndStart()
     {
-        _currentTime = timer.GetFloat();
+        _currentTime = SaveInputFieldValueFloat.TimerFloat;
         _startTimer = true;
     }
 

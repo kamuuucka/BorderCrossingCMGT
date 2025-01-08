@@ -1215,6 +1215,10 @@ PrefabInstance:
       propertyPath: colorPreset
       value: 
       objectReference: {fileID: 11400000, guid: cf313af6b875a4b48a15654abf33c49a, type: 2}
+    - target: {fileID: 5033574118381770715, guid: c201bfbd0111a469082f6cd18a3bde87, type: 3}
+      propertyPath: numberField
+      value: 
+      objectReference: {fileID: 5059888902225150262, guid: 40c39d5a8d5124297985a97d351e5928, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

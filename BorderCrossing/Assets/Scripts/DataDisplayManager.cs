@@ -45,15 +45,15 @@ public class DataDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
-        if (dataList == null || dataList.ReadData().Count == 0)
+        if (BoundaryDataStorage.NewDataList == null || BoundaryDataStorage.NewDataList.Count == 0)
         {
             if (isDebug) Debug.LogError("No data available!");
             return;
         }
 
-        for (int i = 0; i < dataList.ReadData()[0].data.Count; i++)
+        for (int i = 0; i < BoundaryDataStorage.NewDataList[0].data.Count; i++)
         {
-            _listOfValuesWithAppearances.Add(ReadScores(dataList.ReadData(), i));
+            _listOfValuesWithAppearances.Add(ReadScores(BoundaryDataStorage.NewDataList, i));
         }
 
         GenerateDataDisplay(0);
@@ -78,9 +78,9 @@ public class DataDisplayManager : MonoBehaviour
     /// </summary>
     public void NextQuestion()
     {
-        if (_questionNumber + 1 >= dataList.ReadData()[0].data.Count - 1)
+        if (_questionNumber + 1 >= BoundaryDataStorage.NewDataList[0].data.Count - 1)
         {
-            _questionNumber = dataList.ReadData()[0].data.Count - 1;
+            _questionNumber = BoundaryDataStorage.NewDataList[0].data.Count - 1;
         }
         else
         {
@@ -113,7 +113,7 @@ public class DataDisplayManager : MonoBehaviour
     /// <param name="questionNumber">Number of question that the data should be displayed for.</param>
     private void GenerateDataDisplay(int questionNumber)
     {
-        for (int i = 0; i < dataList.ReadData().Count; i++)
+        for (int i = 0; i < BoundaryDataStorage.NewDataList.Count; i++)
         {
             CreateNumber(i, -1, i+1);
             
