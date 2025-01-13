@@ -14,7 +14,7 @@ public class DebateScoreTracker : MonoBehaviour
     {
         yesCount = 0;
         noCount = 0;
-        onCountUpdate?.Invoke(0 + " VS " + 0);
+        onCountUpdate?.Invoke("Group YES: 0\nGroup NO:  0");
     }
 
     private void Awake()
@@ -27,7 +27,7 @@ public class DebateScoreTracker : MonoBehaviour
         if (side) { yesCount++; }
         else { noCount++; }
 
-        string countText = yesCount + " VS " + noCount;
+        string countText = $"Group YES: {yesCount}\nGroup NO:  {noCount}";
         onCountUpdate?.Invoke(countText);
     }
 }
