@@ -24,9 +24,6 @@ public class DataDisplayManager : MonoBehaviour
 
     [SerializeField] private GameObject numberField;
 
-    [Tooltip("Scriptable object containing the list of BoundaryData collected from the players.")] [SerializeField]
-    private BoundaryDataList dataList;
-
     [Tooltip("Colors that will be used in the display graph.")] [SerializeField]
     private ColorPreset colorPreset;
 
@@ -45,6 +42,16 @@ public class DataDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
+        //DEBUG TODO: DELETE
+        BoundaryDataStorage.NewDataList.Clear();
+        for (int i = 0; i < 6; i++)
+        {
+            BoundaryData boundaryData = new BoundaryData();
+            boundaryData.data = new List<int>() { 1, 2, 3, 4, 0, 1 };
+            BoundaryDataStorage.NewDataList.Add(boundaryData);
+        }
+        
+        
         if (BoundaryDataStorage.NewDataList == null || BoundaryDataStorage.NewDataList.Count == 0)
         {
             if (isDebug) Debug.LogError("No data available!");
