@@ -1366,43 +1366,47 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: layersColors.Array.data[1].g
-      value: 0.21176471
-      objectReference: {fileID: 0}
-    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[1].r
-      value: 0.8980392
-      objectReference: {fileID: 0}
-    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[2].g
       value: 0.5764706
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[2].r
+      propertyPath: layersColors.Array.data[1].r
       value: 0.9490196
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[3].b
+      propertyPath: layersColors.Array.data[2].b
       value: 0.007843138
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[3].g
+      propertyPath: layersColors.Array.data[2].g
       value: 0.8509804
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[3].r
+      propertyPath: layersColors.Array.data[2].r
       value: 0.87058824
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[4].b
+      propertyPath: layersColors.Array.data[3].b
       value: 0.05490196
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[4].g
+      propertyPath: layersColors.Array.data[3].g
       value: 0.8784314
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
-      propertyPath: layersColors.Array.data[4].r
+      propertyPath: layersColors.Array.data[3].r
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[4].b
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[4].g
+      value: 0.9622642
+      objectReference: {fileID: 0}
+    - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
+      propertyPath: layersColors.Array.data[4].r
+      value: 0.086240634
       objectReference: {fileID: 0}
     - target: {fileID: 7057974240400637078, guid: ca3137a69c47e4909816cd96fc7c421c, type: 3}
       propertyPath: layersColors.Array.data[5].a
@@ -1997,8 +2001,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281210157
-  m_fontColor: {r: 0.1764706, g: 0.08235294, b: 0.18039216, a: 1}
+    rgba: 4291556849
+  m_fontColor: {r: 0.94509804, g: 0.9607843, b: 0.79607844, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
