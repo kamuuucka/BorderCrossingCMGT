@@ -226,6 +226,18 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_fontSize
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5617387228966800994, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
       propertyPath: m_Name
       value: ExitButton
@@ -2970,9 +2982,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 6601856153486501766, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 577523825}
-    m_RemovedGameObjects:
-    - {fileID: 6265611010768551521, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
-    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
 --- !u!1 &7076096504392197345 stripped

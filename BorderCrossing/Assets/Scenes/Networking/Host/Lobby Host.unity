@@ -985,6 +985,18 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_fontSize
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 39.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1310212325688603356, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5617387228966800994, guid: caa0550f16d0a44b2bf42c1227bd1835, type: 3}
       propertyPath: m_Name
       value: ExitButton
