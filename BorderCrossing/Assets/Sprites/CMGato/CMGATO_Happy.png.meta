@@ -1,0 +1,1588 @@
+fileFormatVersion: 2
+guid: 84185eb53b607ca4f80faef13a002673
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Happy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e57affa66fc31489dfefac38683482
+      internalID: 2008204972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_1
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 522d8d2b966eb5346966dcb7af5e0ae6
+      internalID: -687710948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_2
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb4ed424a3157a40b803ba7c281688b
+      internalID: -1223575284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_3
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a79c46fb3e756d2489c33573b0942a0f
+      internalID: 132340298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_4
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831cef9e55f5f22459110a74ef837988
+      internalID: -908979982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_5
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46946ff0c0497074e982f371abc9fcf6
+      internalID: -1257839916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_6
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a501980137a71c148bd452a2cf94cb78
+      internalID: -416924115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_7
+      rect:
+        serializedVersion: 2
+        x: 7861
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c569c4aab48784542a81d32601906437
+      internalID: 1782054485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_8
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d675e7c526cf5744c8171fe3471e3a97
+      internalID: -1613142797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_9
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371894d23fe6aab44b11b3e12aba5be8
+      internalID: 1051358914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_10
+      rect:
+        serializedVersion: 2
+        x: 11230
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d22f6f668990e8a45895cdecfd239075
+      internalID: 282738151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_11
+      rect:
+        serializedVersion: 2
+        x: 12353
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7ac5465f8fc6b4bab62237166b3ff2
+      internalID: 706464179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_12
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d5624c08a5ba7b48879531194e7b5a6
+      internalID: -166420224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_13
+      rect:
+        serializedVersion: 2
+        x: 14599
+        y: 4100
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf34fb12e9bb6cf4395beb24679974be
+      internalID: -1806834608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc261fe2282195c4cb0d052c59f1c318
+      internalID: -1741773592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_15
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153dd6bc3d3ddba46befec02efc6ec70
+      internalID: 1706500286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_16
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a888ee1616a98409c0d3af53eea8fc
+      internalID: -412061929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_17
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02605c29f1272b64fb33c8080de23a5a
+      internalID: -5833268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_18
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 445e5b846fc36374bb557843b17ff5e2
+      internalID: -134829514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_19
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4db7de73cc014542a9c98d248c3d027
+      internalID: -1708816903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_20
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246ba3ddbfd3e544bb0859d334a57079
+      internalID: -1278700963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_21
+      rect:
+        serializedVersion: 2
+        x: 7861
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd8b7376dea0da4f8e7dbf850df75ee
+      internalID: 617740704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_22
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97133113f88a8514897a458297722219
+      internalID: 1366653195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_23
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ebb6769143b14a4eaa4898ea1470e55
+      internalID: 1391576044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_24
+      rect:
+        serializedVersion: 2
+        x: 11230
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fe969baa4dba9448ec4019a5393d24
+      internalID: -1291067982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_25
+      rect:
+        serializedVersion: 2
+        x: 12353
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce38d36a0f6e0647ae7bab2d1e6e42a
+      internalID: 2144730173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_26
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98552a08b6ad804439eede393a2ac7a3
+      internalID: -1859419854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_27
+      rect:
+        serializedVersion: 2
+        x: 14599
+        y: 3182
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f20ad58665f5194088099beb6b359cb
+      internalID: -343994579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074996f6f0f81b04fbc171f356b90a35
+      internalID: 1196169337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_29
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c23b762f95f4aa4e82a457ff8e78463
+      internalID: -1273570248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_30
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc512339bcaf1a4f8ce5eb06ce32131
+      internalID: 72844201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_31
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0c3c15ef5740bc41a8c1246ea05427b
+      internalID: -1530453344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_32
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1e7a4716057ca43a504a82850c7266
+      internalID: -1708073475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_33
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071b8416b855af94bb18a3d27495ba86
+      internalID: -1855886413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_34
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c151ece1442597745b2ff64da014faa8
+      internalID: 1533989395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_35
+      rect:
+        serializedVersion: 2
+        x: 7861
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0950bc0cf7d58e744929b2349c1b2e41
+      internalID: -654475710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_36
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d50b725aeb6943a3f89b94941efa9
+      internalID: -1916937233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_37
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f437d462bcf534f9b0f7cfaa53ccc8
+      internalID: -1496379017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_38
+      rect:
+        serializedVersion: 2
+        x: 11230
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d049995a96192bd4cae61b925f21cb93
+      internalID: 1297889545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_39
+      rect:
+        serializedVersion: 2
+        x: 12353
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c29a5fc20b80f7649985cbf37f673192
+      internalID: 155800246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_40
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f97b59f89dc70342951f69c9b866b0a
+      internalID: 1919895012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_41
+      rect:
+        serializedVersion: 2
+        x: 14599
+        y: 2264
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a2b3316128a4c4484fbd7244e48666
+      internalID: -1014092513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8e3dd6796b17ee4e92272028116e45c
+      internalID: -582561058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_43
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407cb30298798149896ccb2f40ab9bc
+      internalID: 1422248489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_44
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa83dadc743231143bc05a6fdfbeeed3
+      internalID: 877118103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_45
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b153519980fccbd449ea9cfad49574fe
+      internalID: 1626923582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_46
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e67d0d071f681b40b79d6faa615b3b9
+      internalID: -361456522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_47
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067e50834e2db0441b74133016da2694
+      internalID: 809601824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_48
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ba574a04197e1448040f5c9f6e2f4a
+      internalID: -1115119117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_49
+      rect:
+        serializedVersion: 2
+        x: 7861
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e06e9e6a23b2b94ebffed41e60317c1
+      internalID: -751032340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_50
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d69c19339c00d84182b4a3e99179c24
+      internalID: -1354028462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_51
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a260e5a4a157014a8068d40c0c59ebf
+      internalID: 36628786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_52
+      rect:
+        serializedVersion: 2
+        x: 11230
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7cf5b4a069c8c4fa876e3e65c6ea83
+      internalID: -1715334078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_53
+      rect:
+        serializedVersion: 2
+        x: 12353
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd0f00648e42194ab8041d6a242abc7
+      internalID: -1851730110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_54
+      rect:
+        serializedVersion: 2
+        x: 13476
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e5bd0524ce4f149ae1a70581c1d22c
+      internalID: 1627909837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_55
+      rect:
+        serializedVersion: 2
+        x: 14599
+        y: 1346
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1e2ab4e547bc84e86b9f4da5388a1a
+      internalID: -1653303854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65390210786c8264ca9bb79124bfb943
+      internalID: -1548286505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_57
+      rect:
+        serializedVersion: 2
+        x: 1123
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5841dde0e30b94893f0022cab7d8d1
+      internalID: 1667815730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_58
+      rect:
+        serializedVersion: 2
+        x: 2246
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d05dd8661da31048a89286261957940
+      internalID: 840555819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_59
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82ce180e1bd944d44b825b84193320df
+      internalID: -731625204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_60
+      rect:
+        serializedVersion: 2
+        x: 4492
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 832c793b0b767364984efa110e5d8ffb
+      internalID: 983279277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_61
+      rect:
+        serializedVersion: 2
+        x: 5615
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69d25e4cbb7d75446b1926a781a06e54
+      internalID: 1159512435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_62
+      rect:
+        serializedVersion: 2
+        x: 6738
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcfc89554ebd9842845b6e615432a51
+      internalID: -214855009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_63
+      rect:
+        serializedVersion: 2
+        x: 7861
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad1af80c2c73d44bbbe488ac523ba35
+      internalID: -530063683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_64
+      rect:
+        serializedVersion: 2
+        x: 8984
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1eaa6e055b1c6cd47b59b19f06e27b3d
+      internalID: -776783517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_65
+      rect:
+        serializedVersion: 2
+        x: 10107
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5ca65be6dd7dbf48aa78b65d4654451
+      internalID: -1703807934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Happy_66
+      rect:
+        serializedVersion: 2
+        x: 11230
+        y: 428
+        width: 1123
+        height: 918
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58379278dfb36f147a9641b3ad3b59d7
+      internalID: -1360875147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3672dad90f4a8124c91506f126c3a4ea
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Happy_0: 2008204972
+      CMGATO_Happy_1: -687710948
+      CMGATO_Happy_10: 282738151
+      CMGATO_Happy_11: 706464179
+      CMGATO_Happy_12: -166420224
+      CMGATO_Happy_13: -1806834608
+      CMGATO_Happy_14: -1741773592
+      CMGATO_Happy_15: 1706500286
+      CMGATO_Happy_16: -412061929
+      CMGATO_Happy_17: -5833268
+      CMGATO_Happy_18: -134829514
+      CMGATO_Happy_19: -1708816903
+      CMGATO_Happy_2: -1223575284
+      CMGATO_Happy_20: -1278700963
+      CMGATO_Happy_21: 617740704
+      CMGATO_Happy_22: 1366653195
+      CMGATO_Happy_23: 1391576044
+      CMGATO_Happy_24: -1291067982
+      CMGATO_Happy_25: 2144730173
+      CMGATO_Happy_26: -1859419854
+      CMGATO_Happy_27: -343994579
+      CMGATO_Happy_28: 1196169337
+      CMGATO_Happy_29: -1273570248
+      CMGATO_Happy_3: 132340298
+      CMGATO_Happy_30: 72844201
+      CMGATO_Happy_31: -1530453344
+      CMGATO_Happy_32: -1708073475
+      CMGATO_Happy_33: -1855886413
+      CMGATO_Happy_34: 1533989395
+      CMGATO_Happy_35: -654475710
+      CMGATO_Happy_36: -1916937233
+      CMGATO_Happy_37: -1496379017
+      CMGATO_Happy_38: 1297889545
+      CMGATO_Happy_39: 155800246
+      CMGATO_Happy_4: -908979982
+      CMGATO_Happy_40: 1919895012
+      CMGATO_Happy_41: -1014092513
+      CMGATO_Happy_42: -582561058
+      CMGATO_Happy_43: 1422248489
+      CMGATO_Happy_44: 877118103
+      CMGATO_Happy_45: 1626923582
+      CMGATO_Happy_46: -361456522
+      CMGATO_Happy_47: 809601824
+      CMGATO_Happy_48: -1115119117
+      CMGATO_Happy_49: -751032340
+      CMGATO_Happy_5: -1257839916
+      CMGATO_Happy_50: -1354028462
+      CMGATO_Happy_51: 36628786
+      CMGATO_Happy_52: -1715334078
+      CMGATO_Happy_53: -1851730110
+      CMGATO_Happy_54: 1627909837
+      CMGATO_Happy_55: -1653303854
+      CMGATO_Happy_56: -1548286505
+      CMGATO_Happy_57: 1667815730
+      CMGATO_Happy_58: 840555819
+      CMGATO_Happy_59: -731625204
+      CMGATO_Happy_6: -416924115
+      CMGATO_Happy_60: 983279277
+      CMGATO_Happy_61: 1159512435
+      CMGATO_Happy_62: -214855009
+      CMGATO_Happy_63: -530063683
+      CMGATO_Happy_64: -776783517
+      CMGATO_Happy_65: -1703807934
+      CMGATO_Happy_66: -1360875147
+      CMGATO_Happy_7: 1782054485
+      CMGATO_Happy_8: -1613142797
+      CMGATO_Happy_9: 1051358914
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

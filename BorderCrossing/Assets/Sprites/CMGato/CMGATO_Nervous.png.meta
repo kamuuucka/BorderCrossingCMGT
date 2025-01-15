@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: e4ec23163e4686446b144b5adf9905d1
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Nervous_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bc8f55eb615a7499214903dacaece5
+      internalID: -1745996483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_1
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f23a954716c15b84e8f4398d295caa00
+      internalID: -1276926058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_2
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19292eff1754095468b0812c8c808e39
+      internalID: -975573190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_3
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc447ebd8544214a9a725af5b7e75c5
+      internalID: 799965937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_4
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9272b6edc20e743aba1cefcd29e629
+      internalID: -836142907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_5
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b45ccd3cfc6a7e4b9f11acf9f36c4cb
+      internalID: 178170471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_6
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e20806c50114b6f478fcac9a3d43bf66
+      internalID: -1976972762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_7
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d17d4ff91cfe9c4fa55050928d3ed2f
+      internalID: 64165264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_8
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 054f69e5fdb89a64eb0a4f53c1164ed2
+      internalID: -1164700667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7aa68dffac12b6b49aa380bf6ce1ec03
+      internalID: 1651154562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54423c2033b816e4ab3719d7a58cfd88
+      internalID: 10529834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_11
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b59a2a6bb0ced764e8b09f0eb724252a
+      internalID: 432807545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_12
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48251d0888085e34e975cdecd4ce7d7f
+      internalID: -1136356825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_13
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07a213dd63132224fbfd4e5f6c1ad62e
+      internalID: -991776517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_14
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20f017198dd6163468d666abc68def66
+      internalID: -1493560128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_15
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58eaa2743c5c5ad48a8c7fa75a885ede
+      internalID: -1875330257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_16
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8028793bf5afa145a7f330a44dee8b2
+      internalID: 1495683975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_17
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550ab45187d72434a85ef89c27ed83d6
+      internalID: 572577249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e4f8b830248eff4e8b718a6c2594fa9
+      internalID: 1704385698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e5d43e83ba09841b97751c5a67edae
+      internalID: 1259498225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_20
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6774be854dda27a479c104fe603dc63a
+      internalID: 738469559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_21
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f61aba32e565bb4ea329f8089abd4d8
+      internalID: 1178609693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_22
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d30e5008e7fd546b51102553fcf640
+      internalID: 1189430593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_23
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cab17fd43806b004ab0455adc88c09de
+      internalID: 2010866553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_24
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0c31df485125c4192c566c20c3dec9
+      internalID: -406269849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_25
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4994d1b621f84344e9c230a983eb86c5
+      internalID: -1412960456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_26
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20bf76ae44dbae449935db1306012535
+      internalID: -1507037645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfd81d37441ff24389698f1eb9072af
+      internalID: 540761633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_28
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b3c80a3ec79244181d2293b5e17ec5
+      internalID: 1828929253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_29
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23bf06bd6d9f4154da0df1fc71e5af62
+      internalID: -1725187430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_30
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd685e481eac61c45883d09a66c01a50
+      internalID: -1014619867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_31
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38227ddabe735294291232af6fc8d2aa
+      internalID: -2076412288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_32
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d005b732431279643aea4a4aa3a9f9b6
+      internalID: -574822232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_33
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6d7c353eb3bdbc4f8c6eac672085ea4
+      internalID: 210597856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_34
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5dec884e194d8d4a807b8b59ce45645
+      internalID: -1694265326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_35
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8057c065f9961643a619933c54d522a
+      internalID: -1711551276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3a2db107f93464b8112bd40d077546
+      internalID: 830217895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_37
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb158355bce79e44994395325962d39d
+      internalID: 137788357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_38
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65588ff5a83a07448a3b7cbc5f42d9c2
+      internalID: -1991959159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_39
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a10d815e00e8ff46b8c8ffdaf9926e1
+      internalID: -654396912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_40
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d2f1fd1f83dc344a316312123f887c
+      internalID: 2046721273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_41
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f80e8580ce8c54795573f7c90ccb89
+      internalID: 551700731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_42
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f5742100f138d47ba984d0bf0ab754
+      internalID: -1858522740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_43
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9e6041dcdc0214e809d182415eae30
+      internalID: -516612954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_44
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94d2a7cf3a3f6494fb1340e194ab4a63
+      internalID: 154686820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886471f3254a09245bf5a4d7842599b0
+      internalID: 850776531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_46
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01a8506a329108468375e59c6fbc869
+      internalID: 964093738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_47
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b678aaf81b91eb489235c700dd000bc
+      internalID: 148283220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_48
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e95725c6c7332c49a5839dacfcf51f6
+      internalID: 2013155823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_49
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1ff7ddae4a8634a94141e5d8ccbaf9
+      internalID: 1683711033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_50
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2c059fc2e07c6d46acac33cfcfbe0b8
+      internalID: 907697121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_51
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48f551325ce1c3f438a53c6b112f4280
+      internalID: -1174952265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_52
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a947e2ef4497334d8f28dad4fce9671
+      internalID: -1911338005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_53
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a62fb08ad7e1e2a4897d7bc0a65f7ff6
+      internalID: -711174171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e54aca98f28f345bc8470f7b700573
+      internalID: -2133915531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_55
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f138f55067347c44b81a6d02c160feaa
+      internalID: -215693250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_56
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60cd27a0999cc3f498d02e519d50d84d
+      internalID: -1738250333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_57
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30819cc3e7476eb41aae9075ab90f4bd
+      internalID: -993908626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_58
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e600b5514c6fec418b1503380d6b1cb
+      internalID: -675694228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_59
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08387f17e2b355043b7f11736692afed
+      internalID: 635183559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_60
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a0d4d2bce2394597ac5beec9c8861
+      internalID: 2039045325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_61
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0ab18bb300eba4a9a59ecd8ea5b700
+      internalID: -735720763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_62
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49a21f22619b37c448a3a546af3287bf
+      internalID: 329406700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af844e22ca7b45049aa510bf27ea5859
+      internalID: 1813784209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_64
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a446e73d0cf2dcf409d1eafad1000571
+      internalID: -1523280097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_65
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc931cef75d010c4cb154f2d95719c3f
+      internalID: -347736127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Nervous_66
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84608ddb0130304a8721fb4321f3eb7
+      internalID: -2072933874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 019f94ac4d1f1a44ca26f23172632869
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Nervous_0: -1745996483
+      CMGATO_Nervous_1: -1276926058
+      CMGATO_Nervous_10: 10529834
+      CMGATO_Nervous_11: 432807545
+      CMGATO_Nervous_12: -1136356825
+      CMGATO_Nervous_13: -991776517
+      CMGATO_Nervous_14: -1493560128
+      CMGATO_Nervous_15: -1875330257
+      CMGATO_Nervous_16: 1495683975
+      CMGATO_Nervous_17: 572577249
+      CMGATO_Nervous_18: 1704385698
+      CMGATO_Nervous_19: 1259498225
+      CMGATO_Nervous_2: -975573190
+      CMGATO_Nervous_20: 738469559
+      CMGATO_Nervous_21: 1178609693
+      CMGATO_Nervous_22: 1189430593
+      CMGATO_Nervous_23: 2010866553
+      CMGATO_Nervous_24: -406269849
+      CMGATO_Nervous_25: -1412960456
+      CMGATO_Nervous_26: -1507037645
+      CMGATO_Nervous_27: 540761633
+      CMGATO_Nervous_28: 1828929253
+      CMGATO_Nervous_29: -1725187430
+      CMGATO_Nervous_3: 799965937
+      CMGATO_Nervous_30: -1014619867
+      CMGATO_Nervous_31: -2076412288
+      CMGATO_Nervous_32: -574822232
+      CMGATO_Nervous_33: 210597856
+      CMGATO_Nervous_34: -1694265326
+      CMGATO_Nervous_35: -1711551276
+      CMGATO_Nervous_36: 830217895
+      CMGATO_Nervous_37: 137788357
+      CMGATO_Nervous_38: -1991959159
+      CMGATO_Nervous_39: -654396912
+      CMGATO_Nervous_4: -836142907
+      CMGATO_Nervous_40: 2046721273
+      CMGATO_Nervous_41: 551700731
+      CMGATO_Nervous_42: -1858522740
+      CMGATO_Nervous_43: -516612954
+      CMGATO_Nervous_44: 154686820
+      CMGATO_Nervous_45: 850776531
+      CMGATO_Nervous_46: 964093738
+      CMGATO_Nervous_47: 148283220
+      CMGATO_Nervous_48: 2013155823
+      CMGATO_Nervous_49: 1683711033
+      CMGATO_Nervous_5: 178170471
+      CMGATO_Nervous_50: 907697121
+      CMGATO_Nervous_51: -1174952265
+      CMGATO_Nervous_52: -1911338005
+      CMGATO_Nervous_53: -711174171
+      CMGATO_Nervous_54: -2133915531
+      CMGATO_Nervous_55: -215693250
+      CMGATO_Nervous_56: -1738250333
+      CMGATO_Nervous_57: -993908626
+      CMGATO_Nervous_58: -675694228
+      CMGATO_Nervous_59: 635183559
+      CMGATO_Nervous_6: -1976972762
+      CMGATO_Nervous_60: 2039045325
+      CMGATO_Nervous_61: -735720763
+      CMGATO_Nervous_62: 329406700
+      CMGATO_Nervous_63: 1813784209
+      CMGATO_Nervous_64: -1523280097
+      CMGATO_Nervous_65: -347736127
+      CMGATO_Nervous_66: -2072933874
+      CMGATO_Nervous_67: 112278869
+      CMGATO_Nervous_7: 64165264
+      CMGATO_Nervous_8: -1164700667
+      CMGATO_Nervous_9: 1651154562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

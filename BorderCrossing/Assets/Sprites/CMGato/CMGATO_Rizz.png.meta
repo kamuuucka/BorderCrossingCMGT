@@ -1,0 +1,1214 @@
+fileFormatVersion: 2
+guid: 7273918330b41184abaf344efa887bf7
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Rizz_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89595728fcaa5d749a3b21a872ec33f5
+      internalID: -1532306531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf45279d9f1a81c46bf4e57ef4775a77
+      internalID: -1799375337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13417da9ae65bc43a5dd47a04f7155d
+      internalID: -152290695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_3
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e85e8fa4e01a6584d9cc27866b8fac34
+      internalID: 472586679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_4
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9176fb9c35d82d44aa9e3983230a6bda
+      internalID: -1729144426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_5
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f9b4f9dd1e12c54986da629bf799f2f
+      internalID: -260779674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_6
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477f30c88fe5e2844b1393fd526ef7fd
+      internalID: -1414781219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_7
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 5718
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded6a23506412394994af1cb7c2dd3dc
+      internalID: 763288475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7915e4643badb84e9e23681b1f96606
+      internalID: -709214145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66370d41f1b76b443aac050771b2fca9
+      internalID: -645149743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbeeeb7ac9ac3564392ba914210734fa
+      internalID: -772810056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_11
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c00e4a9539a336d4b90c35a0119c0cbd
+      internalID: 1891535081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_12
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 344ebe760f9176844ab41372b9fb1781
+      internalID: 552749784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_13
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8275e4461582c244f818ac89c7669ca6
+      internalID: 1282609790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_14
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9252f3828f65f34e9997a09f4c3403a
+      internalID: -972202456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_15
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 4765
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ace19ca223dca044bb15efb64813f6c
+      internalID: -1435395452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe5b1fa3d99ad3e48b80c12adda99550
+      internalID: 950062555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 482cc1dc521ccba499af35477edd37bd
+      internalID: 2142440339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_18
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19cbf093b8244f2469851c0b336227b4
+      internalID: 1280146203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_19
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 753a2066f18c2614ea1d82bfea355fce
+      internalID: -216479508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_20
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea431e6ead4580a4f90bc9e017f400fe
+      internalID: -1897634602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_21
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12839502e1a9824d89095f50473057c
+      internalID: 2052164420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_22
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15a10aaaf74dc8b4da1711c8f7cc6628
+      internalID: -515119852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_23
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3812
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b88ffb8a10030a48a1fc5fb66e4148d
+      internalID: -810804436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2f0396b5c3c9394ca634a5e40b96a7c
+      internalID: 253824881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7e3ce527d8eb4a49806374d738800c8
+      internalID: -1898663548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_26
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f64b3c7cdd178494ea8e284abde43483
+      internalID: 395639667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_27
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776a1ad6ec65d90438baa9511752a0cf
+      internalID: 1614912747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_28
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a22774481580c4a94208234bf5516a
+      internalID: -2069762522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_29
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d38bd8b1933672f418a5f2997d91cd48
+      internalID: -2062194310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_30
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35ab24e7a7e9c404481c62f563b82ab1
+      internalID: -2041034177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_31
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2859
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 755a7e68a0f63cd4d8781e0deebc6b56
+      internalID: 1953148942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02355ba94665714cbe39e79bffaf4ff
+      internalID: -529278728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_33
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faef26fa96b40cd459819597b5c210bf
+      internalID: -831373072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_34
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8b769ae7d35534dace0373d4467a73
+      internalID: 239677957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_35
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990f16c68c0059e488a67e67f552b9ac
+      internalID: 636042610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_36
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf98cc22e1cbed0429ab58dbe59e7807
+      internalID: 1660584326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_37
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14ff8b216365189408d993f282b27ebe
+      internalID: -1372766181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_38
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1212b740ce41c4abb9bb84b9edd109
+      internalID: -1659131721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_39
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1906
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dbe8e4df6578314b8d94ba4f4d0c98d
+      internalID: 809416303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d74f0db9823a4044a68a4318fd85e54
+      internalID: 594942141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_41
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bca9c9702cdf218479b6ab1f401e2d94
+      internalID: 1735162274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_42
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6266b8b43ceb184f826f598ed8258a0
+      internalID: 1213358528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_43
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d2ad078d6d3dad43bc3865241bf96a3
+      internalID: 119953485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_44
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6efa0f1cec93b13448ee73f4c45e6ba8
+      internalID: 861600344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_45
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bdf4e276f56c84d9d0c34d1429b257
+      internalID: -1113556995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_46
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 380d726978a0cd34f8dfe43494e722fb
+      internalID: 1950492970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_47
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 953
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8f224afb8f53e44a4e466ca6f3663b
+      internalID: 2133847444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d89822322f0b5114491aab88272eb9ac
+      internalID: 622159613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Rizz_49
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 0
+        width: 660
+        height: 953
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dde7bfed883237445b8b002e4f7a446a
+      internalID: 1078475356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5976ba69a49146a41859c716d2536335
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Rizz_0: -1532306531
+      CMGATO_Rizz_1: -1799375337
+      CMGATO_Rizz_10: -772810056
+      CMGATO_Rizz_11: 1891535081
+      CMGATO_Rizz_12: 552749784
+      CMGATO_Rizz_13: 1282609790
+      CMGATO_Rizz_14: -972202456
+      CMGATO_Rizz_15: -1435395452
+      CMGATO_Rizz_16: 950062555
+      CMGATO_Rizz_17: 2142440339
+      CMGATO_Rizz_18: 1280146203
+      CMGATO_Rizz_19: -216479508
+      CMGATO_Rizz_2: -152290695
+      CMGATO_Rizz_20: -1897634602
+      CMGATO_Rizz_21: 2052164420
+      CMGATO_Rizz_22: -515119852
+      CMGATO_Rizz_23: -810804436
+      CMGATO_Rizz_24: 253824881
+      CMGATO_Rizz_25: -1898663548
+      CMGATO_Rizz_26: 395639667
+      CMGATO_Rizz_27: 1614912747
+      CMGATO_Rizz_28: -2069762522
+      CMGATO_Rizz_29: -2062194310
+      CMGATO_Rizz_3: 472586679
+      CMGATO_Rizz_30: -2041034177
+      CMGATO_Rizz_31: 1953148942
+      CMGATO_Rizz_32: -529278728
+      CMGATO_Rizz_33: -831373072
+      CMGATO_Rizz_34: 239677957
+      CMGATO_Rizz_35: 636042610
+      CMGATO_Rizz_36: 1660584326
+      CMGATO_Rizz_37: -1372766181
+      CMGATO_Rizz_38: -1659131721
+      CMGATO_Rizz_39: 809416303
+      CMGATO_Rizz_4: -1729144426
+      CMGATO_Rizz_40: 594942141
+      CMGATO_Rizz_41: 1735162274
+      CMGATO_Rizz_42: 1213358528
+      CMGATO_Rizz_43: 119953485
+      CMGATO_Rizz_44: 861600344
+      CMGATO_Rizz_45: -1113556995
+      CMGATO_Rizz_46: 1950492970
+      CMGATO_Rizz_47: 2133847444
+      CMGATO_Rizz_48: 622159613
+      CMGATO_Rizz_49: 1078475356
+      CMGATO_Rizz_5: -260779674
+      CMGATO_Rizz_6: -1414781219
+      CMGATO_Rizz_7: 763288475
+      CMGATO_Rizz_8: -709214145
+      CMGATO_Rizz_9: -645149743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

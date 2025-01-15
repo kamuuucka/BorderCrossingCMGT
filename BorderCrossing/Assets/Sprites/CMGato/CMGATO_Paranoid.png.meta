@@ -1,0 +1,1589 @@
+fileFormatVersion: 2
+guid: 7cbfdf1eb40d3a54ea6c962c03c1d0f0
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51179db987586fe479b4680184b7992b
+      internalID: -1939393134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_1
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d23b40e60c5d42c49934e558dc8d4479
+      internalID: -807490383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_2
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21bdfb05a8927f8488d73dea8354cde4
+      internalID: 286546544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_3
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6e192b8e46eacc4b8fcaea41036a55e
+      internalID: 93741295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_4
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75d231c2776b5554fa2c8262d2135f35
+      internalID: 572857034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_5
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac3e96f4b153fd47adc45058a5c164b
+      internalID: -956998067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_6
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412ebc077b6b53d4eb6d87f0ccbae88f
+      internalID: -1008583079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_7
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d577bede7fca0bc468070e2d1b384c6e
+      internalID: -2010438271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_8
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 6300
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4432d4f05944147479374ca844cef059
+      internalID: 1977137270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7896cde322f4d754cb37adcbc3f933d1
+      internalID: 1952199417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_10
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60007a363f2e0747932db726f96f903
+      internalID: 1053688893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_11
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc1ad6719918e804e94bcdf860ffbab1
+      internalID: -322896954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_12
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b58d025fe82654d81d1cac04159af5
+      internalID: 1258811987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_13
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e5d2c4633e3d434c8cbd498f9376d41
+      internalID: 2675351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_14
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf69189222205d4faaf960a18a2ec68
+      internalID: -2009499912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_15
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e580f9fc96a27684a82c8e8c5271aacd
+      internalID: 396102256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_16
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7160cc859547b344814576389368564
+      internalID: 12848442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_17
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 5400
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e488cb5853bafd42be7175410b27ec9
+      internalID: -2111399258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88dde06fcf8c5cf4f9d568e7451ad86f
+      internalID: 371305995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_19
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf88d4612b33584eaeb79ce4b865147
+      internalID: -506676450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_20
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f7911cb0736994390862e8f7507807
+      internalID: -1772812225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_21
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506180c810a439469b157bfddf02ebe
+      internalID: 333197492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_22
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afb861c1c13a4f142b6ba52aa2799c63
+      internalID: -881577922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_23
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c814b537e61bf23438d80ddcc93b2ea4
+      internalID: -879625047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_24
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fa12a75280581049a6e1d27a858e7d5
+      internalID: -2143232843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_25
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e7cabf01f12574e8dc058fcbc4769e
+      internalID: -1884620687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_26
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 4500
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da105a8de9b1b394898ca3a73caeac97
+      internalID: 975745300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c783f275f8525e64da02af1a7746c8c2
+      internalID: 1791725621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_28
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d256520cf8dc24586194c02d900420
+      internalID: 1544119867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_29
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3b7b76bb182a4443afc837a3eb944ad
+      internalID: -449408436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_30
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63a845561094df146b1783b9a23c8218
+      internalID: 27143275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_31
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b3f82f1d38d9e949b36f652c5d6aa0c
+      internalID: -37870191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_32
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0efb585301ab449bf4b9b4e3f22efb
+      internalID: -923218283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_33
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9908f6f3ea3aab4f9da0a8f2339d755
+      internalID: 983404753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_34
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a543cdd4c4db749bd8526f7b34664f
+      internalID: -2072412750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_35
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 3600
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 404b0faef0a99354f8af00a71158db8c
+      internalID: -1255967711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6367e0940a3f63348a0083ce068731c5
+      internalID: -615975114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_37
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c89450924b00b64690c8b00249f069e
+      internalID: -2052537324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_38
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02bc6774f363440a75109156302325
+      internalID: 1337777998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_39
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c41fbdc0961c10d4085e65be59bde896
+      internalID: 875566696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_40
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c125ba61971a734eba0133bda3c4c4e
+      internalID: -2123098268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_41
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a14b612bd6b5f745940239526ad8868
+      internalID: 1491144263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_42
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e728127831bece841a8e2331969683e7
+      internalID: -1748875015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_43
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5f58f052c30d5b489178b357cbe1ab4
+      internalID: -522287894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_44
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 2700
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8316cd275c7946846ba7e55efd23861d
+      internalID: -745681316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b20be0ff97ebb4fa6b662a6139c995
+      internalID: -1205453758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_46
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c7a33b01353ce498de71e86f97f51d
+      internalID: 1242369436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_47
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 541578ff683293b42828a41af54c74d4
+      internalID: 1360965338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_48
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 516bacec84e824e4b950b90fe7534a9c
+      internalID: 1747548920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_49
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f65a5ddb557d5438f1c76c0df4964d
+      internalID: -1262922437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_50
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea01a731581f34ea4b0fb0c500f10e
+      internalID: -1294038921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_51
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 472a62f4600628044a16ea5a897ecd4e
+      internalID: -694394402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_52
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22cc1a5d1a2b7944cb0cf4380ddfff26
+      internalID: -378004137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_53
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 1800
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94af5bb6fdef6454181b5ed80c54c943
+      internalID: -1187428793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 757f32f4b97919b4a956e08f03854696
+      internalID: -356311278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_55
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486c4d9707b40c34e8e80a7a8e43e140
+      internalID: -1217567782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_56
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d091d3f79db353846afb9147a42215ec
+      internalID: 1288153044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_57
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5036a06630877284fbf806994086a071
+      internalID: -82733659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_58
+      rect:
+        serializedVersion: 2
+        x: 3304
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0b88e3e5a49ed4da2ac885ac1540b1
+      internalID: 2068068509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_59
+      rect:
+        serializedVersion: 2
+        x: 4130
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b49cd58b0e1e7b47a8063a996124f13
+      internalID: -1791920840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_60
+      rect:
+        serializedVersion: 2
+        x: 4956
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ae396bbf55e76428a53cffddbd1b60
+      internalID: -1700776694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_61
+      rect:
+        serializedVersion: 2
+        x: 5782
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c40322895908834a92ac3724b99e572
+      internalID: -550056823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_62
+      rect:
+        serializedVersion: 2
+        x: 6608
+        y: 900
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328625eda9a1af7448fd37490ff86395
+      internalID: 1825407081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b8798eb3b9ef3e4c8cc5f4f5aa55e06
+      internalID: -855261407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_64
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a643281f6b2e84d4ba7f02af009ef038
+      internalID: -1277211613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_65
+      rect:
+        serializedVersion: 2
+        x: 1652
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f942a58efb438a1438dc04e1bb089797
+      internalID: -752688248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Paranoid_66
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 0
+        width: 826
+        height: 900
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7613f93f381b34ab9d94b39dfd2f4d
+      internalID: -1907594381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 229deac28bea09542a320e8cbe7b23fd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Paranoid_0: -1939393134
+      CMGATO_Paranoid_1: -807490383
+      CMGATO_Paranoid_10: 1053688893
+      CMGATO_Paranoid_11: -322896954
+      CMGATO_Paranoid_12: 1258811987
+      CMGATO_Paranoid_13: 2675351
+      CMGATO_Paranoid_14: -2009499912
+      CMGATO_Paranoid_15: 396102256
+      CMGATO_Paranoid_16: 12848442
+      CMGATO_Paranoid_17: -2111399258
+      CMGATO_Paranoid_18: 371305995
+      CMGATO_Paranoid_19: -506676450
+      CMGATO_Paranoid_2: 286546544
+      CMGATO_Paranoid_20: -1772812225
+      CMGATO_Paranoid_21: 333197492
+      CMGATO_Paranoid_22: -881577922
+      CMGATO_Paranoid_23: -879625047
+      CMGATO_Paranoid_24: -2143232843
+      CMGATO_Paranoid_25: -1884620687
+      CMGATO_Paranoid_26: 975745300
+      CMGATO_Paranoid_27: 1791725621
+      CMGATO_Paranoid_28: 1544119867
+      CMGATO_Paranoid_29: -449408436
+      CMGATO_Paranoid_3: 93741295
+      CMGATO_Paranoid_30: 27143275
+      CMGATO_Paranoid_31: -37870191
+      CMGATO_Paranoid_32: -923218283
+      CMGATO_Paranoid_33: 983404753
+      CMGATO_Paranoid_34: -2072412750
+      CMGATO_Paranoid_35: -1255967711
+      CMGATO_Paranoid_36: -615975114
+      CMGATO_Paranoid_37: -2052537324
+      CMGATO_Paranoid_38: 1337777998
+      CMGATO_Paranoid_39: 875566696
+      CMGATO_Paranoid_4: 572857034
+      CMGATO_Paranoid_40: -2123098268
+      CMGATO_Paranoid_41: 1491144263
+      CMGATO_Paranoid_42: -1748875015
+      CMGATO_Paranoid_43: -522287894
+      CMGATO_Paranoid_44: -745681316
+      CMGATO_Paranoid_45: -1205453758
+      CMGATO_Paranoid_46: 1242369436
+      CMGATO_Paranoid_47: 1360965338
+      CMGATO_Paranoid_48: 1747548920
+      CMGATO_Paranoid_49: -1262922437
+      CMGATO_Paranoid_5: -956998067
+      CMGATO_Paranoid_50: -1294038921
+      CMGATO_Paranoid_51: -694394402
+      CMGATO_Paranoid_52: -378004137
+      CMGATO_Paranoid_53: -1187428793
+      CMGATO_Paranoid_54: -356311278
+      CMGATO_Paranoid_55: -1217567782
+      CMGATO_Paranoid_56: 1288153044
+      CMGATO_Paranoid_57: -82733659
+      CMGATO_Paranoid_58: 2068068509
+      CMGATO_Paranoid_59: -1791920840
+      CMGATO_Paranoid_6: -1008583079
+      CMGATO_Paranoid_60: -1700776694
+      CMGATO_Paranoid_61: -550056823
+      CMGATO_Paranoid_62: 1825407081
+      CMGATO_Paranoid_63: -855261407
+      CMGATO_Paranoid_64: -1277211613
+      CMGATO_Paranoid_65: -752688248
+      CMGATO_Paranoid_66: -1907594381
+      CMGATO_Paranoid_67: -837103132
+      CMGATO_Paranoid_7: -2010438271
+      CMGATO_Paranoid_8: 1977137270
+      CMGATO_Paranoid_9: 1952199417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

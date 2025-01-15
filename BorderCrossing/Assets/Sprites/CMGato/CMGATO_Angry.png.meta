@@ -1,0 +1,1588 @@
+fileFormatVersion: 2
+guid: e1ea8ef52b28ae449b99168949abf294
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Angry_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aa87653aa9cdd14abf9a956231754ca
+      internalID: -2049325241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_1
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f2f8717608a3b44f8b69abf3b4f2c73
+      internalID: -86484732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_2
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efadd320b8a83bb4c850036ae7bcb8ed
+      internalID: 1312865855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_3
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0200d18213e738f419ab2fa29a851ac7
+      internalID: -1912429963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_4
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1336e771afca4e46ab685bf319d031f
+      internalID: -266507309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_5
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa12881d8d643ed4ba8c05db13f56485
+      internalID: -1759789451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_6
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a835c84f35dbbc4eb45d42d881cbd1e
+      internalID: -1565953003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_7
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc8102493f2f46b43a71901ea4027869
+      internalID: 979782538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_8
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 6594
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a18392db80b108c42908651582cf7895
+      internalID: 2115837480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2432c6887752b4142ad0e48c79afd729
+      internalID: 403554168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_10
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3612d266da5b7314aa1517dc56797624
+      internalID: -1626402675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_11
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae45cd66878cd164181d46c22e19c2d3
+      internalID: 420214869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_12
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eac1373f6b521942b1e7f2759b30b36
+      internalID: -169111339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_13
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a1663efa7422874c8b535460b5ca1b2
+      internalID: 2113892286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_14
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89067341071dad4c9dd24d887feafff
+      internalID: 2006653971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_15
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a290279820cdf5241860432a4da21353
+      internalID: 1868295929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_16
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6080c7eb4bd9384cbd68edf84b94f5f
+      internalID: 507070336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_17
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 5652
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e7f2af497b06044a87e0d3591a657a
+      internalID: 1594797175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f3d3c9b5a7734ab10d0116dcb67a7
+      internalID: -1962195860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_19
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee66fb1a06eed4f4d9218ba78cac59d2
+      internalID: 832195663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_20
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ba167acd39f5246b3c1259e5a30264
+      internalID: -2147770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_21
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2706cf91ba717418618c5cb3ea02c0
+      internalID: 1356757142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_22
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3140ac84b84df54390a490532a78fea
+      internalID: -1141801551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_23
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd927136db0bc249984f69c334b78f6
+      internalID: -391277969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_24
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e381ed50959ad428379c0719f296c6
+      internalID: 974672183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_25
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fd7772ba6823d849af718f663ce8dad
+      internalID: -618872015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_26
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 4710
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d7504df25ad44948a2e4f4988891a85
+      internalID: 1998599521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc77dc887f2feb4fbdfa34a7378ae2e
+      internalID: -448512407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_28
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bdfcb17c71dec841a599ae0a813cb49
+      internalID: 689164249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_29
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f01689423996e947bf89a4964173396
+      internalID: 1837297826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_30
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9807495c3578b34a9c0c6bdb29e7ef1
+      internalID: 258958606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_31
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8c9b9d44119ba41b797cf4bd7f564c
+      internalID: -452569477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_32
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98f6223f9c6578a4886044346cc392b6
+      internalID: -314844942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_33
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5176469472efb74eaa6f644ee8e2006
+      internalID: -1639442246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_34
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49602676cd68be49bf8b32e815147ff
+      internalID: -1477329545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_35
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 3768
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5d4bb988528ab499b6965dc6db178f
+      internalID: 1056912433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbecb369e13d0654886959f285dc6f98
+      internalID: -1224480775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_37
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdd9d1c42f457ba4d8379ab5e4071280
+      internalID: 1125863297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_38
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418a19f6200300c4983caf38a0b10f8a
+      internalID: -1111939951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_39
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b96bbe319819c4b8b7cc6feccef80c
+      internalID: 652126510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_40
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eda3f07bd5bd11d46b30f4c3b55459ab
+      internalID: -1956210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_41
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a232bee48a42c74f930f63ee5d95ab2
+      internalID: -636975140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_42
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 642ab8234329f3f4bb2e079e763db710
+      internalID: -1048709422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_43
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 318a798144c675247902ba9702ed0a73
+      internalID: 366429344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_44
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 2826
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ae6793f83289f642afc41a93c6aec59
+      internalID: -741119845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4573e44a9969ff343b910caa38b39e4e
+      internalID: 144224257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_46
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8922490721f5e5841811740b2ecf7384
+      internalID: -1716829531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_47
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed68f3121e083184f9a239390f964f9c
+      internalID: 1908819172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_48
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a876f24051f2ed04299e9a3832665718
+      internalID: 333094470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_49
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe64a71443601fc4d84f2796bb58fc9c
+      internalID: 205641941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_50
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078f9dffac80e0a4a96285af132722da
+      internalID: -478447943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_51
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d03e47b037a96348be3b19f45909c98
+      internalID: 1255234358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_52
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e924fec652e8d4c9c27ecf9e5728c1
+      internalID: -1449195237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_53
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 1884
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a13dbf22206a44ab1711d337306f50
+      internalID: 655606937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94aa0ab95aa67bd4fbd1c219802d0387
+      internalID: 658859435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_55
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99520d4bfb623c145821ab60188a6d6e
+      internalID: -321948982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_56
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 786b0fd3fe0c3c1408685c770d2c8737
+      internalID: 1626155140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_57
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc19592cd7b18b4b86a12d215648a38
+      internalID: 703785009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_58
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7d09e842897c54ab617bf9bec8d481
+      internalID: -454620457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_59
+      rect:
+        serializedVersion: 2
+        x: 5605
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f1b0db916379543881296cf684ead6
+      internalID: -325558064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_60
+      rect:
+        serializedVersion: 2
+        x: 6726
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22646c2225a46154da2b69767719700d
+      internalID: -812555050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_61
+      rect:
+        serializedVersion: 2
+        x: 7847
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 366615f15fbd15e49a30b54809486bbe
+      internalID: -902354921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_62
+      rect:
+        serializedVersion: 2
+        x: 8968
+        y: 942
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73c318f9c6504f148b58f4a5e7c62282
+      internalID: 1128469273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10adc2be1658d1947ad88de41171e42c
+      internalID: 1920683022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_64
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 0
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed88c1ffa8995fc4bb253f9f16b808fc
+      internalID: 824366682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_65
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 0
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76da66a8a57233d4d803477833321ced
+      internalID: 1515361491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Angry_66
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 0
+        width: 1121
+        height: 942
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26f908521929a5d49ae21a33cedeea7e
+      internalID: -724808094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 602242f928ea2bf4fb3e6a8c36f3353e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Angry_0: -2049325241
+      CMGATO_Angry_1: -86484732
+      CMGATO_Angry_10: -1626402675
+      CMGATO_Angry_11: 420214869
+      CMGATO_Angry_12: -169111339
+      CMGATO_Angry_13: 2113892286
+      CMGATO_Angry_14: 2006653971
+      CMGATO_Angry_15: 1868295929
+      CMGATO_Angry_16: 507070336
+      CMGATO_Angry_17: 1594797175
+      CMGATO_Angry_18: -1962195860
+      CMGATO_Angry_19: 832195663
+      CMGATO_Angry_2: 1312865855
+      CMGATO_Angry_20: -2147770
+      CMGATO_Angry_21: 1356757142
+      CMGATO_Angry_22: -1141801551
+      CMGATO_Angry_23: -391277969
+      CMGATO_Angry_24: 974672183
+      CMGATO_Angry_25: -618872015
+      CMGATO_Angry_26: 1998599521
+      CMGATO_Angry_27: -448512407
+      CMGATO_Angry_28: 689164249
+      CMGATO_Angry_29: 1837297826
+      CMGATO_Angry_3: -1912429963
+      CMGATO_Angry_30: 258958606
+      CMGATO_Angry_31: -452569477
+      CMGATO_Angry_32: -314844942
+      CMGATO_Angry_33: -1639442246
+      CMGATO_Angry_34: -1477329545
+      CMGATO_Angry_35: 1056912433
+      CMGATO_Angry_36: -1224480775
+      CMGATO_Angry_37: 1125863297
+      CMGATO_Angry_38: -1111939951
+      CMGATO_Angry_39: 652126510
+      CMGATO_Angry_4: -266507309
+      CMGATO_Angry_40: -1956210
+      CMGATO_Angry_41: -636975140
+      CMGATO_Angry_42: -1048709422
+      CMGATO_Angry_43: 366429344
+      CMGATO_Angry_44: -741119845
+      CMGATO_Angry_45: 144224257
+      CMGATO_Angry_46: -1716829531
+      CMGATO_Angry_47: 1908819172
+      CMGATO_Angry_48: 333094470
+      CMGATO_Angry_49: 205641941
+      CMGATO_Angry_5: -1759789451
+      CMGATO_Angry_50: -478447943
+      CMGATO_Angry_51: 1255234358
+      CMGATO_Angry_52: -1449195237
+      CMGATO_Angry_53: 655606937
+      CMGATO_Angry_54: 658859435
+      CMGATO_Angry_55: -321948982
+      CMGATO_Angry_56: 1626155140
+      CMGATO_Angry_57: 703785009
+      CMGATO_Angry_58: -454620457
+      CMGATO_Angry_59: -325558064
+      CMGATO_Angry_6: -1565953003
+      CMGATO_Angry_60: -812555050
+      CMGATO_Angry_61: -902354921
+      CMGATO_Angry_62: 1128469273
+      CMGATO_Angry_63: 1920683022
+      CMGATO_Angry_64: 824366682
+      CMGATO_Angry_65: 1515361491
+      CMGATO_Angry_66: -724808094
+      CMGATO_Angry_7: 979782538
+      CMGATO_Angry_8: 2115837480
+      CMGATO_Angry_9: 403554168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
