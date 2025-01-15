@@ -16,8 +16,6 @@ public class TimerWithVisualiser : MonoBehaviour
 
     private void OnEnable()
     {
-        SaveInputFieldValueFloat.TimerFloat = 3f;
-        Debug.Log($"TIMER: {SaveInputFieldValueFloat.TimerFloat}");
         ResetTimer();
     }
 

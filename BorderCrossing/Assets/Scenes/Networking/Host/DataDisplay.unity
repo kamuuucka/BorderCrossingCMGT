@@ -943,7 +943,7 @@ PrefabInstance:
     - target: {fileID: 5033574118381770715, guid: c201bfbd0111a469082f6cd18a3bde87, type: 3}
       propertyPath: colorPreset
       value: 
-      objectReference: {fileID: 11400000, guid: cf313af6b875a4b48a15654abf33c49a, type: 2}
+      objectReference: {fileID: 11400000, guid: df00d29afe51f47b391f41b4394cb155, type: 2}
     - target: {fileID: 5033574118381770715, guid: c201bfbd0111a469082f6cd18a3bde87, type: 3}
       propertyPath: numberField
       value: 
