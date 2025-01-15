@@ -3409,7 +3409,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 143cb1365edfa4200ad891ba512343c3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prompts: {fileID: 11400000, guid: 221c3a30596504ff9a467ed0a4497de3, type: 2}
+  prompts: {fileID: 11400000, guid: 8ca6942dde51f4421a932087d3315e84, type: 2}
   onPromptChanged:
     m_PersistentCalls:
       m_Calls:
