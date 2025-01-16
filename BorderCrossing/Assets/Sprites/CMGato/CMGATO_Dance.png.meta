@@ -1,0 +1,1593 @@
+fileFormatVersion: 2
+guid: 6ce37df4056b67742b0d59259570f13b
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Dance_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6472ef6cc6b6b542bf81f74030f50db
+      internalID: -1635323353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_1
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d8be6c67ca35c44827071a80a9db6a
+      internalID: 908477932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_2
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d46378629ea934e8dde708c0648afd
+      internalID: 765823903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_3
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c1b9e6a5aa2a14449f8ec6be0755122
+      internalID: 2051787327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_4
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6f7375f61988974c99fb5e70d506eb0
+      internalID: 399591356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_5
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5177895d5e2e0e44aa8f31ce172c7bb9
+      internalID: 376736391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_6
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5691331609a316741939ca1577c91131
+      internalID: -1924182005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_7
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd9a0a80d03458b4597f547cfdb813dc
+      internalID: -1538903380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_8
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 6692
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31efc12cdc5c64649bd622c2ffa9ba75
+      internalID: 941407024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35c6777eeb854804bb3932ac6e050e57
+      internalID: 1466602000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_10
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d309ad26868cb44b0072f54ce10866
+      internalID: -1920262480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_11
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09815904fab3a724db627529b98daa63
+      internalID: -1289095955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_12
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cb300f8580d45b459c0281132fa3a30
+      internalID: -1747954131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_13
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 100f0712ac53bc343b217da4191ecfbf
+      internalID: -1131735783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_14
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79c6f53f1fe101549933cd0a5fedccb5
+      internalID: -171703686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_15
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c615022da864a2b4796da4dd6eca81c6
+      internalID: -1594320205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_16
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6442ba896e2842e409f091bbc106ea49
+      internalID: -1418702108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_17
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 5736
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 364adc470f711c343b5839c53ae50d1a
+      internalID: -292575365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641c07d95ab7ebb4a8fba080b9903471
+      internalID: -1699608070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_19
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a47b506549da9c45bbfecd0c790bfb9
+      internalID: 448978443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_20
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07b7b5aa8e458464899f79ff4c91f459
+      internalID: 1739045284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_21
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5810c1c23dc71a34f95c3c44ea629c53
+      internalID: 1557992799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_22
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b563ac95f8be5b4995d70632cf074e3
+      internalID: 1499007570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_23
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f511c487857b2b343b6291e7eb8ce709
+      internalID: -1573819086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_24
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f34f716ddf854498574ca837ade258
+      internalID: 1955809238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_25
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3df2bb107f8b1e44a37a9610bd5c031
+      internalID: -1671219241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_26
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 4780
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4853a1b07dce2e640a81952de4244849
+      internalID: -1565913035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73db05e65e76eee47883d9de947c3bee
+      internalID: 1388488916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_28
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa7ab0779259ae4f95f940f06c19825
+      internalID: -35550172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_29
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b552874b383d4244fa669ba986db0d67
+      internalID: -342630769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_30
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9234e2f64ece4414ba7acaa2ec89edbb
+      internalID: -2004885936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_31
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05cc1afae20f7c54f8174edb0a7ce440
+      internalID: -2087121739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_32
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c852cff8d888ca64c8b8d2b413e99866
+      internalID: -176393044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_33
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c229bee4cc114e87610bd97bc4318
+      internalID: -2054371767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_34
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f00f6418fd9351c4da7a1930ddcb6fcc
+      internalID: -877910000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_35
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 3824
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0987757b68937f049ac31dcd14df7c3b
+      internalID: -766513974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9237b3e8eb0c66342a44bb0a8607d518
+      internalID: -244459455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_37
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a076eae7e0b8cb74ca38e80bdc581bca
+      internalID: -200281027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_38
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 685241931e2ccaf47b88f40223311358
+      internalID: -221264010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_39
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04da58e6b1299f4e89521fd5b961b7b
+      internalID: 1756688905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_40
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a56162cd083371946a274f3169298446
+      internalID: 1306040906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_41
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8a7aea9fc8c384bb7bebee2a5f7b84
+      internalID: -1161881501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_42
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f041ee3022a84d43b8edc2e69b471e5
+      internalID: -2037598116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_43
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7581d3e893ae8b04a8298a48c7bbebdc
+      internalID: 1030859740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_44
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 2868
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aff144edc55879e48a227e59d8830bc3
+      internalID: -502443989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8c8f185952d5342aa071014c2c325f
+      internalID: 962218621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_46
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4dc0297f225a846bf631ce8a0db660
+      internalID: 1696752132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_47
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b093663b3c1b940ab652a780ecf04d
+      internalID: 409902519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_48
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef2eb1b672a1d544bf594b8a255a722
+      internalID: 46107159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_49
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b53cf1c0b73d1f74e897421dac7034ca
+      internalID: 1155601944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_50
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7834a5186fe31714c8ca905970c6a555
+      internalID: -78888058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_51
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e26ccd02e0ef4e42a57b4986caf9185
+      internalID: 1641285163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_52
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83290ad652b8de42814d81052cf787c
+      internalID: -867884955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_53
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 1912
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd98493d0b81c8344a9e12112c2ba4ae
+      internalID: -257586326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 653f86631f2bb1042a69066782d44bc8
+      internalID: 790531941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_55
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb90ab5225af2c4293f5a238c0a113e
+      internalID: -2103280266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_56
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51f77e5b1912987469a7b3eb3b10fe3d
+      internalID: 460658989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_57
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cb166fd50256cb4585bac995c8f29dc
+      internalID: 1594182324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_58
+      rect:
+        serializedVersion: 2
+        x: 2804
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb19b14138f27e47bc2f09d197e5bc4
+      internalID: 2078248412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_59
+      rect:
+        serializedVersion: 2
+        x: 3505
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1b5e096d60a37a42af8fc1ec9483840
+      internalID: 170060661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_60
+      rect:
+        serializedVersion: 2
+        x: 4206
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966fb5b9385435d48bf54813105f1b08
+      internalID: 123337903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_61
+      rect:
+        serializedVersion: 2
+        x: 4907
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f81fc04ca655ea54380c3520974b0faf
+      internalID: 1296116199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_62
+      rect:
+        serializedVersion: 2
+        x: 5608
+        y: 956
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c26bce76331c84f48ac880c7ff64ee44
+      internalID: -100831088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5afdcca887db5d946b04f0d903169bde
+      internalID: -247076377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_64
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 0
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb5801cbf41bc141aea73090a53c8d8
+      internalID: 1745990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_65
+      rect:
+        serializedVersion: 2
+        x: 1402
+        y: 0
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c5e9193a202a394eac51535835c41e5
+      internalID: 459014372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Dance_66
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 0
+        width: 701
+        height: 956
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f19bdbe0bcd0ed444853b075092b0f98
+      internalID: 538568156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7086bc7ae7baac34ea2b6a48800989d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Dance_0: -1635323353
+      CMGATO_Dance_1: 908477932
+      CMGATO_Dance_10: -1920262480
+      CMGATO_Dance_11: -1289095955
+      CMGATO_Dance_12: -1747954131
+      CMGATO_Dance_13: -1131735783
+      CMGATO_Dance_14: -171703686
+      CMGATO_Dance_15: -1594320205
+      CMGATO_Dance_16: -1418702108
+      CMGATO_Dance_17: -292575365
+      CMGATO_Dance_18: -1699608070
+      CMGATO_Dance_19: 448978443
+      CMGATO_Dance_2: 765823903
+      CMGATO_Dance_20: 1739045284
+      CMGATO_Dance_21: 1557992799
+      CMGATO_Dance_22: 1499007570
+      CMGATO_Dance_23: -1573819086
+      CMGATO_Dance_24: 1955809238
+      CMGATO_Dance_25: -1671219241
+      CMGATO_Dance_26: -1565913035
+      CMGATO_Dance_27: 1388488916
+      CMGATO_Dance_28: -35550172
+      CMGATO_Dance_29: -342630769
+      CMGATO_Dance_3: 2051787327
+      CMGATO_Dance_30: -2004885936
+      CMGATO_Dance_31: -2087121739
+      CMGATO_Dance_32: -176393044
+      CMGATO_Dance_33: -2054371767
+      CMGATO_Dance_34: -877910000
+      CMGATO_Dance_35: -766513974
+      CMGATO_Dance_36: -244459455
+      CMGATO_Dance_37: -200281027
+      CMGATO_Dance_38: -221264010
+      CMGATO_Dance_39: 1756688905
+      CMGATO_Dance_4: 399591356
+      CMGATO_Dance_40: 1306040906
+      CMGATO_Dance_41: -1161881501
+      CMGATO_Dance_42: -2037598116
+      CMGATO_Dance_43: 1030859740
+      CMGATO_Dance_44: -502443989
+      CMGATO_Dance_45: 962218621
+      CMGATO_Dance_46: 1696752132
+      CMGATO_Dance_47: 409902519
+      CMGATO_Dance_48: 46107159
+      CMGATO_Dance_49: 1155601944
+      CMGATO_Dance_5: 376736391
+      CMGATO_Dance_50: -78888058
+      CMGATO_Dance_51: 1641285163
+      CMGATO_Dance_52: -867884955
+      CMGATO_Dance_53: -257586326
+      CMGATO_Dance_54: 790531941
+      CMGATO_Dance_55: -2103280266
+      CMGATO_Dance_56: 460658989
+      CMGATO_Dance_57: 1594182324
+      CMGATO_Dance_58: 2078248412
+      CMGATO_Dance_59: 170060661
+      CMGATO_Dance_6: -1924182005
+      CMGATO_Dance_60: 123337903
+      CMGATO_Dance_61: 1296116199
+      CMGATO_Dance_62: -100831088
+      CMGATO_Dance_63: -247076377
+      CMGATO_Dance_64: 1745990
+      CMGATO_Dance_65: 459014372
+      CMGATO_Dance_66: 538568156
+      CMGATO_Dance_67: 1865013769
+      CMGATO_Dance_68: -65674964
+      CMGATO_Dance_69: 1050088979
+      CMGATO_Dance_7: -1538903380
+      CMGATO_Dance_70: -1152900954
+      CMGATO_Dance_71: -1924825852
+      CMGATO_Dance_8: 941407024
+      CMGATO_Dance_9: 1466602000
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

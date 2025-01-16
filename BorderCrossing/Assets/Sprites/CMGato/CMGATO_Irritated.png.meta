@@ -1,0 +1,1593 @@
+fileFormatVersion: 2
+guid: ceb86affc9bab5d458882a1b28cc46fb
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Irritated_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e009dbbfe399464b8a6e37b21d26e07
+      internalID: -747503460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_1
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe3962ef1d79744ab087c63eda1d7ee
+      internalID: -1254062263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_2
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a808f46631a6d948a9be491928f1092
+      internalID: -1212942845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_3
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e15132eae0305fc479dda2a4b30a6460
+      internalID: -765899832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_4
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1b3b5ad45762c4bbeb2ea01b48f159
+      internalID: 1487051172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_5
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be382840813fa3b4aade0f697c6f58bc
+      internalID: 985092842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_6
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e7fbe13bbf36344ebaa116d1737d260
+      internalID: 1351772562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_7
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97385f6b3cb704f4ca76abb919d97be7
+      internalID: 1925439499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_8
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 6097
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97fa5beb0c85f547916654e8f1e6186
+      internalID: -2033311138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783939c62c14d3f44bb4173c1ceaecda
+      internalID: -1421499268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_10
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016c57a1239e1ef4ea0a64b9e3259b8c
+      internalID: -1135294470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_11
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca489debd714f03458beeec6f36a8d9e
+      internalID: 566034711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_12
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c44f07f4a8660e4da9a0c2f17276376
+      internalID: -162706455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_13
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ab5e3d2c3fb9374bb450700052d3b54
+      internalID: -692472962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_14
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7007b73998420da46b24c5b744755e15
+      internalID: -1223959640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_15
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf15e42d961f7a44a2790035d9e42d4
+      internalID: -704986002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_16
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33df71aca76e88642b617db89899bc86
+      internalID: 1827868534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_17
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 5226
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30a8ee800904e6642b365ad040cfe0e1
+      internalID: 327286305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34ce3100bcdfa248aab18c9804491aa
+      internalID: 868735042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_19
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a634dbd24e414f45b7abe7746fddddf
+      internalID: -1805526739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_20
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db427dd92483d8d43a6004cf3189370b
+      internalID: 1808848799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_21
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b365329ce8daa4c8e4ac443d519cd9
+      internalID: 1372439522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_22
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0aa80d0409f4a94d91179b99d4cb9f2
+      internalID: -779061069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_23
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e87d462d70fc4d46b8d4866a94cf8e1
+      internalID: 1565674562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_24
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55ff43d5d11a2424fb93b1a09b968ef4
+      internalID: 1440321470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_25
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40334520a253b554e84ad5cbe53d7695
+      internalID: 1845929270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_26
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 4355
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d14885cd421b021439faeccf6558f103
+      internalID: 103114868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9854110883ee4479c0a55d751d9700
+      internalID: -1760992274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_28
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dd85e42c3fafe4419e3ba0ff78b6cb7
+      internalID: 1107539355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_29
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32ea630e9b41ede46ac8168ba2b3e94f
+      internalID: 1495988074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_30
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6cdc2939c0cc1499ebd80cc018ba5b
+      internalID: 168774997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_31
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b01eb3aacf11fc41a45a53f3abea75a
+      internalID: 1546764136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_32
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0787c5d7636c37f4eadeeebe5eb89d81
+      internalID: 1943107589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_33
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05f920a95b8edc44869e1a7925689ab
+      internalID: 1723826258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_34
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636918f1fe7cc134f820ea7edeb4ff99
+      internalID: -2134062329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_35
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 3484
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f046b569a663445b8ac293ed0a4d5a
+      internalID: 1071454948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d1b352f49450ea45a0bb0e2ab834ff3
+      internalID: -1586459391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_37
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e38848953c5764f439ccc759125420dc
+      internalID: -220610261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_38
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e4fc72bc5f92b84d81679c49a89e72b
+      internalID: 1222984498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_39
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14279c0f14505fd47bc5fd1f1910c355
+      internalID: -581514050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_40
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8f7b8be6565f24498bfc53c4c32ba7
+      internalID: 525005236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_41
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8e766ccc2de3424987f87972513ee08
+      internalID: -1994104447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_42
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f420cdd09a008479d9bef9640b8501
+      internalID: -2055560469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_43
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b6649f39b313bd40b4ad71563110fd3
+      internalID: 2028108292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_44
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 2613
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5502e281c237848b4aed53a2a24f31
+      internalID: 1483868880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7e364c5922ddad42a154e84e18863e6
+      internalID: -161161198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_46
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f576e11252607db48bb477b5040c2bb1
+      internalID: -1509933618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_47
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3b2875d338e384caf972f8e263d511
+      internalID: 1597675635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_48
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b8e9b6cae7564dbaef02968e898e3
+      internalID: -1038934793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_49
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f09305cee6987bc478b7408f3dbec824
+      internalID: 222956069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_50
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a76967a5eca73e48b5f0e8bd9e31f15
+      internalID: -1954070058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_51
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fbc54fae2bb46e4cbfd0c18c72d285c
+      internalID: -114400780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_52
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef390247e2a6e7847ab7a0433dc63898
+      internalID: -1681651696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_53
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 1742
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30c9f7b8dc217d40b86fae109fd7207
+      internalID: 1655958522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb3c7cf849d7af1439bf382aff0081d9
+      internalID: -1948989005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_55
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 733d61322a3b5e247ab36329fab36fd8
+      internalID: 2071513573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_56
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee08ac3b21ef73b46941165ae97c96d7
+      internalID: -950733916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_57
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1254e2dead071a04b97833fc69e67023
+      internalID: -329339450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_58
+      rect:
+        serializedVersion: 2
+        x: 3576
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239b73b9fcb6aa40bea3f56ff202646
+      internalID: -1770584318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_59
+      rect:
+        serializedVersion: 2
+        x: 4470
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fab5ffaa6480ef468bc5edcb4ae0d2d
+      internalID: 1686437711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_60
+      rect:
+        serializedVersion: 2
+        x: 5364
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccead6a048dae844598eca755782dbfe
+      internalID: 992958076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_61
+      rect:
+        serializedVersion: 2
+        x: 6258
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 280f35a58b208b74a91e012de2bce1ca
+      internalID: 843075726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_62
+      rect:
+        serializedVersion: 2
+        x: 7152
+        y: 871
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c07b313338e414c9fd7a3147a3180e
+      internalID: -1238705594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77602c7e90bae9e4c90d053966d53943
+      internalID: 1507638824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_64
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 0
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93bdced21676048419792fd0e013fb4b
+      internalID: 1879277039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_65
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 0
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e335029d1d48845b85105c87b172d3
+      internalID: -2146778603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Irritated_66
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 0
+        width: 894
+        height: 871
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31e44073f06d9741b71f0bcbd46add8
+      internalID: -1595875348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3debf1b19c410dc4d883ef929dc737ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Irritated_0: -747503460
+      CMGATO_Irritated_1: -1254062263
+      CMGATO_Irritated_10: -1135294470
+      CMGATO_Irritated_11: 566034711
+      CMGATO_Irritated_12: -162706455
+      CMGATO_Irritated_13: -692472962
+      CMGATO_Irritated_14: -1223959640
+      CMGATO_Irritated_15: -704986002
+      CMGATO_Irritated_16: 1827868534
+      CMGATO_Irritated_17: 327286305
+      CMGATO_Irritated_18: 868735042
+      CMGATO_Irritated_19: -1805526739
+      CMGATO_Irritated_2: -1212942845
+      CMGATO_Irritated_20: 1808848799
+      CMGATO_Irritated_21: 1372439522
+      CMGATO_Irritated_22: -779061069
+      CMGATO_Irritated_23: 1565674562
+      CMGATO_Irritated_24: 1440321470
+      CMGATO_Irritated_25: 1845929270
+      CMGATO_Irritated_26: 103114868
+      CMGATO_Irritated_27: -1760992274
+      CMGATO_Irritated_28: 1107539355
+      CMGATO_Irritated_29: 1495988074
+      CMGATO_Irritated_3: -765899832
+      CMGATO_Irritated_30: 168774997
+      CMGATO_Irritated_31: 1546764136
+      CMGATO_Irritated_32: 1943107589
+      CMGATO_Irritated_33: 1723826258
+      CMGATO_Irritated_34: -2134062329
+      CMGATO_Irritated_35: 1071454948
+      CMGATO_Irritated_36: -1586459391
+      CMGATO_Irritated_37: -220610261
+      CMGATO_Irritated_38: 1222984498
+      CMGATO_Irritated_39: -581514050
+      CMGATO_Irritated_4: 1487051172
+      CMGATO_Irritated_40: 525005236
+      CMGATO_Irritated_41: -1994104447
+      CMGATO_Irritated_42: -2055560469
+      CMGATO_Irritated_43: 2028108292
+      CMGATO_Irritated_44: 1483868880
+      CMGATO_Irritated_45: -161161198
+      CMGATO_Irritated_46: -1509933618
+      CMGATO_Irritated_47: 1597675635
+      CMGATO_Irritated_48: -1038934793
+      CMGATO_Irritated_49: 222956069
+      CMGATO_Irritated_5: 985092842
+      CMGATO_Irritated_50: -1954070058
+      CMGATO_Irritated_51: -114400780
+      CMGATO_Irritated_52: -1681651696
+      CMGATO_Irritated_53: 1655958522
+      CMGATO_Irritated_54: -1948989005
+      CMGATO_Irritated_55: 2071513573
+      CMGATO_Irritated_56: -950733916
+      CMGATO_Irritated_57: -329339450
+      CMGATO_Irritated_58: -1770584318
+      CMGATO_Irritated_59: 1686437711
+      CMGATO_Irritated_6: 1351772562
+      CMGATO_Irritated_60: 992958076
+      CMGATO_Irritated_61: 843075726
+      CMGATO_Irritated_62: -1238705594
+      CMGATO_Irritated_63: 1507638824
+      CMGATO_Irritated_64: 1879277039
+      CMGATO_Irritated_65: -2146778603
+      CMGATO_Irritated_66: -1595875348
+      CMGATO_Irritated_67: -765912989
+      CMGATO_Irritated_68: -1408616167
+      CMGATO_Irritated_69: 462269465
+      CMGATO_Irritated_7: 1925439499
+      CMGATO_Irritated_70: -1479435911
+      CMGATO_Irritated_71: 722827035
+      CMGATO_Irritated_8: -2033311138
+      CMGATO_Irritated_9: -1421499268
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

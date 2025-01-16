@@ -1,0 +1,2886 @@
+fileFormatVersion: 2
+guid: dc399398d5dc108469e64bf065c306da
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Frown_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b77a8120c249b584184230a734dbba90
+      internalID: -1667292227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_1
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9561e431391ea3c438de3b1438b33ba8
+      internalID: -223058054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_2
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ce7c4c25467624bb8e64e503e63c50
+      internalID: 1752778012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_3
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 648519bd551465247909c1363f3783ae
+      internalID: -703982693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_4
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dad8ab87fa77724ea9b211d38f5b99d
+      internalID: 979017738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_5
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657f792b978d4f743b354995a548b089
+      internalID: -473856654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_6
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcbd359d71ac5e4cac7f4fe2bb3db24
+      internalID: -145411872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_7
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a344fbf6cb3b3f48b079673c48966a1
+      internalID: 438460285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_8
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e1dccc99e55f584d8a15ff16abe5530
+      internalID: -1777118842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_9
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bccee0835685b74ebdf15e143dd9afa
+      internalID: 89982842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_10
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76854808d73f99f4bb6384ad2ef97462
+      internalID: -736409005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_11
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 8140
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce05221c52cc7446828260c258bcf8e
+      internalID: 824238797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57f16e43d1e767944a504bbfb0cdf584
+      internalID: -265981197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_13
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0820a4406013dc4448e6b67bf77aca88
+      internalID: 768191421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_14
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a2cb937054bf34794e83f43405ed61
+      internalID: 417688582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_15
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dfa40a00fff1349ba5ca9479fbfb8d
+      internalID: -485912411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_16
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff230acb43340d642ae67a57ab491be3
+      internalID: -2101425057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_17
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0296e53a322fae148978332b577491fd
+      internalID: -1057228986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_18
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1fa98726ed0b9e45a1a3d4fb0467563
+      internalID: -1836230650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_19
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ffb8e56fcaaf2145bb9f965448d4b1c
+      internalID: 110750895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_20
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e12186e100831b4ca8ef0a0f072fe54
+      internalID: 329743050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_21
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8cc6fe1b953061479ae115eb7713d97
+      internalID: 47513560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_22
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e070d9c1c880d2149b8128ce7266bb65
+      internalID: -1181307032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_23
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 7326
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee520bcd518c33d42880b4e7306dc00f
+      internalID: 2045978978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e4180a9b4f981a4a86ddeecfe16805c
+      internalID: 556239219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_25
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 282b8906e95defb49be3cf5605ed7590
+      internalID: -1667243271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_26
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3058c779a65ab4aa764564ab37a724
+      internalID: 700951622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_27
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf0826089c72b25459b1728617f7e231
+      internalID: 1115822645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_28
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d4088f7c75fec642b9ab7a53410d4b9
+      internalID: -708764609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_29
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b740221f42b3304d88fc487ce5c5220
+      internalID: 583507740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_30
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48d246bf724ce8745b3074238777154f
+      internalID: -857867742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_31
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c809594cbe805e40b601d864751c8e1
+      internalID: -1008287048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_32
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82f83d70ad1132d4aa251e746ea22a03
+      internalID: 510734822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_33
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea23038580dcd514cb5a20d090fa1e00
+      internalID: -474437189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_34
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5814312b4cc4e74984d2756e2bbffd0
+      internalID: 656457671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_35
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 6512
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b36681634755740b86ca3fb4165cc7
+      internalID: 1099107214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bcf0db0a3ff429498470232711d6e3c
+      internalID: 35008064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_37
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0d094d1767f6f46804ade2bf69dbaf
+      internalID: 1026011897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_38
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a67995ab740a17e44a6c8e2363f13d6d
+      internalID: -1554965321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_39
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f2fa8ee5b2efd84981f9dd3c76ead51
+      internalID: 612001425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_40
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bfa38be09968f43ac18e4396b50a9c
+      internalID: -457239663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_41
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ce933a2e13dd742a5a73b01cff449a
+      internalID: -397152061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_42
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a65f38afcfd9ae479b4861865035048
+      internalID: 1530070346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_43
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5a539fcaf3b3e40bd8ad970b779084
+      internalID: 1637939980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_44
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15b3da8e5a19cd6408b55598aad8e95d
+      internalID: -82562606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_45
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e42584a6adf8d4484a8b8fe3f3a641
+      internalID: 521348251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_46
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feaf0290ecbd44649b3aca1e8bdf1d5b
+      internalID: 1428930120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_47
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 5698
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfda485152a36c94987e0a33c7ccacc9
+      internalID: -2143971843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eae1920956eee91418c8ca9cde38f14d
+      internalID: -2077253645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_49
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6e41d14d4bc4b044bac6921b785f6b2
+      internalID: -1835454064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_50
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958bd02e94d416a459dc71f33af87b72
+      internalID: 657296790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_51
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce002385febb3546b08ce79eb63397c
+      internalID: -1580534122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_52
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5991b945d237fdb4594c38932818ec03
+      internalID: 1097453767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_53
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3af1e31095441bb4291da97875e4fdcb
+      internalID: -552355629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_54
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eb97123dd934d7479819d06656193ec
+      internalID: 394300952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_55
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b525eef43ab942d45ac3ab20e4cdfd03
+      internalID: -1687282981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_56
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7140fac14e03194c8223c0e8fdc1824
+      internalID: -2062052621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_57
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ad4b926595cf147b4e483eb6349d08
+      internalID: 1511451798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_58
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2c17b68751499f4cb307305be602124
+      internalID: 2066676819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_59
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 4884
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5adc8b6d9c0fe4983d7c8a38369afe
+      internalID: -214282405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c5cf61fac7a9741b26eb69fb879eab
+      internalID: -31241865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_61
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac16ec765be6a9b49ad38e6320297fa4
+      internalID: 352739128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_62
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07772f7ee54f5bf49b630d5adc18422a
+      internalID: -963522642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_63
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b52f55d81ced134384605b9715fce4d
+      internalID: 45423411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_64
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51c50a282aa9bbc49a1f4e04112d12e6
+      internalID: -1661468489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_65
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ec346282ddbe3247b0dff92005eee7f
+      internalID: -229819424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_66
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11655f46909f0324f85aa9b76ea714b3
+      internalID: -2082527703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_67
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a301edb1f8ed4bc47bec3c163d2f8291
+      internalID: -1209780667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_68
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ccb4a8302b33149af75da092dcb02b
+      internalID: 1057704120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_69
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09663b473a1cc7547b7a1714488ae369
+      internalID: -2116664476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_70
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90f0ed7024d7664493cca8b7e605e3a
+      internalID: -1494808484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_71
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 4070
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6884fc4d710e17347b16135ce58152b1
+      internalID: 552175572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae7b31bfac7395a4dadbdd89fadc2f47
+      internalID: -1986794162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_73
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657ac1a13a8c5da4d93c57a23025b875
+      internalID: 1469273335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_74
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b32b68518fd2c44917c8ce3e09ccac
+      internalID: -1713555271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_75
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e90c81e55334a479018ee4728dd0ea
+      internalID: -1744839203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_76
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fd8f012ee8ebe46943d7df06e5ec29
+      internalID: 1853677446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_77
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55596e1ccb04e3949919a84b6e48f69d
+      internalID: 146681782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_78
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62532e346e5969418b220b0629489de
+      internalID: -501423728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_79
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae9e2939afb9b4b4897293eb2c473a4f
+      internalID: 2006141666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_80
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903d4d18f5989a64ba18a8840341fad6
+      internalID: -1185521979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_81
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 532b4f68a70c74240a5946b64d742257
+      internalID: 199763063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_82
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b711eaf356a58d4cb7299edc85bc133
+      internalID: 338891812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_83
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 3256
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1697152b7c3eed42b15bf3a48de6d2a
+      internalID: 269005196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614477fd191594342872e4255f1fc07b
+      internalID: -610318792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_85
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84682c78c65a06242882671486d01cf4
+      internalID: 1836627094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_86
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b95383050d04c4699091659786fcbe
+      internalID: -312717344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_87
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d67fbdc0a31e584d9423c473955e53c
+      internalID: 271579776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_88
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99b327db6ad97564d8cfd385feb2d1cf
+      internalID: -1513101075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_89
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84fda74b40afec847926e453e2c0c7de
+      internalID: -1295888767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_90
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd97fbf26a2558f48850e75d31daddb2
+      internalID: -1467000815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_91
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33789e0ca529c34ea087d440a8a876a
+      internalID: 1065050652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_92
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e83935d2a872f44a8796ae984512b6
+      internalID: 781996508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_93
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62eb37948abe5c34b8e8806292d4a7f7
+      internalID: -2037205528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_94
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795c07d5d42120f49948e68397b11cc6
+      internalID: -1321292366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_95
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 2442
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2436c4efc0ec88249a0a8f5847486bdc
+      internalID: -2054848641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fed6b1b50185e6429ec8664b477fc1b
+      internalID: -1180806014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_97
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a73b2fe28a4ed46b9cbf312ff7f926
+      internalID: 2047272307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_98
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f9379c6c8b293f42ad424354be8f7a5
+      internalID: 1546328807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_99
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c5bd95ca500c664c9765962ae80e61e
+      internalID: 1505979270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_100
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 866777cb4fb95d846bac7b8063514f75
+      internalID: -104806460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_101
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c8a050e2206a434b8e189cc2e6c1185
+      internalID: 829622240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_102
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a29fb88610b5a49baef675142cde75
+      internalID: -36206669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_103
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b69ea911ddb2fae46bf7ab619f49d611
+      internalID: 512195317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_104
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac85c35f5812824eab74f636b3ef0f7
+      internalID: 684730557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_105
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7213189711ae564ea3b0a1619b5e457
+      internalID: 697675500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_106
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81bf98c0e19140409e2a78957c3ad61
+      internalID: -803041917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_107
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 1628
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e160d3461b8eec04a8efa750fb68f1b7
+      internalID: 235086066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 819f65d954a3d7f4fbda2f10845c5edc
+      internalID: -1589440666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_109
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02bdd0126c3a6eb4cbff478f4730fdd9
+      internalID: 2107598622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_110
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe8241e22a0d8544a92f72fef20ff3a
+      internalID: 945868698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_111
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cf60320cd6c2b48ae96c921ac61ec2
+      internalID: -946095874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_112
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65f56eff680fcc245b3a86b813f61eed
+      internalID: -1675819176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_113
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3a862a482f7c84086f8c25022892be
+      internalID: 1440589796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_114
+      rect:
+        serializedVersion: 2
+        x: 6228
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5d76cbe92d34a4d8cba0df704f3d85
+      internalID: 1069468375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_115
+      rect:
+        serializedVersion: 2
+        x: 7266
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b32dde42d1244cc47a2056b704f6e11f
+      internalID: -1319637127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_116
+      rect:
+        serializedVersion: 2
+        x: 8304
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39e7630d8be848e4eb80d2cb4a530cd0
+      internalID: -742170051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_117
+      rect:
+        serializedVersion: 2
+        x: 9342
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d64e3f35120fc45ba41cd4935054c8
+      internalID: 1513379883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_118
+      rect:
+        serializedVersion: 2
+        x: 10380
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a065ec15359023443b838f78c6617871
+      internalID: -2043806790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_119
+      rect:
+        serializedVersion: 2
+        x: 11418
+        y: 814
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe23625fdadcf041b1a59e45fba6a1c
+      internalID: -249889636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865ee81f3a3f13944b9ddf95631a4542
+      internalID: 491709097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_121
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7348281d5c9cb41a829e7abe6ae964
+      internalID: -540850889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_122
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1d7a1fe80759b74ea1995973674cede
+      internalID: -1295335407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_123
+      rect:
+        serializedVersion: 2
+        x: 3114
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f3f5f554a51644da3b00373868162b
+      internalID: 1240914366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_124
+      rect:
+        serializedVersion: 2
+        x: 4152
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d344ac0cfc1933448ada5fe1a8e3c42
+      internalID: -2132627187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Frown_125
+      rect:
+        serializedVersion: 2
+        x: 5190
+        y: 0
+        width: 1038
+        height: 814
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fded5b1c8a94c4549ae56e7dd52b26c9
+      internalID: 307908163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 2a3c7f898b13ba14bbee1d04e71eb002
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Frown_0: -1667292227
+      CMGATO_Frown_1: -223058054
+      CMGATO_Frown_10: -736409005
+      CMGATO_Frown_100: -104806460
+      CMGATO_Frown_101: 829622240
+      CMGATO_Frown_102: -36206669
+      CMGATO_Frown_103: 512195317
+      CMGATO_Frown_104: 684730557
+      CMGATO_Frown_105: 697675500
+      CMGATO_Frown_106: -803041917
+      CMGATO_Frown_107: 235086066
+      CMGATO_Frown_108: -1589440666
+      CMGATO_Frown_109: 2107598622
+      CMGATO_Frown_11: 824238797
+      CMGATO_Frown_110: 945868698
+      CMGATO_Frown_111: -946095874
+      CMGATO_Frown_112: -1675819176
+      CMGATO_Frown_113: 1440589796
+      CMGATO_Frown_114: 1069468375
+      CMGATO_Frown_115: -1319637127
+      CMGATO_Frown_116: -742170051
+      CMGATO_Frown_117: 1513379883
+      CMGATO_Frown_118: -2043806790
+      CMGATO_Frown_119: -249889636
+      CMGATO_Frown_12: -265981197
+      CMGATO_Frown_120: 491709097
+      CMGATO_Frown_121: -540850889
+      CMGATO_Frown_122: -1295335407
+      CMGATO_Frown_123: 1240914366
+      CMGATO_Frown_124: -2132627187
+      CMGATO_Frown_125: 307908163
+      CMGATO_Frown_13: 768191421
+      CMGATO_Frown_14: 417688582
+      CMGATO_Frown_15: -485912411
+      CMGATO_Frown_16: -2101425057
+      CMGATO_Frown_17: -1057228986
+      CMGATO_Frown_18: -1836230650
+      CMGATO_Frown_19: 110750895
+      CMGATO_Frown_2: 1752778012
+      CMGATO_Frown_20: 329743050
+      CMGATO_Frown_21: 47513560
+      CMGATO_Frown_22: -1181307032
+      CMGATO_Frown_23: 2045978978
+      CMGATO_Frown_24: 556239219
+      CMGATO_Frown_25: -1667243271
+      CMGATO_Frown_26: 700951622
+      CMGATO_Frown_27: 1115822645
+      CMGATO_Frown_28: -708764609
+      CMGATO_Frown_29: 583507740
+      CMGATO_Frown_3: -703982693
+      CMGATO_Frown_30: -857867742
+      CMGATO_Frown_31: -1008287048
+      CMGATO_Frown_32: 510734822
+      CMGATO_Frown_33: -474437189
+      CMGATO_Frown_34: 656457671
+      CMGATO_Frown_35: 1099107214
+      CMGATO_Frown_36: 35008064
+      CMGATO_Frown_37: 1026011897
+      CMGATO_Frown_38: -1554965321
+      CMGATO_Frown_39: 612001425
+      CMGATO_Frown_4: 979017738
+      CMGATO_Frown_40: -457239663
+      CMGATO_Frown_41: -397152061
+      CMGATO_Frown_42: 1530070346
+      CMGATO_Frown_43: 1637939980
+      CMGATO_Frown_44: -82562606
+      CMGATO_Frown_45: 521348251
+      CMGATO_Frown_46: 1428930120
+      CMGATO_Frown_47: -2143971843
+      CMGATO_Frown_48: -2077253645
+      CMGATO_Frown_49: -1835454064
+      CMGATO_Frown_5: -473856654
+      CMGATO_Frown_50: 657296790
+      CMGATO_Frown_51: -1580534122
+      CMGATO_Frown_52: 1097453767
+      CMGATO_Frown_53: -552355629
+      CMGATO_Frown_54: 394300952
+      CMGATO_Frown_55: -1687282981
+      CMGATO_Frown_56: -2062052621
+      CMGATO_Frown_57: 1511451798
+      CMGATO_Frown_58: 2066676819
+      CMGATO_Frown_59: -214282405
+      CMGATO_Frown_6: -145411872
+      CMGATO_Frown_60: -31241865
+      CMGATO_Frown_61: 352739128
+      CMGATO_Frown_62: -963522642
+      CMGATO_Frown_63: 45423411
+      CMGATO_Frown_64: -1661468489
+      CMGATO_Frown_65: -229819424
+      CMGATO_Frown_66: -2082527703
+      CMGATO_Frown_67: -1209780667
+      CMGATO_Frown_68: 1057704120
+      CMGATO_Frown_69: -2116664476
+      CMGATO_Frown_7: 438460285
+      CMGATO_Frown_70: -1494808484
+      CMGATO_Frown_71: 552175572
+      CMGATO_Frown_72: -1986794162
+      CMGATO_Frown_73: 1469273335
+      CMGATO_Frown_74: -1713555271
+      CMGATO_Frown_75: -1744839203
+      CMGATO_Frown_76: 1853677446
+      CMGATO_Frown_77: 146681782
+      CMGATO_Frown_78: -501423728
+      CMGATO_Frown_79: 2006141666
+      CMGATO_Frown_8: -1777118842
+      CMGATO_Frown_80: -1185521979
+      CMGATO_Frown_81: 199763063
+      CMGATO_Frown_82: 338891812
+      CMGATO_Frown_83: 269005196
+      CMGATO_Frown_84: -610318792
+      CMGATO_Frown_85: 1836627094
+      CMGATO_Frown_86: -312717344
+      CMGATO_Frown_87: 271579776
+      CMGATO_Frown_88: -1513101075
+      CMGATO_Frown_89: -1295888767
+      CMGATO_Frown_9: 89982842
+      CMGATO_Frown_90: -1467000815
+      CMGATO_Frown_91: 1065050652
+      CMGATO_Frown_92: 781996508
+      CMGATO_Frown_93: -2037205528
+      CMGATO_Frown_94: -1321292366
+      CMGATO_Frown_95: -2054848641
+      CMGATO_Frown_96: -1180806014
+      CMGATO_Frown_97: 2047272307
+      CMGATO_Frown_98: 1546328807
+      CMGATO_Frown_99: 1505979270
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
