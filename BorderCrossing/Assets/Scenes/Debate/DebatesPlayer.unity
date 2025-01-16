@@ -633,10 +633,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 121424787}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.15, y: 0.66222245}
-  m_AnchorMax: {x: 0.8475001, y: 0.9178897}
-  m_AnchoredPosition: {x: 1, y: -28.317986}
-  m_SizeDelta: {x: -0.30499268, y: 0.035003662}
+  m_AnchorMin: {x: 0.215, y: 0.53334343}
+  m_AnchorMax: {x: 0.78625005, y: 0.866779}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &789651251
 MonoBehaviour:
@@ -658,9 +658,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Look at the big screen.
+  m_text: 'Look at the main screen.
 
-    Are you comfortable in that situation?'
+    Do you agree with this?'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
   m_sharedMaterial: {fileID: 7610011697831272438, guid: 8faa84d9182ee544b8ad8a15a1e8cfe8, type: 2}
@@ -687,10 +687,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24.15
-  m_fontSizeBase: 36
+  m_fontSize: 22.6
+  m_fontSizeBase: 22.6
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
