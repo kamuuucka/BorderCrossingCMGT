@@ -260,7 +260,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1134256008836646957, guid: 4a06e73d2754a45f2b7bcff51f0f0da9, type: 3}
       propertyPath: m_text
-      value: Load
+      value: Select
       objectReference: {fileID: 0}
     - target: {fileID: 1760869658520239577, guid: 4a06e73d2754a45f2b7bcff51f0f0da9, type: 3}
       propertyPath: m_Pivot.x
