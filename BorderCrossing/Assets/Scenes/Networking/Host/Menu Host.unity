@@ -1984,6 +1984,10 @@ PrefabInstance:
       value: 4281210157
       objectReference: {fileID: 0}
     - target: {fileID: 352158294486755455, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
+      propertyPath: m_text
+      value: Admin Settings
+      objectReference: {fileID: 0}
+    - target: {fileID: 352158294486755455, guid: 5770c625825fb4e2581912f5ab6441b0, type: 3}
       propertyPath: m_fontSize
       value: 61
       objectReference: {fileID: 0}

@@ -248,7 +248,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_text
-      value: Host
+      value: Admin
       objectReference: {fileID: 0}
     - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_fontSize
@@ -1264,7 +1264,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_text
-      value: Player
+      value: User
       objectReference: {fileID: 0}
     - target: {fileID: 7416794233479461930, guid: ba6bf5ae8209241df992518668334a9a, type: 3}
       propertyPath: m_fontSize
