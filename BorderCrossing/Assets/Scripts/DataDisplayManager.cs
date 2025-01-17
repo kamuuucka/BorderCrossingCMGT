@@ -42,14 +42,14 @@ public class DataDisplayManager : MonoBehaviour
 
     private void OnEnable()
     {
-        //DEBUG TODO: DELETE
-        BoundaryDataStorage.NewDataList.Clear();
-        for (int i = 0; i < 6; i++)
-        {
-            BoundaryData boundaryData = new BoundaryData();
-            boundaryData.data = new List<int>() { 1, 2, 3, 4, 0, 1 };
-            BoundaryDataStorage.NewDataList.Add(boundaryData);
-        }
+        //Debug for display testing
+        // BoundaryDataStorage.NewDataList.Clear();
+        //  for (int i = 0; i < 6; i++)
+        //  {
+        //      BoundaryData boundaryData = new BoundaryData();
+        //      boundaryData.data = new List<int>() { 1, 2, 3, 4, 0, 1 };
+        //      BoundaryDataStorage.NewDataList.Add(boundaryData);
+        //  }
         
         
         if (BoundaryDataStorage.NewDataList == null || BoundaryDataStorage.NewDataList.Count == 0)

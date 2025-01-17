@@ -18,7 +18,7 @@ public class ChangePrompt : MonoBehaviour
     private void OnEnable()
     {
         _promptText = GetComponent<TMP_Text>();
-        _activePrompt = 0;
+        //_activePrompt = 0;
         
         if (prompts.data == null)
         {
@@ -26,12 +26,14 @@ public class ChangePrompt : MonoBehaviour
         }
         else
         {
-            _promptText.text = prompts.data[0];
+            _promptText.text = prompts.data[_activePrompt];
         }
+        
     }
 
     public void GoToTheNextPrompt()
     {
+        Debug.Log("Go to the next prompt!");
         _activePrompt++;
         onPromptChanged?.Invoke();
         if (_activePrompt > prompts.data.Count-1 || prompts.data[_activePrompt] == null )
