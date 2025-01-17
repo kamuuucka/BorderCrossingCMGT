@@ -1,4 +1,5 @@
 using System;
+using System.Linq;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -9,6 +10,7 @@ public class ChangePrompt : MonoBehaviour
 {
     [SerializeField] private StringData prompts;
     [SerializeField] private UnityEvent onPromptChanged;
+    [SerializeField] private UnityEvent onPromptsFinished;
     
     private TMP_Text _promptText;
     private int _activePrompt;
@@ -16,7 +18,7 @@ public class ChangePrompt : MonoBehaviour
     private void OnEnable()
     {
         _promptText = GetComponent<TMP_Text>();
-        _activePrompt = 0;
+        //_activePrompt = 0;
         
         if (prompts.data == null)
         {
@@ -24,17 +26,37 @@ public class ChangePrompt : MonoBehaviour
         }
         else
         {
-            _promptText.text = prompts.data[0];
+            _promptText.text = prompts.data[_activePrompt];
         }
+        
     }
 
     public void GoToTheNextPrompt()
     {
+        Debug.Log("Go to the next prompt!");
         _activePrompt++;
         onPromptChanged?.Invoke();
         if (_activePrompt > prompts.data.Count-1 || prompts.data[_activePrompt] == null )
         {
-            _promptText.text = $"No data available";
+            onPromptsFinished?.Invoke();
+            _promptText.text = prompts.data[^1];
+            _activePrompt = prompts.data.Count-1;
+        }
+        else
+        {
+            _promptText.text = prompts.data[_activePrompt];
+        }
+    }
+
+    public void GoToThePreviousPrompt()
+    {
+        _activePrompt--;
+        onPromptChanged?.Invoke();
+        if (_activePrompt <= 0 || prompts.data[_activePrompt] == null )
+        {
+            onPromptsFinished?.Invoke();
+            _promptText.text = prompts.data[0];
+            _activePrompt = 0;
         }
         else
         {

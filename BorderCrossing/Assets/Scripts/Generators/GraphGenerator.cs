@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 public class GraphGenerator : MonoBehaviour
@@ -24,7 +25,9 @@ public class GraphGenerator : MonoBehaviour
     [Tooltip("LineSpecs prefab. Necessary to create separate fragments of graph.")] 
     [SerializeField] private LineGenerator segmentPrefab;
 
-    [SerializeField] private bool alwaysSavePreset;
+    [Tooltip("Save the current colour preset after running the application.")]
+    [SerializeField] private bool saveColorPreset;
+    [Tooltip("The colour preset that will be used for providing colours in all of the stages of the game.")]
     [SerializeField] private ColorPreset savedPreset;
 
     public List<SegmentWithLayer> SegmentWithLayers { get; } = new();
@@ -38,7 +41,7 @@ public class GraphGenerator : MonoBehaviour
     }
     private bool _rotating;
 
-    private void Start()
+    private void OnEnable()
     {
         if (prompts != null) Debug.Log(StringData.Serialize(prompts));
         else Debug.Log("Prompts is null");
@@ -55,7 +58,7 @@ public class GraphGenerator : MonoBehaviour
         var graphManager = GetComponent<GraphManager>();
         graphManager.enabled = true;
 
-        if (alwaysSavePreset)
+        if (saveColorPreset)
         {
             savedPreset.SaveColorPreset(layersColors);
         }

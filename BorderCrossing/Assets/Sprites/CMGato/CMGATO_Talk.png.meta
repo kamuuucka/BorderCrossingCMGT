@@ -1,0 +1,1325 @@
+fileFormatVersion: 2
+guid: f2915681590c7ad44b25d314a899d7ec
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Talk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a686425fe8a29242818b26c0d95e64f
+      internalID: 1744875027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_1
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a42cce207bb5428419e38dd72d829
+      internalID: -1904665298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_2
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3197a9f8f1a08a94f86caa40014cde9d
+      internalID: -295914613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_3
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 363530daf529bd640968bed12872e2ca
+      internalID: 1225412810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_4
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11375a4feb2114a489a8dd7acea359ca
+      internalID: -1065630337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_5
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be109ce33d16554fabf861cd403ab62
+      internalID: 1103319420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_6
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a415ae9e55e9296499319c9cffe23562
+      internalID: 76609269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_7
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 5754
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af651d4adf129ea48ab3fe1d2caf0e97
+      internalID: 424162669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f354e575fe42d4691f16d1c4ce991d
+      internalID: -176156796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_9
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8db30b5d3da80148a43135388996775
+      internalID: -57263694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_10
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea8b123d9eaa3f749b2ad26e4992bb21
+      internalID: -1226034154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_11
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a37d8314504b4140a160d5413901d3c
+      internalID: 1005997455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_12
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb730e8b3c981740b793729263ca667
+      internalID: 621782950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_13
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6539e5604190c0448933826d41ac655
+      internalID: 1498650160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_14
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777e8930ab362fa4c8efff66033a0192
+      internalID: -882773235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_15
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 4795
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de965f2becc0f774e9d1d56b293eae35
+      internalID: -1631699245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f10272e6dce41b744ac49a2e28cdb3f0
+      internalID: -1752132360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_17
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2789a1a83576edf458c36e2069ea322d
+      internalID: 742026070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_18
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0845d63dab3cb448a5e5588c121e24
+      internalID: 2015160071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_19
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a386fb1a25696254a83b3f005551d31b
+      internalID: -1408163081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_20
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c47f0fc85cc7ec48945d92b2aff2ab9
+      internalID: 1553395370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_21
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6ad63a88079b0d45a514af525237e7b
+      internalID: -1514806625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_22
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a188df3ae66688142aa75513cc0bf85c
+      internalID: 1601538586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_23
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 3836
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9181b03cd68eb9642a7803f5b3298706
+      internalID: 794775577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52d2bb860299bb64b8de6bc70a563a90
+      internalID: 243574574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_25
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54f8255932f78714bb17cbb60ad5da17
+      internalID: -1015514067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_26
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457e36df3a2d6024399719510e06fc2e
+      internalID: -1378790296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_27
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d400a9cd028bb74fb51335b8f7d726a
+      internalID: -274227078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_28
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3371374e0f55f4eba21fdf353e9936
+      internalID: -624969858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_29
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74c1d0fc63bed5488137259e83173f8
+      internalID: -269104628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_30
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 702bb7dd7592c0d4e84e96494f094e4a
+      internalID: 99356830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_31
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 2877
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a90c7456dd67594487d7d44b46ad730
+      internalID: 864952935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83026df55f2c8b34fa0cd73edaa0ee83
+      internalID: -176146045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_33
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b79009d1468cd4e8621e95d78aa605
+      internalID: 1248901344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_34
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5048e948ffa5c0847a6a44c7d9136aae
+      internalID: -1290926448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_35
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6465fe341e45845a46183f49186675
+      internalID: 1369607959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_36
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 034394c84977f684bbd45a58e759a05b
+      internalID: 1054286493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_37
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909715f380f3da14a944a17881df426b
+      internalID: -888839553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_38
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705fe6882547a364b9d363cf762f01c1
+      internalID: -1676091023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_39
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 1918
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54a754a9ed51a68489a576a2e6ecf443
+      internalID: -271409887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a14b54248f7ebf4db537a7d7f25b951
+      internalID: 1573112319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_41
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 908f32250136be342b92b987a3866264
+      internalID: -2116144179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_42
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6f4e9d4f969548499f556496e570872
+      internalID: 1766096503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_43
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da664ab80582300419294c54683ce828
+      internalID: -1992499262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_44
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 953c35165d25e354eb6613f12c2576c8
+      internalID: 2064595092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_45
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7ac01613ed3c043ad65e8f166052b8
+      internalID: -1994126802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_46
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0eb7b8788730681408201e86f398a731
+      internalID: 589327463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_47
+      rect:
+        serializedVersion: 2
+        x: 6328
+        y: 959
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783a0d314d0f0f24493e4ba3c848052f
+      internalID: -798617497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b265dd1d30817c848a9458c438f8cba6
+      internalID: -252952185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_49
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afcdcbdd22a207b469157e53ce42b961
+      internalID: 1785550050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_50
+      rect:
+        serializedVersion: 2
+        x: 1808
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bfa4e3a7b2ce14b8cd080c9b3fb968
+      internalID: 347192826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_51
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c81f7bb6f581d948be0b5330113365d
+      internalID: -1553272825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_52
+      rect:
+        serializedVersion: 2
+        x: 3616
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60bdb89e5a8d7704fbed36890092002c
+      internalID: -2013973104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_53
+      rect:
+        serializedVersion: 2
+        x: 4520
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1d2e694604a07429cdc7562507649c
+      internalID: -1907490477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Talk_54
+      rect:
+        serializedVersion: 2
+        x: 5424
+        y: 0
+        width: 904
+        height: 959
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa0b307daba3c44db964a4d77f06a96
+      internalID: -1998262639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: cab153dd0bd1ce545b9734aa193d2fa1
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Talk_0: 1744875027
+      CMGATO_Talk_1: -1904665298
+      CMGATO_Talk_10: -1226034154
+      CMGATO_Talk_11: 1005997455
+      CMGATO_Talk_12: 621782950
+      CMGATO_Talk_13: 1498650160
+      CMGATO_Talk_14: -882773235
+      CMGATO_Talk_15: -1631699245
+      CMGATO_Talk_16: -1752132360
+      CMGATO_Talk_17: 742026070
+      CMGATO_Talk_18: 2015160071
+      CMGATO_Talk_19: -1408163081
+      CMGATO_Talk_2: -295914613
+      CMGATO_Talk_20: 1553395370
+      CMGATO_Talk_21: -1514806625
+      CMGATO_Talk_22: 1601538586
+      CMGATO_Talk_23: 794775577
+      CMGATO_Talk_24: 243574574
+      CMGATO_Talk_25: -1015514067
+      CMGATO_Talk_26: -1378790296
+      CMGATO_Talk_27: -274227078
+      CMGATO_Talk_28: -624969858
+      CMGATO_Talk_29: -269104628
+      CMGATO_Talk_3: 1225412810
+      CMGATO_Talk_30: 99356830
+      CMGATO_Talk_31: 864952935
+      CMGATO_Talk_32: -176146045
+      CMGATO_Talk_33: 1248901344
+      CMGATO_Talk_34: -1290926448
+      CMGATO_Talk_35: 1369607959
+      CMGATO_Talk_36: 1054286493
+      CMGATO_Talk_37: -888839553
+      CMGATO_Talk_38: -1676091023
+      CMGATO_Talk_39: -271409887
+      CMGATO_Talk_4: -1065630337
+      CMGATO_Talk_40: 1573112319
+      CMGATO_Talk_41: -2116144179
+      CMGATO_Talk_42: 1766096503
+      CMGATO_Talk_43: -1992499262
+      CMGATO_Talk_44: 2064595092
+      CMGATO_Talk_45: -1994126802
+      CMGATO_Talk_46: 589327463
+      CMGATO_Talk_47: -798617497
+      CMGATO_Talk_48: -252952185
+      CMGATO_Talk_49: 1785550050
+      CMGATO_Talk_5: 1103319420
+      CMGATO_Talk_50: 347192826
+      CMGATO_Talk_51: -1553272825
+      CMGATO_Talk_52: -2013973104
+      CMGATO_Talk_53: -1907490477
+      CMGATO_Talk_54: -1998262639
+      CMGATO_Talk_55: -1448781243
+      CMGATO_Talk_6: 76609269
+      CMGATO_Talk_7: 424162669
+      CMGATO_Talk_8: -176156796
+      CMGATO_Talk_9: -57263694
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

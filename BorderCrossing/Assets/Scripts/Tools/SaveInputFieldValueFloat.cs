@@ -12,22 +12,24 @@ public class SaveInputFieldValueFloat : MonoBehaviour
 
     private TMP_InputField _inputField;
 
+    public static float TimerFloat;
+
     private void Start()
     {
         _inputField = GetComponent<TMP_InputField>();
-        persistentFloat.value = 30f;
+        persistentFloat.SetFloat(5f);
+        TimerFloat = 5f;
     }
 
     public void SaveValue()
     {
         if (IsNumeric(_inputField.text))
         {
-            persistentFloat.value = float.Parse(_inputField.text);
+            persistentFloat.SetFloat(float.Parse(_inputField.text));
+            TimerFloat = float.Parse(_inputField.text);
         }
-        else
-        {
-            _inputField.text = "Must be numbers!";
-        }
+
+        Debug.Log(persistentFloat.GetFloat());
     }
     
     private bool IsNumeric(string input)

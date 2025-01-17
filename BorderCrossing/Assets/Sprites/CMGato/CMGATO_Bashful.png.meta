@@ -1,0 +1,1593 @@
+fileFormatVersion: 2
+guid: a92c42f98fbd7ec488dd823204b3f2ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: CMGATO_Bashful_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721d448827ad8c4aaa7efcbed096d76
+      internalID: -199996177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_1
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa1c0b54d4b0ee47983b919c0777ede
+      internalID: -1729453067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_2
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac4899793ef24c84098f6b687f47d4ca
+      internalID: 219249006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_3
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a972dd8cb8f1c4c45be55c6f2e49c54a
+      internalID: 202668562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_4
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30db82a4e576d0447856fd3f486c2c85
+      internalID: -779034946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_5
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc804f4df7114040bcd7b67707c0fe6
+      internalID: -805783909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_6
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a35b34a688eed34b9e506fa095a80aa
+      internalID: 1065236283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_7
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a7bb2d3d00abcf4bae5160871ac5229
+      internalID: 703638012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_8
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 6566
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0498f32de0df8d743849beb76f9f26a4
+      internalID: -1353586809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dd25e94db972a44883171a9467c0f1e
+      internalID: 177793382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_10
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2b6676f944d19a499706bd18f6e564f
+      internalID: -1569388109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_11
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 781df57a26b44f94ab3057a5f648a00a
+      internalID: 1638911932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_12
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703da71af7e0c974a9e753e799c19f37
+      internalID: -2024231185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_13
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e14e4f46513d47468a28f4821c6f3ef
+      internalID: -967999817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_14
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0ee4b356acb584b91c29a022e44c51
+      internalID: -1467840437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_15
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744eca0777ef7944d861e3b442386f75
+      internalID: 1284412825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_16
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043b3534ef3ef90408981acb6eae47e7
+      internalID: 402644488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_17
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 5628
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6105597bf74672d4a90d01fcac7934bb
+      internalID: -1027095359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06f05ba6c93211042bbe3939851eb925
+      internalID: 44199358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_19
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e04d2964067ce384ca8854e9e11a4d90
+      internalID: 1066669268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_20
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3edf41c2b7274f44a878e87bf3c57bc
+      internalID: 253275636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_21
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0502b7ad740b0f944bcdd104bea4ecab
+      internalID: 284742584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_22
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf18b6b8641233d45af63afb65c601d3
+      internalID: -1313016490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_23
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b5595aad2f90884eb2564b6a24138bf
+      internalID: 979842289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_24
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24024b047ca6f64d8583a8b70e99601
+      internalID: -756553370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_25
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e43bda60a1852244b919d427e5af721
+      internalID: 356185091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_26
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 4690
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08289d51c8881f64f81499fd6269b937
+      internalID: -554702255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5192a2fb8f46644ebb99d5ace6141ec
+      internalID: 799188563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_28
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ba4533e6f55ddd4b9b8be16d98be753
+      internalID: 129291873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_29
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bef02e34201c06458d0d8874556ea8b
+      internalID: 921954069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_30
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a58b618d8290004eb89664e1b477391
+      internalID: -2137498115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_31
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631a942ff6be7114abd4f14488295bff
+      internalID: -2119599501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_32
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a20bc1fe5173d9f43b2f0874bad41140
+      internalID: 1371885619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_33
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afbf5ccc17290664eb233e884e27bdfe
+      internalID: -479617439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_34
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74f46e1931d8a434e88e21e219f795f5
+      internalID: 1271081791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_35
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 3752
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af9188fe01b7aa74aa0d17f0682d99e8
+      internalID: -1906480170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8c9e5aea0667e44fad7a4c10b69a815
+      internalID: 275749112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_37
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 999186e3923e3a64aa9f3d3aa8c7edda
+      internalID: 1556420692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_38
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29be7412800a4c44083c58a1159febbe
+      internalID: 1424691555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_39
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2d0eef61696e6f48b1f61b81e6e8024
+      internalID: 1134068315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_40
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5572717cf5ecbac49b4fb72ab4e9c8ef
+      internalID: 2001120136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_41
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11385e75947a0664bbe4a321402a0e1c
+      internalID: -253825737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_42
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c89ebfde28ef5954494642a2c2fab58a
+      internalID: -2129174458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_43
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37d63176623b8e04ba0450d0eb421012
+      internalID: 1777792800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_44
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 2814
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be0678f074f8fb14a8a6578c83f94d68
+      internalID: 587879330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1c2fbede225e0c4182357703fe2873f
+      internalID: 1822297350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_46
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20d03492dbde0634f9f3a82053995031
+      internalID: -482422239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_47
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2964792de7db07d43bc88d4657f9c97b
+      internalID: -326152002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_48
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bfcf3a1b54cd1e44bf828815cb5b8d3
+      internalID: -1478952691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_49
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0c652bf1fac9134db5a0481de06a133
+      internalID: 985057062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_50
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9db0b1cf8dd1ac498703f181f222abd
+      internalID: 772641076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_51
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f44583d786bff7341970d60073a83465
+      internalID: 512123345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_52
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8195e145f851ce4f96bc1232390729c
+      internalID: -889674971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_53
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 1876
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba3a18b3d5ef464994f7b023a2f3c05
+      internalID: -2072433604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e66032aaf08814f4eaa4c5b9650adca2
+      internalID: 1811183417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_55
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 823db7fcd1bc819479fe83a4c90f8d5f
+      internalID: 1360752338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_56
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97f6a5a7e81056d4da0d04b3878cd1a4
+      internalID: 1435192418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_57
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6725848c6f94dfe46ac212e1f02ba38e
+      internalID: -750724487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_58
+      rect:
+        serializedVersion: 2
+        x: 2528
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75337fd5686ae74e9062df4a03c00dc
+      internalID: 489488662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_59
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f685e919d3a02a84796cc55c52850058
+      internalID: -1438503816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_60
+      rect:
+        serializedVersion: 2
+        x: 3792
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c72a0a7d3492304448e20f530c76ebd2
+      internalID: -1729662117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_61
+      rect:
+        serializedVersion: 2
+        x: 4424
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1db9428b79c23449981a464455770be
+      internalID: -218517304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_62
+      rect:
+        serializedVersion: 2
+        x: 5056
+        y: 938
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9eab37016042d499c5236dea4441e2
+      internalID: -1108807550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_63
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b369f002e55ffcf42913d3d0f78bd1fc
+      internalID: -1846036916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_64
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 0
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c67001f02866f764292f40c39ab9e028
+      internalID: -1996174003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_65
+      rect:
+        serializedVersion: 2
+        x: 1264
+        y: 0
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60abd5e6f83a98a4a8c7032139d703de
+      internalID: -468387320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CMGATO_Bashful_66
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 0
+        width: 632
+        height: 938
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9120ad5c3c7884d8b119365d0139b8
+      internalID: 1664418001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a0473976b3a4ac1429e25d309666224f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      CMGATO_Bashful_0: -199996177
+      CMGATO_Bashful_1: -1729453067
+      CMGATO_Bashful_10: -1569388109
+      CMGATO_Bashful_11: 1638911932
+      CMGATO_Bashful_12: -2024231185
+      CMGATO_Bashful_13: -967999817
+      CMGATO_Bashful_14: -1467840437
+      CMGATO_Bashful_15: 1284412825
+      CMGATO_Bashful_16: 402644488
+      CMGATO_Bashful_17: -1027095359
+      CMGATO_Bashful_18: 44199358
+      CMGATO_Bashful_19: 1066669268
+      CMGATO_Bashful_2: 219249006
+      CMGATO_Bashful_20: 253275636
+      CMGATO_Bashful_21: 284742584
+      CMGATO_Bashful_22: -1313016490
+      CMGATO_Bashful_23: 979842289
+      CMGATO_Bashful_24: -756553370
+      CMGATO_Bashful_25: 356185091
+      CMGATO_Bashful_26: -554702255
+      CMGATO_Bashful_27: 799188563
+      CMGATO_Bashful_28: 129291873
+      CMGATO_Bashful_29: 921954069
+      CMGATO_Bashful_3: 202668562
+      CMGATO_Bashful_30: -2137498115
+      CMGATO_Bashful_31: -2119599501
+      CMGATO_Bashful_32: 1371885619
+      CMGATO_Bashful_33: -479617439
+      CMGATO_Bashful_34: 1271081791
+      CMGATO_Bashful_35: -1906480170
+      CMGATO_Bashful_36: 275749112
+      CMGATO_Bashful_37: 1556420692
+      CMGATO_Bashful_38: 1424691555
+      CMGATO_Bashful_39: 1134068315
+      CMGATO_Bashful_4: -779034946
+      CMGATO_Bashful_40: 2001120136
+      CMGATO_Bashful_41: -253825737
+      CMGATO_Bashful_42: -2129174458
+      CMGATO_Bashful_43: 1777792800
+      CMGATO_Bashful_44: 587879330
+      CMGATO_Bashful_45: 1822297350
+      CMGATO_Bashful_46: -482422239
+      CMGATO_Bashful_47: -326152002
+      CMGATO_Bashful_48: -1478952691
+      CMGATO_Bashful_49: 985057062
+      CMGATO_Bashful_5: -805783909
+      CMGATO_Bashful_50: 772641076
+      CMGATO_Bashful_51: 512123345
+      CMGATO_Bashful_52: -889674971
+      CMGATO_Bashful_53: -2072433604
+      CMGATO_Bashful_54: 1811183417
+      CMGATO_Bashful_55: 1360752338
+      CMGATO_Bashful_56: 1435192418
+      CMGATO_Bashful_57: -750724487
+      CMGATO_Bashful_58: 489488662
+      CMGATO_Bashful_59: -1438503816
+      CMGATO_Bashful_6: 1065236283
+      CMGATO_Bashful_60: -1729662117
+      CMGATO_Bashful_61: -218517304
+      CMGATO_Bashful_62: -1108807550
+      CMGATO_Bashful_63: -1846036916
+      CMGATO_Bashful_64: -1996174003
+      CMGATO_Bashful_65: -468387320
+      CMGATO_Bashful_66: 1664418001
+      CMGATO_Bashful_67: 1316369469
+      CMGATO_Bashful_68: -503747826
+      CMGATO_Bashful_69: -1917815687
+      CMGATO_Bashful_7: 703638012
+      CMGATO_Bashful_70: 1334080811
+      CMGATO_Bashful_71: 252693906
+      CMGATO_Bashful_8: -1353586809
+      CMGATO_Bashful_9: 177793382
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

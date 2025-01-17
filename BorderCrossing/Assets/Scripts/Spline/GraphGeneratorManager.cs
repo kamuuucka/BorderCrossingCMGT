@@ -23,6 +23,11 @@ public class GraphGeneratorManager : MonoBehaviour
     [SerializeField] private UnityEvent onRotationStarted;
     [Tooltip("Actions that will be performed when the graph stops rotating")]
     [SerializeField] private UnityEvent onRotationFinished;
+    
+    [Tooltip("Will be disabled on the lasts question")]
+    [SerializeField] private GameObject nextButton;
+    [Tooltip("Will be enabled on the lasts question")]
+    [SerializeField] private GameObject finishButton;
 
     #endregion
 
@@ -32,6 +37,7 @@ public class GraphGeneratorManager : MonoBehaviour
     private bool _rotating;
     private float _targetAngle;
     private int _activeSegment;
+    private int _activeQuestion;
 
     #endregion
     
@@ -62,6 +68,11 @@ public class GraphGeneratorManager : MonoBehaviour
     /// </summary>
     public void RotateSegment()
     {
+        if (_activeQuestion >= _graphGenerator.numberOfPrompts - 2) {
+            nextButton.SetActive(false);
+            finishButton.SetActive(true);
+        }
+        
         GreyOutUnusedParts(_activeSegment, (int)slider.value + 1);
         _activeSegment++;
         _targetAngle = transform.eulerAngles.y + _graphGenerator.stepAngle;
