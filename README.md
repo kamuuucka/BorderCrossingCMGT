@@ -18,5 +18,9 @@ The tool consists of two main scripts: one responsible for drawing the graph and
 
 Creating the graph is intuitive — designers only need to specify parameters such as the line width and colors, which also define the number of layers. The graph generator script provides clear feedback by informing users about any additional required objects that need to be assigned for successful graph generation. To further simplify usage, all exposed fields include tooltips to guide the user.
 
+![](https://github.com/kamuuucka/BorderCrossingCMGT/blob/readmeUpdates/ReadmeFiles/tooltip.png)
+
+![](https://github.com/kamuuucka/BorderCrossingCMGT/blob/readmeUpdates/ReadmeFiles/tooltip1.png)
+
 The second script, the manager, handles the manipulation of the graph and saving its data. It utilizes events to manage interactions during the graph's rotation and triggers specific actions when the graph completes a full cycle. This event-driven approach ensures efficient control and responsiveness, improving the overall functionality of the tool.
 
