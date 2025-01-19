@@ -24,3 +24,5 @@ Creating the graph is intuitive — designers only need to specify parameters su
 
 The second script, the manager, handles the manipulation of the graph and saving its data. It utilizes events to manage interactions during the graph's rotation and triggers specific actions when the graph completes a full cycle. This event-driven approach ensures efficient control and responsiveness, improving the overall functionality of the tool.
 
+Additionally I wrote a whole bunch of scripts that can be used in various places in the project. All of those are in the Scripts -> Tools
+
